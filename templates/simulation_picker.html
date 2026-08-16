@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <h1>⏱️ Simulazione</h1>
+  <p>Scegli il tipo di esame che vuoi affrontare. Hai 40 minuti, come nella prova reale.</p>
+</section>
+
+<div class="card-grid sim-modes">
+  <a href="/simulation/real" class="card part-card" aria-label="Solo esercizi reali">
+    <span class="part-icon" aria-hidden="true">📄</span>
+    <div class="part-body">
+      <span class="part-number">Solo esercizi reali</span>
+      <h2 class="part-title">Esame ufficiale</h2>
+      <p class="part-desc">Gli esercizi originali del PLIDA B1, come nella prova vera.</p>
+    </div>
+    <span class="part-arrow" aria-hidden="true">›</span>
+  </a>
+
+  {% if has_api_key %}
+    <a href="/simulation/mixed" class="card part-card" aria-label="Reale e IA">
+      <span class="part-icon" aria-hidden="true">✨</span>
+      <div class="part-body">
+        <span class="part-number">Reale + IA</span>
+        <h2 class="part-title">Un misto per allenarsi</h2>
+        <p class="part-desc">Metà esercizi reali e metà generati dall'intelligenza artificiale.</p>
+      </div>
+      <span class="part-arrow" aria-hidden="true">›</span>
+    </a>
+
+    <a href="/simulation/ai" class="card part-card" aria-label="Tutto IA">
+      <span class="part-icon" aria-hidden="true">🤖</span>
+      <div class="part-body">
+        <span class="part-number">Tutto IA</span>
+        <h2 class="part-title">Sfida infinita</h2>
+        <p class="part-desc">Un esame completamente generato dall'IA, sempre diverso.</p>
+      </div>
+      <span class="part-arrow" aria-hidden="true">›</span>
+    </a>
+    <p class="hint">Le modalità con l'IA possono richiedere qualche secondo per generare gli esercizi.</p>
+  {% else %}
+    <div class="card part-card disabled" aria-disabled="true" aria-label="Reale e IA (bloccato)">
+      <span class="part-icon" aria-hidden="true">🔒</span>
+      <div class="part-body">
+        <span class="part-number">Reale + IA</span>
+        <h2 class="part-title">Un misto per allenarsi</h2>
+        <p class="part-desc">Metà esercizi reali e metà generati dall'intelligenza artificiale.</p>
+      </div>
+    </div>
+
+    <div class="card part-card disabled" aria-disabled="true" aria-label="Tutto IA (bloccato)">
+      <span class="part-icon" aria-hidden="true">🔒</span>
+      <div class="part-body">
+        <span class="part-number">Tutto IA</span>
+        <h2 class="part-title">Sfida infinita</h2>
+        <p class="part-desc">Un esame completamente generato dall'IA, sempre diverso.</p>
+      </div>
+    </div>
+    <p class="hint">Configura <code>GEMINI_API_KEY</code> nel file <code>.env</code> per sbloccare le modalità con l'intelligenza artificiale.</p>
+  {% endif %}
+</div>
+
+{% endblock %}

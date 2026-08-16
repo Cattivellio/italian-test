@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+
+<nav class="crumbs" aria-label="Percorso">
+  <a href="/simulation" class="crumb-link">← Cambia modalità</a>
+</nav>
+
+<section class="sim-header card">
+  <div class="sim-timer" id="sim-timer" role="timer" aria-live="polite">40:00</div>
+  <div class="sim-meta">
+    <p class="sim-mode">Modalità: <span class="badge">{{ mode_label }}</span></p>
+    <p>Simulazione della sezione <strong>Leggere</strong> del PLIDA B1.</p>
+    <p>Rispondi a tutte le parti. Quando hai finito (o scade il tempo), tocca «Consegna e verifica».</p>
+    {% if fallbacks %}
+      <p class="sim-fallback">⚠️ Alcuni esercizi con l'IA non erano disponibili e sono stati sostituiti con esercizi reali.</p>
+    {% endif %}
+  </div>
+</section>
+
+<form id="sim-form" data-mode="{{ mode }}" novalidate>
+  {% for ex in exercises %}
+    <section class="sim-section" id="sim-section-{{ ex.id }}">
+      <div class="sim-title">
+        <span class="badge">Parte {{ ex.part }}</span>
+        <h2>{{ ex.title }}</h2>
+      </div>
+      {% if ex.part == 1 %}
+        {% include 'partials/sim_p1.html' %}
+      {% elif ex.part == 2 %}
+        {% include 'partials/sim_p2.html' %}
+      {% elif ex.part == 3 %}
+        {% include 'partials/sim_p3.html' %}
+      {% elif ex.part == 4 %}
+        {% include 'partials/sim_p4.html' %}
+      {% endif %}
+    </section>
+  {% endfor %}
+
+  <div class="sticky-cta">
+    <button type="button" class="btn btn-primary btn-block" id="sim-submit">Consegna e verifica</button>
+  </div>
+</form>
+
+<div id="sim-result"></div>
+
+{% endblock %}

@@ -1,0 +1,52 @@
+<div class="sim-results">
+  <div class="card score-card">
+    <p class="score-label">Punteggio finale</p>
+    <p class="score-value">{{ total_correct }} / {{ total_questions }}</p>
+    <p class="score-pct">{{ percent }}%</p>
+    <div class="score-bar" aria-hidden="true">
+      <div class="score-bar-fill" style="width: {{ percent }}%"></div>
+    </div>
+  </div>
+
+  {% for item in graded %}
+    {% set ex = item.ex %}
+    <details class="card explanation" {% if not item.correct %}open{% endif %}>
+      <summary>Parte {{ ex.part }} — {{ ex.title }} · <strong>{{ item.correct }}/{{ item.total }}</strong></summary>
+      <div class="explanation-body">
+        {% if item.part == 1 %}
+          <div class="result-item {{ 'ok' if item.result.correct else 'ko' }}">
+            <div class="result-head">
+              <span class="result-mark" aria-hidden="true">{{ '✓' if item.result.correct else '✗' }}</span>
+            </div>
+            <p class="result-answer">
+              La tua risposta: <strong>{{ item.result.selected_key or '—' }}</strong>
+              {% if not item.result.correct %} → Corretta: <strong>{{ item.result.correct_key }}</strong>{% endif %}
+            </p>
+            {% if not item.result.correct %}
+              <p class="result-explain">🔍 {{ item.result.explanation }}</p>
+            {% endif %}
+          </div>
+        {% else %}
+          {% for r in item.result.results %}
+            <div class="result-item {{ 'ok' if r.correct else 'ko' }}">
+              <div class="result-head">
+                <span class="profile-number">{{ r.number }}</span>
+                <span class="result-mark" aria-hidden="true">{{ '✓' if r.correct else '✗' }}</span>
+              </div>
+              <p class="result-answer">
+                Hai scelto: <strong>{{ r.chosen or '—' }}</strong>
+                {% if not r.correct %} → Corretta: <strong>{{ r.expected }}</strong>{% endif %}
+              </p>
+              {% if r.explanation %}<p class="result-explain">🔍 {{ r.explanation }}</p>{% endif %}
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </details>
+  {% endfor %}
+
+  <div class="action-row">
+    <a href="/simulation/{{ mode }}" class="btn btn-primary">Riprova ({{ mode_label }})</a>
+    <a href="/simulation" class="btn btn-outline">Cambia modalità</a>
+  </div>
+</div>

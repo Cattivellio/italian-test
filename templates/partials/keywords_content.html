@@ -1,0 +1,18 @@
+<ul class="kw-list">
+  {% for kw in ex.keywords %}
+    <li class="kw-item">
+      <div class="kw-text">
+        <strong>{{ kw.term }}</strong>
+        <p>{{ kw.definition }}</p>
+      </div>
+      <div class="kw-actions">
+        <button type="button" class="btn btn-sm"
+          hx-post="/vocab/save"
+          hx-vals='{"term": {{ kw.term|tojson }}, "definition": {{ kw.definition|tojson }}, "exercise_id": "{{ ex.id }}", "part": {{ ex.part }}}'
+          hx-target="#kw-feedback-{{ ex.id }}-{{ loop.index }}"
+          hx-swap="innerHTML">Salva</button>
+        <span id="kw-feedback-{{ ex.id }}-{{ loop.index }}"></span>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

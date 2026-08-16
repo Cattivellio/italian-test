@@ -1,0 +1,8 @@
+<div class="action-row">
+  <button type="button" class="btn btn-outline keyword-btn" data-open-keywords="kw-template-{{ ex.id }}">
+    💡 Parole Chiave
+  </button>
+</div>
+<template id="kw-template-{{ ex.id }}">
+  {% include 'partials/keywords_content.html' %}
+</template>

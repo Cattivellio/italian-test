@@ -1,0 +1,37 @@
+<div class="answer-zone" data-exercise-id="{{ ex.id }}" data-part="2">
+  {% if ex.example %}
+    <div class="card example-card">
+      <span class="badge">Esempio</span>
+      <p class="example-text">{{ ex.example }}</p>
+    </div>
+  {% endif %}
+
+  <article class="card">
+    <h3 class="section-label">Annunci</h3>
+    <ul class="ads-list">
+      {% for ad in ex.ads %}
+        <li class="ad-item">
+          <span class="option-key">{{ ad.key }}</span>
+          <span>{{ ad.text }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </article>
+
+  <h3 class="section-label">Profili — scegli l'annuncio più adatto</h3>
+  <div class="profile-scroll">
+    {% for profile in ex.profiles %}
+      <div class="profile-card">
+        <span class="profile-number">{{ profile.number }}</span>
+        <p class="profile-text">{{ profile.text }}</p>
+        <label class="sr-only" for="sim-{{ ex.id }}-profile-{{ profile.number }}">Annuncio per il profilo {{ profile.number }}</label>
+        <select id="sim-{{ ex.id }}-profile-{{ profile.number }}" name="{{ profile.number }}" class="select">
+          <option value="">Scegli…</option>
+          {% for ad in ex.ads %}
+            <option value="{{ ad.key }}">{{ ad.key }} — {{ ad.text }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    {% endfor %}
+  </div>
+</div>

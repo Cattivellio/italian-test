@@ -1,0 +1,43 @@
+{% set all_ok = result.all_correct %}
+<div class="feedback feedback-{{ 'ok' if all_ok else 'ko' }}" role="status">
+  <p class="feedback-title">{{ '✅ Ottimo! Tutte le risposte sono corrette.' if all_ok else '❌ Alcune risposte non sono corrette.' }}</p>
+  <p class="feedback-sub">Punteggio: <strong>{{ result.correct }} su {{ result.total }}</strong></p>
+</div>
+
+<div class="result-list">
+  {% for r in result.results %}
+    <div class="result-item {{ 'ok' if r.correct else 'ko' }}">
+      <div class="result-head">
+        <span class="profile-number">{{ r.number }}</span>
+        <span class="result-mark" aria-hidden="true">{{ '✓' if r.correct else '✗' }}</span>
+      </div>
+      <p class="result-question">{{ r.profile_text }}</p>
+      <p class="result-answer">
+        Hai scelto: <strong>{{ r.chosen or '—' }}</strong>
+        {% if not r.correct %} → Corretta: <strong>{{ r.expected }}</strong>{% endif %}
+      </p>
+      {% if r.explanation %}<p class="result-explain">🔍 {{ r.explanation }}</p>{% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+{% include 'partials/keywords_block.html' %}
+
+<div class="action-row">
+  {% if passed %}
+    {% if next_ex %}
+      <a href="/exercise/{{ next_ex.id }}" class="btn btn-primary">Prossimo esercizio {{ "✨" if next_ex.id.startswith("gen-") else "" }}→</a>
+      <a href="/practice/2" class="btn btn-outline">Torna alla lista</a>
+    {% elif completed_part %}
+      <a href="/practice/2" class="btn btn-primary">🎉 Parte completata! Torna alla lista</a>
+    {% else %}
+      <a href="/practice/2" class="btn btn-primary">Torna alla lista</a>
+    {% endif %}
+  {% else %}
+    <a href="/exercise/{{ ex.id }}" class="btn btn-primary">Riprova</a>
+    <a href="/practice/2" class="btn btn-outline">Torna alla lista</a>
+  {% endif %}
+</div>
+{% if not passed %}
+  <p class="hint">Rispondi correttamente a tutte le domande per sbloccare l'esercizio successivo.</p>
+{% endif %}

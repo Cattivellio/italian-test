@@ -1,0 +1,308 @@
+[
+  {
+    "id": "plida-p4-001",
+    "part": 4,
+    "title": "Cronaca Generale e Società",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«È uno spettacolo che stupisce fin dall'inizio, quello che il cantante sta portando in giro negli stadi d'Italia. Luci accese e band che entra sul palco a salutare il pubblico, come se la festa fosse finita. Invece sta per iniziare.» → A",
+    "news": [
+      {"number": 14, "text": "Aveva come titolo di studio la licenza di scuola media e in seguito aveva ottenuto un diploma da analista (attività che svolgeva a Genova), ma esercitava la professione di dentista ricevendo in casa i pazienti. Lo ha fatto fino al 18 marzo scorso quando i carabinieri, su segnalazione di un paziente evidentemente non soddisfatto, hanno provveduto a denunciarlo dopo aver effettuato una perquisizione nel suo alloggio dove hanno rinvenuto l'attrezzatura necessaria all'attività."},
+      {"number": 15, "text": "Si è presentato ieri mattina al Pronto soccorso del San Paolo con una brutta ferita sulla fronte e ha chiesto ai sanitari di visitarlo. Un'ora e mezza dopo Gabriele T., 22 anni, è stato trasferito al Santa Corona di Pietra Ligure con l'elicottero dei vigili del fuoco. A fare decidere i medici per il trasferimento sono stati gli esami radiologici che avrebbero evidenziato una frattura alla testa. Gabriele T. ha raccontato di essere scivolato mentre stava lavorando e stava scendendo dalle scale."},
+      {"number": 16, "text": "Alessandro Podda è iscritto al Politecnico. Di giorno studia Ingegneria. Segue corsi e lezioni. La sera, tre volte la settimana, è di turno in una struttura ricettiva del Centro. «Tanti dicono che è un lavoro pesante. Non è poi così vero: dopo le due di notte è difficile che passi qualcuno, e allora posso anche tirare fuori un libro e mettermi a studiare. Il guaio è quando ho un esame di lunedì: esco dal lavoro e vado all'università». Quella di Alessandro non è stata una scelta del tutto obbligata. «L'ho voluto io, perché non volevo pesare sulla mia famiglia»."},
+      {"number": 17, "text": "Cinque lavoratori della Artedil di Rimini, che sta facendo dei lavori per il locale centro ospedaliero, sono saliti sul tetto del Policlinico con striscioni e bandiere per protestare contro il mancato arrivo di tre buste paga. «Non prendono soldi da febbraio, circa 1300 euro al mese», spiega il rappresentante del sindacato che ha seguito la trattativa, «e in più la Artedil ha mandato la lettera di licenziamento a tutti i suoi 14 dipendenti»."},
+      {"number": 18, "text": "Pensava di dover ripetere l'anno uno studente della terza media della scuola Dante Alighieri di Sanremo, coinvolto in un incidente stradale nei giorni scorsi. Ricoverato nel reparto di Chirurgia a Imperia, dove ha appena subito un intervento, il giovane potrà comunque sostenere le prove scritte e orali previste dal regolamento. La commissione ha deciso di trasferirsi a Imperia facendo recuperare al paziente oggi la prova scritta di italiano, domani quella di inglese e lunedì quella di matematica. Gli orali si terranno sempre nella giornata di lunedì."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Lorenzo nei Palazzetti dello Sport: al via i concerti 2023 di Jovanotti"},
+      {"key": "B", "text": "Lo studente: «Per essere indipendente faccio il portiere d'albergo»"},
+      {"key": "C", "text": "Giovane elettricista grave dopo una caduta"},
+      {"key": "D", "text": "Negli ospedali mancano i giovani medici: tornano in servizio i pensionati"},
+      {"key": "E", "text": "Ragazzo operato fa gli esami in corsia"},
+      {"key": "F", "text": "Al via le borse di studio per la formazione in azienda"},
+      {"key": "G", "text": "Curava decine di persone, ma senza laurea: andrà a processo"},
+      {"key": "H", "text": "Senza stipendio e senza lavoro: gli operai iniziano lo sciopero"},
+      {"key": "I", "text": "Aumenta il bonus per le spese mediche degli studenti"}
+    ],
+    "solution": {"14": "G", "15": "C", "16": "B", "17": "H", "18": "E"},
+    "explanation": {
+      "14": "La notizia racconta di un uomo che 'esercitava la professione di dentista' senza laurea e che è stato denunciato: il titolo G ('Curava decine di persone, ma senza laurea: andrà a processo') è il più adatto.",
+      "15": "La notizia racconta della caduta di un elettricista di 22 anni trasferito in elicottero: il titolo C ('Giovane elettricista grave dopo una caduta') corrisponde.",
+      "16": "La notizia parla dello studente Alessandro che la sera fa il portiere d'albergo per essere indipendente: il titolo B ('Lo studente: per essere indipendente faccio il portiere d'albergo') è giusto.",
+      "17": "La notizia racconta dei lavoratori saliti sul tetto del Policlinico per protestare 'contro il mancato arrivo di tre buste paga': il titolo H ('Senza stipendio e senza lavoro: gli operai iniziano lo sciopero') è il più adatto.",
+      "18": "La notizia racconta di uno studente operato che potrà comunque fare gli esami in ospedale: il titolo E ('Ragazzo operato fa gli esami in corsia') è perfetto."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p4-002",
+    "part": 4,
+    "title": "Avventure, Emergenze e Cronaca Locale",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«È uno spettacolo che stupisce fin dall'inizio, quello che il cantante sta portando in giro negli stadi d'Italia. Luci accese e band che entra sul palco a salutare il pubblico, come se la festa fosse finita. Invece sta per iniziare.» → A",
+    "news": [
+      {"number": 14, "text": "La polizia tedesca ha fermato la scorsa notte cinque uomini che, a bordo di automobili prese in Svizzera, stavano partecipando a una gara illegale in Germania sull'autostrada A5. Ad avvisare la polizia è stata una chiamata che segnalava un raduno di automobili di grossa cilindrata non lontano dalla frontiera."},
+      {"number": 15, "text": "Disavventura con lieto fine per quattro escursionisti di Torino che, oggi pomeriggio, sono stati sorpresi da un diluvio nel Parco nazionale del Gran Paradiso: mentre scendevano a valle attraverso il sentiero che porta ai laghi Bellagarda, i quattro hanno sbagliato la strada di discesa. Per fortuna sono riusciti a chiamare il 118. L'elisoccorso ha sorvolato la zona fino a quando non ha individuato e recuperato il gruppo di escursionisti."},
+      {"number": 16, "text": "Erano le 9.00, orario di apertura del negozio, quando due uomini hanno sorpreso alle spalle il titolare, lo hanno obbligato ad aprire la cassaforte e sono scappati con il contenuto. Quando è scattato l'allarme, immediato è stato l'invio di pattuglie della Polizia."},
+      {"number": 17, "text": "Terrore ieri pomeriggio a San Vito Lo Capo, nel Trapanese, dove i 700 ospiti del villaggio \"Calampiso\" sono stati allontanati dagli alloggi aggrediti dalle fiamme, radunati in spiaggia e trasportati a gruppi via mare, con barche, barchini e gommoni, fino al Porto piccolo. «Per fortuna tutti i nostri ospiti stanno bene». Così la direzione del villaggio dopo il grande spavento. «Il fuoco è stato spento – ha aggiunto la direzione – e aspettiamo l'ok per riportare tutti agli alloggi»."},
+      {"number": 18, "text": "Quindici persone che hanno perso il lavoro sono state \"arruolate\" dal sindaco per tre mesi. Un modo per ridare loro speranza e per non farli sentire esclusi dalla vita della comunità. Investiti ventimila euro nell'iniziativa. «L'idea di progetto sociale è nata dall'incontro con le tante persone che hanno bussato alla porta del municipio chiedendo un aiuto per ritrovare lavoro», racconta il sindaco."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Lorenzo nei Palazzetti dello Sport: al via i concerti 2015-2016 di Jovanotti"},
+      {"key": "B", "text": "Vacanze avventura: idee per mete da brivido"},
+      {"key": "C", "text": "Paura per un incendio in una struttura turistica"},
+      {"key": "D", "text": "Sfida clandestina vicino al confine, arrestati i \"piloti\""},
+      {"key": "E", "text": "Controlli fiscali sui veicoli di lusso: troppi i proprietari che risultano poveri"},
+      {"key": "F", "text": "Disoccupati assunti dal Comune: succede in provincia di Arezzo"},
+      {"key": "G", "text": "Rapina alla gioielleria di circonvallazione Trionfale"},
+      {"key": "H", "text": "Trombe d'aria e allagamenti. Dopo l'afa arriva il maltempo"},
+      {"key": "I", "text": "In salvo le persone che si erano perse durante la tempesta"}
+    ],
+    "solution": {"14": "D", "15": "I", "16": "G", "17": "C", "18": "F"},
+    "explanation": {
+      "14": "La notizia racconta di cinque uomini fermati mentre 'partecipavano a una gara illegale' non lontano dalla frontiera: il titolo D ('Sfida clandestina vicino al confine, arrestati i piloti') è il più adatto.",
+      "15": "La notizia parla di escursionisti persi nel Parco del Gran Paradiso e recuperati dall'elisoccorso: il titolo I ('In salvo le persone che si erano perse durante la tempesta') corrisponde.",
+      "16": "La notizia racconta di due uomini che hanno rapinato una gioielleria all'apertura: il titolo G ('Rapina alla gioielleria di circonvallazione Trionfale') è giusto.",
+      "17": "La notizia racconta dell'incendio al villaggio Calampiso a San Vito Lo Capo: il titolo C ('Paura per un incendio in una struttura turistica') è il più adatto.",
+      "18": "La notizia parla dei disoccupati assunti dal sindaco per tre mesi: il titolo F ('Disoccupati assunti dal Comune: succede in provincia di Arezzo') è perfetto."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p4-003",
+    "part": 4,
+    "title": "Natura, Animali e Tutela Ambientale",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«Continua a crescere il traffico di viaggiatori provenienti dall'estero che atterrano negli scali pugliesi: nei primi tre mesi del 2015, al Karol Wojtyla, sono aumentati del 25,7%.» → A",
+    "news": [
+      {"number": 14, "text": "Convinta di avere tre mesi di tempo per ritirare il premio, la fortunata era partita per festeggiare. E ha rischiato di perdere tutto. Alla fine, grazie anche a giornali e tv che hanno dato più volte la notizia, è riuscita a ritirare il premio in extremis."},
+      {"number": 15, "text": "Sempre più spesso quello della porta accanto diventa un nemico. Liti a più non posso, scatenate spesso dalla confusione creata dai condomini. In cima alla classifica si piazzano i tacchi delle scarpe, soprattutto femminili: il loro ticchettio sui pavimenti viene odiato al pari dell'abbaiare dei cani. Poi ha recentemente scalato posizioni la lavatrice in funzione."},
+      {"number": 16, "text": "Prove di alpinismo, di arrampicata e di altri sport di montagna attendono i famosi che parteciperanno al nuovo reality di Raidue che si svolgerà a Courmayeur. Le riprese inizieranno il 4 luglio e dureranno un mese. I partecipanti saranno divisi in coppie, ognuna affiancata da una guida alpina."},
+      {"number": 17, "text": "I candidati al test per l'abilitazione alla professione erano più di 1.600, ma soltanto 573 hanno superato la prova scritta. I risultati del primo passo della selezione, al centro di uno scandalo scoperto dai carabinieri, sono stati pubblicati nei giorni scorsi."},
+      {"number": 18, "text": "Due i denunciati, un 52enne e un 54enne, per frode alimentare, e violazione delle norme amministrative e sanitarie che regolano la somministrazione al pubblico di alimenti. I carabinieri hanno sequestrato tutte le attrezzature utilizzate per la manipolazione del prodotto importato dall'estero. Sequestrati anche i locali, tutti in pessime condizioni igieniche, dove avvenivano le operazioni di etichettatura."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Aeroporti di Bari e Brindisi: aumentano i turisti stranieri"},
+      {"key": "B", "text": "Scoperto un deposito con decine di falsi \"prosciutti di Parma\" prodotti in Polonia"},
+      {"key": "C", "text": "Bloccati in ascensore all'Expo, salvati dai vigili del fuoco"},
+      {"key": "D", "text": "Avvocati, a Bari gli investigatori cercano la verità sull'esame"},
+      {"key": "E", "text": "I rumori molesti alla base delle guerre tra vicini"},
+      {"key": "F", "text": "Monte Bianco, il nuovo programma televisivo per i personaggi noti della TV"},
+      {"key": "G", "text": "Durante una passeggiata donna trova diamante da 8,52 carati"},
+      {"key": "H", "text": "Ritrovata vincitrice del Gratta e Vinci, era in vacanza da due mesi"},
+      {"key": "I", "text": "Roma, è grave il giovane colpito da un pugile dopo una discussione"}
+    ],
+    "solution": {"14": "H", "15": "E", "16": "F", "17": "D", "18": "B"},
+    "explanation": {
+      "14": "La notizia racconta di una vincitrice del Gratta e Vinci che 'rischiava di perdere tutto' perché in vacanza e che ritira il premio 'in extremis': il titolo H ('Ritrovata vincitrice del Gratta e Vinci, era in vacanza da due mesi') è giusto.",
+      "15": "La notizia parla delle liti tra condomini causate dai 'rumori molesti' (tacchi, cani, lavatrice): il titolo E ('I rumori molesti alla base delle guerre tra vicini') è il più adatto.",
+      "16": "La notizia parla del nuovo reality per i famosi che si svolgerà al Monte Bianco a Courmayeur: il titolo F corrisponde.",
+      "17": "La notizia riguarda i risultati di un esame al centro di uno scandalo a Bari: il titolo D ('Avvocati, a Bari gli investigatori cercano la verità sull'esame') è il più adatto.",
+      "18": "La notizia racconta del sequestro di falsi 'prosciutti di Parma' prodotti all'estero: il titolo B è perfetto."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p4-004",
+    "part": 4,
+    "title": "Benessere, Tecnologia e Spettacolo",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«È uno spettacolo che stupisce fin dall'inizio, quello che il cantante sta portando in giro negli stadi d'Italia. Luci accese e band che entra sul palco a salutare il pubblico, come se la festa fosse finita. Invece sta per iniziare.» → A",
+    "news": [
+      {"number": 1, "text": "Non mangiare può avere effetti positivi sull'organismo malato e favorire l'espulsione delle tossine nei soggetti sani. Astenersi completamente dal mangiare cibo, se effettuato periodicamente sotto stretta osservazione medica, si è rivelato molto efficace per il benessere psico-fisico dell'uomo. Il dottor Longo che sta portando avanti questa ricerca ha dimostrato che non mangiare può ringiovanire il fisico, potenziando il sistema immunitario."},
+      {"number": 2, "text": "Ancora fiori, stampati o con effetti tridimensionali. Gonne corte o a palloncino. Queste le tendenze presentate alla settimana della moda milanese che si è appena chiusa. Il colore che la farà da padrone: il rosso. Ma per chi non lo ama particolarmente niente paura: tutte le passerelle sono state un inno al multicolor. Tra le altre indicazioni per essere glamour: la presenza nell'armadio di un capo scintillante, perché la parola d'ordine sarà: brillare."},
+      {"number": 3, "text": "Una dieta per ogni professione. Lo afferma Serena Missori, specialista in Endocrinologia, Diabetologia e Nutrizione. Gli impiegati, per esempio, hanno una digestione laboriosa a causa della posizione e dello scarso movimento, tendono alle contratture del collo e delle spalle a causa della postura obbligata. Possono beneficiare di tisane drenanti e disintossicanti in associazione a un pranzo non abbondante composto da cereali integrali, proteine magre e verdura a foglie piccole di più facile digestione."},
+      {"number": 4, "text": "Raffaele Tonon, opinionista e famoso personaggio televisivo, si è aggiudicato il primo premio del reality La Fattoria. Ha raccontato che ha partecipato al programma perché era l'unico modo per avere un ritorno in termini di visibilità e per essere conosciuto da un pubblico ancora più ampio. «I soldi non mi sono mai interessati - racconta Tonon - ho deciso quindi che con il premio farò della beneficenza e aiuterò delle persone che non sono state fortunate come me»."},
+      {"number": 5, "text": "È stato presentato al CES di Las Vegas questo prodotto innovativo. Ma che cosa è? ILI non è nient'altro che una piccola scatoletta da indossare nel modo che si preferisce, in grado di riconoscere e interpretare simultaneamente inglese, giapponese e cinese. Al suo interno c'è tutto quello che serve: una sorta di archivio con tutti i dati necessari, un sistema di riconoscimento vocale e un apposito sintetizzatore che potrà essere utilizzato sia per capire cosa il vostro interlocutore dice sia quello che vorremmo dirgli."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Lorenzo nei Palazzetti dello Sport: al via i concerti 2018-2019 di Jovanotti"},
+      {"key": "B", "text": "Ecco come ci vestiremo la prossima stagione"},
+      {"key": "C", "text": "«Una parte della vincita la darò a chi ha più bisogno di me»"},
+      {"key": "D", "text": "Come perdere peso in una settimana"},
+      {"key": "E", "text": "La nuova invenzione: il traduttore da tenere al collo"},
+      {"key": "F", "text": "La fiera del libro per ragazzi festeggia i suoi primi 50 anni"},
+      {"key": "G", "text": "Curarsi con il digiuno: i benefici per la salute"},
+      {"key": "H", "text": "Auto parcheggiate troppo vicino ai binari: tram 5 bloccato per ore"},
+      {"key": "I", "text": "Dimmi che lavoro fai e ti dirò cosa mangiare"}
+    ],
+    "solution": {"1": "G", "2": "B", "3": "I", "4": "C", "5": "E"},
+    "explanation": {
+      "1": "La notizia parla degli effetti benefici del digiuno sotto osservazione medica: il titolo G ('Curarsi con il digiuno: i benefici per la salute') è il più adatto.",
+      "2": "La notizia riguarda le tendenze della settimana della moda milanese: il titolo B ('Ecco come ci vestiremo la prossima stagione') è giusto.",
+      "3": "La notizia parla di una dieta diversa per ogni professione: il titolo I ('Dimmi che lavoro fai e ti dirò cosa mangiare') è perfetto.",
+      "4": "La notizia racconta della vincita al reality La Fattoria e della decisione di fare beneficenza: il titolo C ('Una parte della vincita la darò a chi ha più bisogno di me') è il più adatto.",
+      "5": "La notizia presenta ILI, il traduttore da indossare: il titolo E ('La nuova invenzione: il traduttore da tenere al collo') è giusto."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p4-005",
+    "part": 4,
+    "title": "Società, Ambiente e Ritrovamenti",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«È uno spettacolo che stupisce fin dall'inizio, quello che il cantante sta portando in giro negli stadi d'Italia. Luci accese e band che entra sul palco a salutare il pubblico, come se la festa fosse finita. Invece sta per iniziare.» → A",
+    "news": [
+      {"number": 1, "text": "Per il loro quartiere sognano piscine, piste ciclabili e spazi dove poter andare sui pattini o con lo skateboard. Ma nella vita reale quasi 2 su 3 trascorrono in casa il tempo libero. È la vita dei ragazzi e dei bambini di città. A fotografare i loro stili di vita l'indagine \"Lo stile di vita dei bambini e dei ragazzi\" realizzata da Ipsos per Save The Children e presentata in occasione dei 5 anni del progetto \"Pronti, partenza via!\" promosso nelle aree periferiche di 14 città italiane."},
+      {"number": 2, "text": "Alberi e rami caduti e strade chiuse in serata a Roma a causa di forti raffiche di vento. Nel pomeriggio un grosso pino si era abbattuto su via Acilia. In serata si registrano problemi in molte zone, in particolare in quella sud: proprio a causa di rami o alberi abbattutisi sulla carreggiata si registrano chiusure delle strade o disagi per il traffico."},
+      {"number": 3, "text": "Lo scorso anno il nostro è risultato il Paese con il tasso di natalità più basso tra quelli dell'UE. Lo ha reso noto Eurostat. Complessivamente, nei 28 Paesi dell'Unione nel 2015 la popolazione è cresciuta passando da 508,3 a 510,1 milioni. Ma ciò, osserva Eurostat, è avvenuto solo grazie agli immigrati poiché tra i residenti le nascite (5,1 milioni) sono state inferiori alle morti (5,2 milioni)."},
+      {"number": 4, "text": "Oltre 120mila capi di abbigliamento sono stati requisiti dalla Guardia di Finanza di Caserta all'interno dei negozi di un outlet village, che sono stati in pratica svuotati al 90%. I capi contraffatti - è emerso - in particolare pantaloni, giubbotti, felpe, erano messi in vendita accanto a quelli originali, circostanza che ha reso molto difficile il lavoro degli inquirenti."},
+      {"number": 5, "text": "Il sottosuolo di Olbia continua a svelare parti della sua storia, riportando alla luce resti di civiltà antiche sepolte sotto terra. Questa mattina, durante i lavori per la realizzazione della rete del gas in via Mameli, gli operai hanno ritrovato un'urna cineraria di epoca romana contenente i resti di un defunto."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Lorenzo nei Palazzetti dello Sport: al via i concerti 2018-2019 di Jovanotti"},
+      {"key": "B", "text": "Noi italiani facciamo sempre meno figli"},
+      {"key": "C", "text": "Maxi sequestro di merce falsa in Campania"},
+      {"key": "D", "text": "Ancora un importante ritrovamento archeologico"},
+      {"key": "E", "text": "In arrivo una violenta ondata di gelo: tornano neve e grandine"},
+      {"key": "F", "text": "Al via i saldi. Sconti pazzi su borse e scarpe"},
+      {"key": "G", "text": "Nuove assunzioni nelle forze dell'ordine"},
+      {"key": "H", "text": "Danni in città dopo il maltempo"},
+      {"key": "I", "text": "Dopo la scuola? Poco movimento e quasi mai all'aria aperta"}
+    ],
+    "solution": {"1": "I", "2": "H", "3": "B", "4": "C", "5": "D"},
+    "explanation": {
+      "1": "La notizia parla dei ragazzi di città che trascorrono in casa quasi tutto il tempo libero: il titolo I ('Dopo la scuola? Poco movimento e quasi mai all'aria aperta') è il più adatto.",
+      "2": "La notizia racconta dei danni a Roma per le forti raffiche di vento: il titolo H ('Danni in città dopo il maltempo') è giusto.",
+      "3": "La notizia dice che l'Italia ha 'il tasso di natalità più basso' tra quelli dell'UE: il titolo B ('Noi italiani facciamo sempre meno figli') è perfetto.",
+      "4": "La notizia racconta del maxi sequestro di capi contraffatti a Caserta: il titolo C ('Maxi sequestro di merce falsa in Campania') è il più adatto.",
+      "5": "La notizia parla del ritrovamento di un'urna cineraria di epoca romana a Olbia: il titolo D ('Ancora un importante ritrovamento archeologico') è giusto."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p4-006",
+    "part": 4,
+    "title": "Fauna, Natura e Ambiente Urbano",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«È uno spettacolo che stupisce fin dall'inizio, quello che il cantante sta portando in giro negli stadi d'Italia. Luci accese e band che entra sul palco a salutare il pubblico, come se la festa fosse finita. Invece sta per iniziare.» → A",
+    "news": [
+      {"number": 14, "text": "Grande festa all'Ocean Park di Hong Kong per i due cuccioli che hanno festeggiato il loro primo mese di vita. Il peso della femmina è aumentato fino a 910 grammi, mentre il maschio ora pesa 814 grammi. I cuccioli hanno anche migliorato la loro capacità di mantenere la temperatura corporea e si stanno abituando alla vita nel bioparco fuori dall'incubatrice, ha dichiarato il direttore del parco."},
+      {"number": 15, "text": "Nel percorso dal campo alla tavola quasi un prodotto su tre finisce nella spazzatura tra i rifiuti delle famiglie, dei ristoranti e delle mense aziendali. A denunciarlo è la Coldiretti annunciando le sue iniziative nel giorno in cui si ricorderà questo problema inaccettabile, che ha effetti negativi sul piano economico e ambientale per l'impatto sul consumo energetico e sullo smaltimento dei rifiuti."},
+      {"number": 16, "text": "Il sindaco ha approvato un regolamento per abolire le tradizionali carrozze trainate da cavalli nel centro storico romano. Queste saranno sostituite da carri moderni a motore elettrico che lasceranno a bocca aperta i turisti, ma saranno più adatti alle esigenze di una città ormai molto diversa rispetto al passato. Inoltre, questa scelta contribuirà a ridurre l'inquinamento e a garantire un ambiente più sicuro e sostenibile per tutti."},
+      {"number": 17, "text": "La competizione è stata ideata da Paul Joynson-Hicks e Tom Sullam, professionisti attratti dal lato più leggero e umoristico della natura ma anche impegnati nella protezione della fauna selvatica. Gli scatti sono stati scelti tra quasi 9.000 provenienti da 98 paesi. Tutti in gara per vincere il primo premio: un safari nella Riserva nazionale di Masai Mara, una zona protetta di savana nel Kenya sud-occidentale."},
+      {"number": 18, "text": "L'animale è stato preso il 25 settembre sera verso le 21 da una squadra della Direzione Ambiente composta da veterinari e guardiaparco. È stato poi addormentato e sistemato in un contenitore per il trasporto. Oggi sarà trasferito presso il Parco nazionale d'Abruzzo. Le guardie zoofile della Regione Lazio stanno scegliendo il punto migliore in un'area protetta in Abruzzo per rilasciare il cucciolo di animale."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Lorenzo nei Palazzetti dello Sport: al via i concerti di Jovanotti"},
+      {"key": "B", "text": "Lupo catturato a Roma, la liberazione avverrà oggi"},
+      {"key": "C", "text": "Il 16 ottobre sarà la giornata contro lo spreco di cibo"},
+      {"key": "D", "text": "Dialogo tra coltivatori e consumatori per proteggere i cibi locali"},
+      {"key": "E", "text": "Un mezzo ecologico tutto nuovo per visitare Roma"},
+      {"key": "F", "text": "In salute i piccoli gemellini di panda nati da poco allo zoo"},
+      {"key": "G", "text": "Foto divertenti per salvare gli animali: un concorso tutto da ridere"},
+      {"key": "H", "text": "Il ritorno dei gufi: progetto di recupero avviato nelle zone montane"},
+      {"key": "I", "text": "I ghiaccioli entrano nel menu degli animali del Bioparco"}
+    ],
+    "solution": {"14": "F", "15": "C", "16": "E", "17": "G", "18": "B"},
+    "explanation": {
+      "14": "La notizia parla dei due cuccioli di panda dell'Ocean Park di Hong Kong in buona salute: il titolo F ('In salute i piccoli gemellini di panda nati da poco allo zoo') è giusto.",
+      "15": "La notizia denuncia lo spreco di cibo ('quasi un prodotto su tre finisce nella spazzatura'): il titolo C ('Il 16 ottobre sarà la giornata contro lo spreco di cibo') è il più adatto.",
+      "16": "La notizia parla delle nuove carrozze a motore elettrico per visitare Roma: il titolo E ('Un mezzo ecologico tutto nuovo per visitare Roma') è perfetto.",
+      "17": "La notizia riguarda un concorso di foto divertenti sulla natura: il titolo G ('Foto divertenti per salvare gli animali: un concorso tutto da ridere') è giusto.",
+      "18": "La notizia racconta della cattura di un lupo a Roma che sarà liberato in Abruzzo: il titolo B ('Lupo catturato a Roma, la liberazione avverrà oggi') è il più adatto."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p4-007",
+    "part": 4,
+    "title": "Aeroporti, Cronaca e Mare",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«Continua a crescere il traffico di viaggiatori provenienti dall'estero che atterrano negli scali pugliesi: nei primi tre mesi del 2015, al Karol Wojtyla, sono aumentati del 25,7%.» → A",
+    "news": [
+      {"number": 14, "text": "È accaduto a un ragazzo di 19 anni quando la compagnia aerea gli ha chiesto di abbandonare in aeroporto l'eccesso del bagaglio oppure di pagare una tassa. Il giovane allora ha iniziato a indossare gli indumenti fino a raggiungere il peso giusto per la sua valigia. Purtroppo a causa del caldo è svenuto prima di entrare in aereo."},
+      {"number": 15, "text": "Ha finto di corteggiare una giovane donna di 20 anni in un locale di corso Como, ma in realtà la sua attenzione era solo per la borsetta di lei. Durante la conversazione ha distratto la giovane ed è riuscito a impossessarsi della borsa, per poi fuggire a piedi all'esterno del locale. I carabinieri hanno individuato il malvivente e lo hanno bloccato."},
+      {"number": 16, "text": "Decine di voli in arrivo dirottati su altri scali e decine di cancellazioni per quelli in partenza. Centinaia di passeggeri rimasti a terra. È calata di nuovo la nebbia e l'attività del Galilei si è nuovamente interrotta. Il sito web avverte i passeggeri che per le \"avverse condizioni meteo\" potrebbero verificarsi ritardi e cancellazioni. Centinaia di persone affollano lo scalo in attesa di notizie."},
+      {"number": 17, "text": "Quella che fino a qualche tempo fa sarebbe parsa un'idea bizzarra, ora è diventata realtà. L'«Orto di Nemo» è una serra posta a 8-10 metri di profondità, al largo delle coste liguri. La temperatura risulta sempre costante e l'aria contenuta all'interno della biosfera evapora durante il giorno, formando acqua dolce. Condizioni ideali per la coltivazione di vegetali."},
+      {"number": 18, "text": "Il suo nome scientifico è Mola Mola ed è stato catturato al largo della città spagnola di Ceuta, sulla costa mediterranea del Marocco. L'esemplare è stato catturato per essere misurato e studiato, prima di essere liberato nuovamente nel suo habitat. A commentare l'avvenimento è stato Enrique Ostale, direttore del laboratorio di biologia dell'Università di Siviglia a Ceuta: «Non pensavo che avrei mai visto una cosa del genere con i miei occhi»."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Aeroporti di Bari e Brindisi: aumentano i turisti stranieri"},
+      {"key": "B", "text": "È fiorentino il terzo cane più bello del mondo"},
+      {"key": "C", "text": "Conosce una ragazza in discoteca e la deruba"},
+      {"key": "D", "text": "A causa del maltempo l'aeroporto si ferma"},
+      {"key": "E", "text": "Scoperto pianeta gigante dentro il sistema solare"},
+      {"key": "F", "text": "Avvistato in mare aperto un enorme pesce luna: pesa due tonnellate"},
+      {"key": "G", "text": "Ora le verdure crescono in fondo al mare"},
+      {"key": "H", "text": "Ha troppi abiti: cade a terra privo di sensi"},
+      {"key": "I", "text": "Il tatuaggio arriva anche sui capelli"}
+    ],
+    "solution": {"14": "H", "15": "C", "16": "D", "17": "G", "18": "F"},
+    "explanation": {
+      "14": "La notizia racconta di un ragazzo che ha indossato troppi abiti in aeroporto ed è svenuto: il titolo H ('Ha troppi abiti: cade a terra privo di sensi') è il più adatto.",
+      "15": "La notizia parla di un uomo che deruba una ragazza conosciuta in un locale: il titolo C ('Conosce una ragazza in discoteca e la deruba') è giusto.",
+      "16": "La notizia racconta dell'aeroporto di Pisa fermo per la nebbia: il titolo D ('A causa del maltempo l'aeroporto si ferma') è perfetto.",
+      "17": "La notizia parla dell'«Orto di Nemo», la serra sott'acqua dove crescono le verdure: il titolo G ('Ora le verdure crescono in fondo al mare') è giusto.",
+      "18": "La notizia riguarda l'avvistamento di un enorme pesce luna al largo di Ceuta: il titolo F ('Avvistato in mare aperto un enorme pesce luna') è il più adatto."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p4-008",
+    "part": 4,
+    "title": "Scuola, Trasporti, Arte e Sport",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«È uno spettacolo che stupisce fin dall'inizio, quello che il cantante sta portando in giro negli stadi d'Italia. Luci accese e band che entra sul palco a salutare il pubblico, come se la festa fosse finita. Invece sta per iniziare.» → A",
+    "news": [
+      {"number": 14, "text": "Entrare a scuola più tardi migliora il rendimento? Sì, parola di scienziati. Posticipare l'orario delle lezioni ha conseguenze positive sulle prestazioni della maggioranza degli studenti, in particolare dei cosiddetti «gufi», i nottambuli che la mattina faticano a ingranare. Le prove scientifiche si vanno accumulando da tempo: i ripetuti sfasamenti tra i ritmi imposti dalla società e il nostro orologio biologico possono avere pesanti conseguenze sulla salute. E la scuola dovrebbe tenerne conto."},
+      {"number": 15, "text": "Arriva il nuovo Telepass europeo per le auto. Gli automobilisti italiani che lo installeranno potranno utilizzare liberamente la rete autostradale francese, spagnola e portoghese (oltre ovviamente a quella nazionale). E con lo stesso dispositivo, oltre al pedaggio, si potrà pagare anche il parcheggio nelle principali città dei Paesi aderenti: a quelli già esistenti in Italia, in città come Milano, Roma, Torino, Firenze e Napoli, si aggiungono 400 parcheggi in altre metropoli europee tra cui Parigi, Madrid e Barcellona."},
+      {"number": 16, "text": "Ritrovato dai carabinieri il quadro rubato nei giorni scorsi nella Chiesa Nuova, nel centro storico di Roma, e denunciato un restauratore. I Carabinieri della stazione San Pietro, in collaborazione con il Comando Carabinieri Tutela patrimonio culturale, hanno recuperato il quadro raffigurante il \"Sacro Cuore di Gesù\" del pittore Pietro Gagliardi, realizzato nel 1865 e rubato una settimana fa. Un restauratore romano di 46 anni, già noto alle forze dell'ordine, che era subito finito nel mirino dei carabinieri, è stato denunciato per furto e ricettazione."},
+      {"number": 17, "text": "All'inizio, Luca Malaschnittschenko pensava di aver trovato l'ennesimo pezzo di alluminio senza valore. Ma quando il ragazzino con la passione dell'archeologia ha pulito via la terra da quel minuscolo oggetto insieme al suo professore, Ralf Schoen, i due sono rimasti a bocca aperta. Quando hanno capito di aver trovato qualcosa di importante, in quel campo agricolo in mezzo al nulla che stavano scandagliando con il metal detector, lo hanno consegnato all'istituto archeologico del Meclemburgo-Pomerania. E dagli specialisti è arrivata la conferma: avevano tra le mani una moneta vecchia di mille anni."},
+      {"number": 18, "text": "È un bilancio decisamente positivo, quello dello sci azzurro nella stagione 2017/2018. Ma è vero soprattutto che lo sci italiano è sempre più donna. E ha i volti allegri, determinati, sorridenti, di Sofia Goggia e Federica Brignone. I podi azzurri sono stati 26, ma solo cinque al maschile. E le vittorie sette, ma solo una conquistata dagli uomini, con Dominik Paris; il resto è tutto della coppia formata da Goggia-Brignone."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Lorenzo nei Palazzetti dello Sport: al via i concerti 2015-2016 di Jovanotti"},
+      {"key": "B", "text": "Le nostre atlete trionfano negli sport invernali"},
+      {"key": "C", "text": "Da oggi spostarsi da una Nazione all'altra sarà più facile"},
+      {"key": "D", "text": "Chiusura anticipata delle scuole in occasione del Festival delle Scienze"},
+      {"key": "E", "text": "Tredicenne scopre il tesoro dei Vichinghi"},
+      {"key": "F", "text": "Per essere bravi, mai in classe prima delle 8:30"},
+      {"key": "G", "text": "Nuova ondata di maltempo in arrivo sull'intera penisola"},
+      {"key": "H", "text": "Gli stilisti scelgono la montagna per presentare la collezione estiva"},
+      {"key": "I", "text": "Torna al suo posto il dipinto scomparso"}
+    ],
+    "solution": {"14": "F", "15": "C", "16": "I", "17": "E", "18": "B"},
+    "explanation": {
+      "14": "La notizia dice che entrare a scuola più tardi migliora il rendimento degli studenti: il titolo F ('Per essere bravi, mai in classe prima delle 8:30') è il più adatto.",
+      "15": "La notizia parla del nuovo Telepass europeo per viaggiare nelle reti autostradali di più Paesi: il titolo C ('Da oggi spostarsi da una Nazione all'altra sarà più facile') è giusto.",
+      "16": "La notizia racconta del quadro rubato che è stato ritrovato: il titolo I ('Torna al suo posto il dipinto scomparso') è perfetto.",
+      "17": "La notizia parla del tredicenne che ha scoperto una moneta vecchia di mille anni: il titolo E ('Tredicenne scopre il tesoro dei Vichinghi') è giusto.",
+      "18": "La notizia riguarda le vittorie dello sci azzurro femminile di Goggia e Brignone: il titolo B ('Le nostre atlete trionfano negli sport invernali') è il più adatto."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p4-009",
+    "part": 4,
+    "title": "Turismo, Mare e Aeroporti",
+    "instructions": "Leggi i testi qui sotto: ogni testo è tratto da un articolo di giornale. Adesso leggi i titoli dell'elenco (A–I). Scegli per ogni testo il titolo giusto. Attenzione: ci sono tre titoli di troppo.",
+    "example": "«Continua a crescere il traffico di viaggiatori provenienti dall'estero che atterrano negli scali pugliesi: nei primi tre mesi del 2015, al Karol Wojtyla, sono aumentati del 25,7%.» → A",
+    "news": [
+      {"number": 14, "text": "È accaduto a un ragazzo di 19 anni quando la compagnia aerea gli ha chiesto di abbandonare in aeroporto l'eccesso del bagaglio oppure di pagare una tassa. Il giovane allora ha iniziato a indossare gli indumenti fino a raggiungere il peso giusto per la sua valigia. Purtroppo a causa del caldo è svenuto prima di entrare in aereo."},
+      {"number": 15, "text": "Ha finto di corteggiare una giovane donna di 20 anni in un locale di corso Como, ma in realtà la sua attenzione era solo per la borsetta di lei. Durante la conversazione ha distratto la giovane ed è riuscito a impossessarsi della borsa, per poi fuggire a piedi all'esterno del locale. I carabinieri hanno individuato il malvivente e lo hanno bloccato."},
+      {"number": 16, "text": "Decine di voli in arrivo dirottati su altri scali e decine di cancellazioni per quelli in partenza. Centinaia di passeggeri rimasti a terra. È calata di nuovo la nebbia e l'attività del Galilei si è nuovamente interrotta. Il sito web avverte i passeggeri che per le \"avverse condizioni meteo\" potrebbero verificarsi ritardi e cancellazioni. Centinaia di persone affollano lo scalo in attesa di notizie."},
+      {"number": 17, "text": "Quella che fino a qualche tempo fa sarebbe parsa un'idea bizzarra, ora è diventata realtà. L'«Orto di Nemo» è una serra posta a 8-10 metri di profondità, al largo delle coste liguri. La temperatura risulta sempre costante e l'aria contenuta all'interno della biosfera evapora durante il giorno, formando acqua dolce. Condizioni ideali per la coltivazione di vegetali."},
+      {"number": 18, "text": "I dati rilevano un incremento degli arrivi del +9,2% e del +18,5% dei pernottamenti rispetto allo stesso periodo dello scorso anno. Continua a crescere la componente straniera (+8,7% gli arrivi e +14,9% i pernottamenti) ma la notizia più interessante riguarda senza dubbio la forte ripresa del turismo nazionale (+9,2% e +19,4%)."}
+    ],
+    "headlines": [
+      {"key": "A", "text": "Aeroporti di Bari e Brindisi: aumentano i turisti stranieri"},
+      {"key": "B", "text": "È fiorentino il terzo cane più bello del mondo"},
+      {"key": "C", "text": "Conosce una ragazza in discoteca e la deruba"},
+      {"key": "D", "text": "A causa del maltempo l'aeroporto si ferma"},
+      {"key": "E", "text": "Scoperto pianeta gigante dentro il sistema solare"},
+      {"key": "F", "text": "Sono sempre di più gli italiani che vanno in vacanza in Toscana"},
+      {"key": "G", "text": "Ora le verdure crescono in fondo al mare"},
+      {"key": "H", "text": "Troppi abiti e cade a terra privo di sensi"},
+      {"key": "I", "text": "Il tatuaggio arriva anche sui capelli"}
+    ],
+    "solution": {"14": "H", "15": "C", "16": "D", "17": "G", "18": "F"},
+    "explanation": {
+      "14": "La notizia racconta di un ragazzo che ha indossato troppi abiti in aeroporto ed è svenuto: il titolo H ('Troppi abiti e cade a terra privo di sensi') è il più adatto.",
+      "15": "La notizia parla di un uomo che deruba una ragazza conosciuta in un locale: il titolo C ('Conosce una ragazza in discoteca e la deruba') è giusto.",
+      "16": "La notizia racconta dell'aeroporto di Pisa fermo per la nebbia: il titolo D ('A causa del maltempo l'aeroporto si ferma') è perfetto.",
+      "17": "La notizia parla dell'«Orto di Nemo», la serra sott'acqua dove crescono le verdure: il titolo G ('Ora le verdure crescono in fondo al mare') è giusto.",
+      "18": "La notizia rileva la forte ripresa del turismo nazionale e l'aumento di arrivi e pernottamenti: il titolo F ('Sono sempre di più gli italiani che vanno in vacanza in Toscana') è il più adatto."
+    },
+    "keywords": []
+  }
+]

@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block content %}
+
+<nav class="crumbs" aria-label="Percorso">
+  <a href="/practice" class="crumb-link">← Allenamento</a>
+</nav>
+
+<section class="hero">
+  <span class="part-icon inline" aria-hidden="true">{{ part.icon }}</span>
+  <h1>Parte {{ part.part }} · {{ part.short }}</h1>
+  <p>{{ part.description }}</p>
+</section>
+
+<div class="card progress-card">
+  <div class="progress-head">
+    <span class="progress-label">Progresso</span>
+    <span class="progress-count"><strong>{{ done }}</strong> / {{ total }} completati</span>
+  </div>
+  <div class="progress-bar" role="progressbar" aria-valuenow="{{ done }}" aria-valuemin="0" aria-valuemax="{{ total }}">
+    <div class="progress-bar-fill" style="width: {{ (done * 100 / total)|round|int if total else 0 }}%"></div>
+  </div>
+  <p class="progress-hint">Supera un esercizio (rispondendo correttamente a tutte le domande) per sbloccare il successivo.</p>
+</div>
+
+{% if done == total and total %}
+  <div class="completion-banner card" role="status">
+    <span class="completion-emoji" aria-hidden="true">🎉</span>
+    <div>
+      <strong>Parte {{ part.part }} completata!</strong>
+      <p>Complimenti, hai superato tutti gli esercizi di questa parte.</p>
+    </div>
+  </div>
+{% endif %}
+
+<div class="card-grid">
+  {% for item in state %}
+    {% set ex = item.ex %}
+    {% if item.unlocked %}
+      <a href="/exercise/{{ ex.id }}" class="card exercise-card" aria-label="{{ ex.title }}">
+        <div class="exercise-head">
+          <h2 class="exercise-title">{{ ex.title }}</h2>
+          {% if ex.topic %}<span class="badge">{{ ex.topic }}</span>{% endif %}
+          {% if item.passed %}
+            <span class="state-badge passed" title="Completato">✓</span>
+          {% endif %}
+        </div>
+        <span class="exercise-cta">{{ "Riprova l'esercizio →" if item.passed else "Inizia l'esercizio →" }}</span>
+      </a>
+    {% else %}
+      <div class="card exercise-card locked" aria-disabled="true" aria-label="{{ ex.title }} (bloccato)">
+        <div class="exercise-head">
+          <span class="lock-icon" aria-hidden="true">🔒</span>
+          <h2 class="exercise-title">{{ ex.title }}</h2>
+        </div>
+        <span class="exercise-cta">Completa l'esercizio precedente per sbloccare</span>
+      </div>
+    {% endif %}
+  {% endfor %}
+
+  {% if ai_card %}
+    {% set ex = ai_card.ex %}
+    <div class="ai-divider" role="separator">
+      <span>✨ Sfide generate con IA</span>
+    </div>
+    <a href="/exercise/{{ ex.id }}" class="card exercise-card extra" aria-label="{{ ex.title }}">
+      <div class="exercise-head">
+        <h2 class="exercise-title">{{ ex.title }}</h2>
+        <span class="badge">Generato con IA</span>
+        {% if ai_card.passed %}
+          <span class="state-badge passed" title="Completato">✓</span>
+        {% endif %}
+      </div>
+      <span class="exercise-cta">{{ "Riprova l'esercizio →" if ai_card.passed else "Inizia l'esercizio →" }}</span>
+    </a>
+  {% elif done == total and total and not has_api_key %}
+    <div class="ai-divider" role="separator">
+      <span>✨ Sfide generate con IA</span>
+    </div>
+    <div class="card empty ai-placeholder">
+      <h3>✨ Sblocca sfide infinite</h3>
+      <p>Hai finito tutti gli esercizi di questa parte! Configura <code>GEMINI_API_KEY</code> nel file <code>.env</code> e apparirà qui un nuovo esercizio generato con l'IA, sempre diverso.</p>
+    </div>
+  {% endif %}
+</div>
+
+{% if not state and not ai_card and not has_api_key %}
+  <div class="card empty">
+    <h3>Nessun esercizio disponibile</h3>
+    <p>Prova a generarne di nuovi con l'intelligenza artificiale.</p>
+  </div>
+{% endif %}
+
+{% endblock %}

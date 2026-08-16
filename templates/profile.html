@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <h1>👤 Il tuo profilo</h1>
+  <p>I dati del tuo account e le opzioni di accesso.</p>
+</section>
+
+<div class="card profile-card">
+  <div class="profile-row">
+    <span class="profile-avatar" aria-hidden="true">{{ user.name[:1]|upper if user.name else user.phone[:1] }}</span>
+    <div>
+      <h2 class="profile-name">{{ user.name or 'Utente' }}</h2>
+      <p class="profile-phone">{{ user.phone }}</p>
+      <span class="badge">{{ 'Amministratore' if user.role == 'admin' else 'Studente' }}</span>
+    </div>
+  </div>
+
+  <div class="profile-stats">
+    <div class="stat"><strong>{{ stats.total }}</strong><span>termini salvati</span></div>
+    <div class="stat"><strong>{{ stats.percent }}%</strong><span>risposte corrette</span></div>
+    <div class="stat"><strong>{{ stats.attempts }}</strong><span>esercizi completati</span></div>
+  </div>
+
+  {% if session %}
+    <div class="profile-device">
+      <p><strong>Questo dispositivo</strong> è connesso a questo profilo.</p>
+      <p class="hint">Ultima attività: {{ session.last_seen }}</p>
+    </div>
+  {% endif %}
+
+  <div class="theme-row">
+    <label class="theme-label" for="theme-toggle">
+      <strong>🌙 Tema scuro</strong>
+      <p>Attiva per passare all'interfaccia scura</p>
+    </label>
+    <label class="theme-switch" aria-label="Tema scuro">
+      <input type="checkbox" id="theme-toggle" data-theme-toggle />
+      <span class="track" aria-hidden="true"></span>
+    </label>
+  </div>
+
+  <div class="action-row">
+    {% if user.role == 'admin' %}
+      <a href="/admin" class="btn btn-outline">🛠 Pannello amministrazione</a>
+    {% endif %}
+    <a href="/progress" class="btn btn-outline">📊 I tuoi progressi</a>
+    <form method="post" action="/logout" class="inline">
+      <button type="submit" class="btn btn-ghost">Esci</button>
+    </form>
+  </div>
+</div>
+
+{% endblock %}

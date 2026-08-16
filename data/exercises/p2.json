@@ -1,0 +1,332 @@
+[
+  {
+    "id": "plida-p2-001",
+    "part": 2,
+    "title": "Corsi di Computer / Informatica",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Cerco un corso di computer per mio figlio che frequenta la prima media.» → A",
+    "profiles": [
+      {"number": 7, "text": "«Non ho molto tempo libero e ho bisogno di un corso di computer che si adatti ai miei impegni.»"},
+      {"number": 8, "text": "«Non ho mai usato il computer e ora vorrei imparare.»"},
+      {"number": 9, "text": "«Vorrei frequentare un corso di computer ma non ho molti soldi.»"},
+      {"number": 10, "text": "«Cerco un corso per imparare a montare, smontare e aggiustare i computer.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Il corso è pensato per i bambini dai 6 ai 14 anni che vogliono imparare a usare il computer giocando. Attraverso il divertimento, punteremo a sviluppare le abilità scolastiche e le capacità di concentrazione, lasciando libera la creatività per le realizzazioni grafiche e per la video-scrittura."},
+      {"key": "B", "text": "Il corso per tecnico informatico forma una figura esperta nell'installazione, manutenzione e aggiornamento di sistemi informatici, in grado di gestire le varie parti del computer (schede, tastiere, schermi), installare programmi e applicazioni, configurare le reti. Obiettivo del corso è fornire agli allievi tutte le competenze necessarie per lavorare come tecnici informatici presso privati e aziende."},
+      {"key": "C", "text": "Il corso si rivolge a tutti coloro che, già in possesso di competenze informatiche di base, vogliono accrescere le proprie capacità di utilizzo del computer. Al termine del corso, infatti, l'utente possiederà competenze operative di livello avanzato nell'utilizzo di alcuni software di carattere generale, quali elaborazione testi, fogli elettronici, database, strumenti di presentazione, navigazione nel web e internet."},
+      {"key": "D", "text": "Accademia informatica propone due corsi: Corso avanzato di programmazione computer e Corso per la Patente europea del computer. I posti a disposizione, riservati a maggiorenni residenti nel Lazio, sono 15 per corso e c'è tempo fino al 21 ottobre per iscriversi. L'accesso ai corsi è libero: i costi sono finanziati interamente dai fondi della Regione Lazio."},
+      {"key": "E", "text": "Il corso di Computer Base è rivolto a tutti i principianti che vogliano avvicinarsi al pc. Inizieremo a scoprire il computer partendo da zero e arrivando gradualmente a utilizzarlo al meglio. Seguendo questo Corso, si arriverà a gestire i documenti, organizzare le proprie fotografie, navigare in sicurezza su Internet e comunicare tramite la posta elettronica."},
+      {"key": "F", "text": "Il corso online di \"Excel per la gestione aziendale\" approfondisce le funzionalità più complesse (formule, grafici, tabelle pivot e report) per acquisire maggiori competenze informatiche e approfondire l'uso del foglio elettronico. Il corso è pensato per gli imprenditori che vogliono offrire ai propri dipendenti corsi interni di formazione. Al termine delle lezioni verrà rilasciato un Attestato di Frequenza."},
+      {"key": "G", "text": "I nostri corsi di informatica sono personalizzati e hanno orari flessibili e concordati, la sera e anche il sabato, che permettono di conciliare la formazione con la vita di tutti i giorni. Lezioni individuali o a mini-gruppi, con insegnanti e tutor a disposizione per risolvere dubbi e avere chiarimenti."}
+    ],
+    "solution": {"7": "G", "8": "E", "9": "D", "10": "B"},
+    "explanation": {
+      "7": "Il personaggio 7 non ha molto tempo libero: l'annuncio G offre 'orari flessibili e concordati, la sera e anche il sabato'.",
+      "8": "Il personaggio 8 non ha mai usato il computer: l'annuncio E è 'rivolto a tutti i principianti' e si parte 'da zero'.",
+      "9": "Il personaggio 9 non ha molti soldi: l'annuncio D dice che 'i costi sono finanziati interamente dai fondi della Regione Lazio'.",
+      "10": "Il personaggio 10 vuole montare e aggiustare computer: l'annuncio B forma 'tecnici informatici' esperti di installazione e manutenzione."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-002",
+    "part": 2,
+    "title": "Luoghi di Vacanza",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Quest'anno vorrei provare l'esperienza di una vacanza in crociera.» → A",
+    "profiles": [
+      {"number": 7, "text": "«Io e il mio compagno amiamo la montagna. Cerchiamo una sistemazione comoda dove riposarci dopo le nostre passeggiate.»"},
+      {"number": 8, "text": "«Per le vacanze vorrei trovare un posto tranquillo dove però i miei figli possano anche divertirsi.»"},
+      {"number": 9, "text": "«Io e mio marito vorremmo concederci una piccola vacanza di lusso, in un posto elegante e riposante.»"},
+      {"number": 10, "text": "«Quest'estate non voglio rinunciare al mare ma voglio anche fare sport.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Il Mediterraneo è fatto di storia, cultura, paesaggi mitici e favolose mete turistiche. Le nostre navi ti conducono alla scoperta delle perle del Mediterraneo: Grecia, Italia, Francia e Spagna. In più, fra un bicchiere di prosecco e una dissetante sangria assaggeremo quel mix di prodotti dell'orto, pesce freschissimo, pasta, zuppe, pizza e paella, che fa del Mediterraneo un paradiso di sapori."},
+      {"key": "B", "text": "Il Villaggio Orizzonte è il luogo ideale per trascorrere vacanze in famiglia. Su una superficie di ben 18 ettari, sorgono confortevoli villini immersi nel verde, con due/tre camere da letto, doppi servizi, cucina completamente attrezzata e lavatrice. Tutti i villini sono dotati di aria condizionata e di un piccolo giardino privato. Nel villaggio si trova anche un piccolo centro commerciale comprendente un supermercato, un bar e un ristorante-pizzeria."},
+      {"key": "C", "text": "Circondato da un bosco privato, l'hotel Alla Posta Dei Donini occupa l'antica residenza estiva del 17° secolo della famiglia aristocratica Donini. Le camere e le suite dispongono di aria condizionata, TV satellitare a schermo piatto, bagno in marmo e mobili d'epoca. Presso l'esclusivo ristorante vi attendono specialità della cucina umbra e piatti classici italiani preparati in casa. Per i momenti di relax, potrete recarvi alla Donini Spa, con piscina idromassaggio, bagno turco, sauna finlandese, docce sensoriali, trattamenti corporali e massaggi."},
+      {"key": "D", "text": "Il nostro campeggio è ideale per le famiglie con bambini che desiderano trascorrere una vacanza in relax potendo contare su un servizio di animazione per i bambini e per gli adulti che vogliano lasciarsi coinvolgere. D'altra parte, è adatto anche ai più giovani per i quali non mancano nelle vicinanze numerose attrazioni, come gli esclusivi locali notturni di Torre del Lago e della Versilia. Inoltre nei periodi di bassa stagione saremo lieti di accogliere comitive o gite scolastiche. Contattateci per richiedere lo sconto comitiva."},
+      {"key": "E", "text": "Il Bluserena Club propone l'intrattenimento più entusiasmante dell'estate con una ricca offerta di attività nautiche e acquatiche da svolgere in piena sicurezza grazie all'assistenza di una squadra di istruttori professionisti e qualificati. I clienti del club possono usufruire gratuitamente di canoe, pedalò, barche a vela e windsurf e partecipare ad attività al traino da motoscafo. Le escursioni in barca o gommone alle vicine località di Calaserena, Serenè, Torreserena sono a pagamento."},
+      {"key": "F", "text": "La Tonnara Hotel si trova sull'isola di Procida, a ridosso del porto turistico di Marina Chiaiolella, una delle zone più frequentate dell'isola. Grazie alla sua posizione, dall'Hotel La Tonnara si gode uno splendido panorama, che abbraccia il porto, la spiaggia di \"Ciracciello\" e la riserva naturale dell'isola di Vivara. Procida è collegata con traghetti e aliscafi con la vicina Ischia, con Napoli e Pozzuoli e, durante l'estate, con le altre località del Golfo di Napoli."},
+      {"key": "G", "text": "Grazie agli ampi spazi verdi che la circondano, la Baita del Ciliegio gode di grande tranquillità pur essendo facilmente raggiungibile in auto. Posta su un colle dal quale si gode di una splendida vista della vallata, è il punto di partenza perfetto per itinerari escursionistici a piedi e su due ruote. I paesaggi circostanti offrono, infatti, centinaia di km di sentieri in quota, tra boschi, pascoli e numerosi laghetti alpini."}
+    ],
+    "solution": {"7": "G", "8": "D", "9": "C", "10": "E"},
+    "explanation": {
+      "7": "Il personaggio 7 ama la montagna e cerca tranquillità: l'annuncio G descrive la 'Baita del Ciliegio', 'punto di partenza perfetto per itinerari escursionistici' in montagna.",
+      "8": "Il personaggio 8 vuole un posto tranquillo dove i figli possano divertirsi: l'annuncio D è un campeggio 'ideale per le famiglie con bambini' con 'servizio di animazione'.",
+      "9": "Il personaggio 9 vuole una vacanza di lusso ed elegante: l'annuncio C descrive un hotel aristocratico con 'Spa', 'piscina idromassaggio', 'sauna finlandese e massaggi'.",
+      "10": "Il personaggio 10 vuole il mare e lo sport: l'annuncio E offre 'attività nautiche e acquatiche' (canoe, pedalò, barche a vela, windsurf)."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-003",
+    "part": 2,
+    "title": "Corsi di Fotografia",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Vorrei finalmente imparare a usare la mia macchina digitale.» → A",
+    "profiles": [
+      {"number": 7, "text": "«Ho già fatto un corso di fotografia qualche anno fa, vorrei sapere qualcosa di più.»"},
+      {"number": 8, "text": "«Più che un corso cerco un'occasione per incontrare gente nuova e magari fotografare qualche bel posto.»"},
+      {"number": 9, "text": "«Mi piacerebbe imparare come si faceva una volta, quando non esistevano le macchine digitali e si faceva tutto da soli, senza computer.»"},
+      {"number": 10, "text": "«Mio fratello si sposerà fra due mesi e io come regalo gli vorrei fare un bell'album di foto fatte da me per ricordare quel momento.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Il corso di fotografia del 2015 si svolgerà dal 16 febbraio al 23 marzo, il lunedì e il giovedì, con lezioni dedicate ai principi tecnici, alla costruzione dell'immagine con un'attenzione particolare alla fotografia digitale e sarà costituito da 10 lezioni frontali, due uscite fotografiche (diurna e notturna)."},
+      {"key": "B", "text": "Una serie di escursioni di uno o più giorni in località suggestive da fotografare. Un modo per fare pratica, per imparare ed affinare le tecniche fotografiche, confrontarsi con altri appassionati in compagnia di un'insegnante che vi guiderà e vi aiuterà a risolvere i problemi. Consigliato solo per veri appassionati!"},
+      {"key": "C", "text": "Il corso espone tecniche e approcci dei diversi tipi di ritratto, con una particolare attenzione per la ritrattistica dedicata alla pubblicità nel settore della moda. Lo svolgimento prevede l'utilizzo di differenti attrezzature di ripresa e di illuminatori. Le esercitazioni saranno svolte sia in sala da posa che in luoghi esterni."},
+      {"key": "D", "text": "Il corso nasce come un piccolo progetto che, pur non avendo assolutamente la pretesa di esplorare tutte le sfaccettature sull'argomento, cerca di dare degli spunti di riflessione sul concetto di reportage legato alla fotografia di cerimonia."},
+      {"key": "E", "text": "Il programma si propone di essere la naturale continuazione del livello formativo del corso base, offrendo a coloro che già posseggono nozioni di fotografia l'accesso ad un percorso che li porterà ad acquisire una maggiore consapevolezza comunicativa grazie all'impronta di progettualità e creatività data alle lezioni. Ecco quindi l'inserimento di un \"Progetto Fotografico\". Ogni allievo lo potrà sviluppare liberamente, avvalendosi della consulenza dei tutor a cui verranno assegnati e di alcuni specialisti di generi fotografici, per poi presentarlo a fine corso."},
+      {"key": "F", "text": "L'obiettivo principale del corso è quello di conoscere il processo completo di stampa di un negativo, partendo dalla realizzazione degli scatti con un'uscita esterna insieme al docente per poi passare allo sviluppo della pellicola e infine stampare le immagini più significative in camera oscura. Il materiale di sviluppo e stampa sarà fornito da Bottega Immagine e se non possiedi una macchina fotografica analogica te la prestiamo noi."},
+      {"key": "G", "text": "Il corso intende introdurre le principali problematiche legate alla conservazione e al restauro della fotografia, sia teoriche che pratiche, ed è rivolto a coloro che intendono ricevere le prime conoscenze sulla conservazione e sul restauro di materiali fotografici e sulle principali tipologie di oggetto della fotografia."}
+    ],
+    "solution": {"7": "E", "8": "B", "9": "F", "10": "D"},
+    "explanation": {
+      "7": "Il personaggio 7 ha già fatto un corso base e vuole approfondire: l'annuncio E è 'la naturale continuazione del livello formativo del corso base'.",
+      "8": "Il personaggio 8 vuole incontrare gente e fotografare bei posti: l'annuncio B propone 'escursioni… in località suggestive' per 'confrontarsi con altri appassionati'.",
+      "9": "Il personaggio 9 vuole la fotografia tradizionale senza computer: l'annuncio F parla di 'sviluppo della pellicola' e di 'stampa in camera oscura'.",
+      "10": "Il personaggio 10 vuole fotografare un matrimonio: l'annuncio D è dedicato 'alla fotografia di cerimonia'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-004",
+    "part": 2,
+    "title": "Offerte di Lavoro",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi gli annunci (A–G). Scegli per ogni personaggio l'annuncio giusto. Attenzione: ci sono due annunci in più.",
+    "example": "«Cerco casa e lavoro. Sono tuttofare (eseguo riparazioni di vario tipo, posso fare commissioni, ecc.). Ho la macchina. Sono disponibile anche a turni di notte, se serve.» → A",
+    "profiles": [
+      {"number": 1, "text": "«Mi piace lavorare insieme ad altre persone e a contatto con il pubblico. Cerco lavoro in un supermercato o in un esercizio commerciale in genere.»"},
+      {"number": 2, "text": "«Cerco un lavoro temporaneo, di qualsiasi tipo, anche solo per brevissimi periodi. Ho la macchina e posso spostarmi senza problemi.»"},
+      {"number": 3, "text": "«Ho studiato illustrazione e so usare i programmi di grafica più aggiornati.»"},
+      {"number": 4, "text": "«Di nazionalità italo-americana, fino all'età di 25 anni ho vissuto negli Stati Uniti, dove ho preso una laurea in materie letterarie che vorrei ora sfruttare in Italia.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Cercasi per villa privata signorile collaboratore domestico / custode per pulizie e manutenzione esterno, autista. Viene data ospitalità anche alla famiglia in alloggio indipendente (soluzione gradita). Lui dovrà occuparsi del giardino e di eventuali manutenzioni esterne l'abitazione. Indispensabile la patente b e saper guidare l'auto in modo sicuro. Offresi contratto in regola, più vitto e alloggio."},
+      {"key": "B", "text": "Cerchiamo un cameriere da inserire nel nostro organico. Dopo un periodo iniziale a tempo determinato, intendiamo confermarlo a tempo indeterminato. La persona ricercata deve gestire in autonomia il proprio ruolo e deve aver avuto esperienze significative in altri ristoranti. Non possiamo offrire un alloggio e quindi ricerchiamo personale che abiti nelle vicinanze di Modena. Contratto di lavoro: Tempo pieno. Lingua richiesta: inglese."},
+      {"key": "C", "text": "Nel ruolo di Apprendista Addetta/-o Vendite avrai la possibilità di conoscere il mondo della Grande Distribuzione Organizzata entrando a far parte di un'azienda leader nel settore. Ti occuperai di tutte le attività operative all'interno dei nostri negozi e contribuirai con il tuo supporto quotidiano a rendere più piacevole l'esperienza di acquisto dei nostri clienti. Se pensi che il lavoro di squadra possa fare la differenza e credi nel valore di un servizio sempre attento e puntuale, questa è l'offerta giusta per te."},
+      {"key": "D", "text": "Roma Gas Power ricerca una figura da inserire all'interno dell'area Comunicazione. La risorsa contribuirà alla realizzazione del materiale pubblicitario (volantini, manifesti, ecc.) e dei progetti di comunicazione interna ed esterna. Richiesta conoscenza dei software della Suite Adobe, buona dimestichezza con PowerPoint per le presentazioni aziendali."},
+      {"key": "E", "text": "Ricerchiamo figure di buona presenza e dialettica che si occupino della consegna di piccoli pacchi contenenti telefoni cellulari e sim, presso alcune aziende. I candidati devono essere automuniti, per poter svolgere le consegne con il proprio mezzo, per cui è previsto un rimborso. Il lavoro si svolgerà per tutto il mese di marzo, con possibilità di proroga. Retribuzione interessante."},
+      {"key": "F", "text": "Azienda leader nel settore dell'insegnamento dell'inglese a bambini e ragazzi, per potenziamento organico, cerca insegnanti madrelingua, per centri estivi e attività didattica per il prossimo anno scolastico. Richiesti titoli di studio conseguiti in paesi anglofoni, passione per l'insegnamento a bambini e ragazzi, disponibilità agli spostamenti e flessibilità oraria."},
+      {"key": "G", "text": "Si ricerca praticante architetto anche non laureato. La figura ricercata dovrà essere da supporto ai tecnici in sede per la redazione di progetti e preventivi, inoltre dovrà svolgere anche qualche mansione da ufficio (rispondere al telefono, ricevimento clienti). Inviare candidatura attraverso CV con foto. Sarete ricontattati per colloquio presso nostra sede di Roma."}
+    ],
+    "solution": {"1": "C", "2": "E", "3": "D", "4": "F"},
+    "explanation": {
+      "1": "Il personaggio 1 vuole un lavoro a contatto con il pubblico in un esercizio commerciale: l'annuncio C è per 'Apprendista Addetta/-o Vendite' in un'azienda 'leader nel settore' della distribuzione.",
+      "2": "Il personaggio 2 cerca un lavoro temporaneo e ha la macchina: l'annuncio E chiede persone 'automunite' per consegne 'per tutto il mese di marzo'.",
+      "3": "Il personaggio 3 conosce i programmi di grafica: l'annuncio D richiede 'conoscenza dei software della Suite Adobe'.",
+      "4": "Il personaggio 4 ha studiato negli Stati Uniti e vuole usare l'inglese: l'annuncio F cerca 'insegnanti madrelingua' con 'titoli di studio conseguiti in paesi anglofoni'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-005",
+    "part": 2,
+    "title": "Corsi di Pittura e Disegno",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Durante la mia vacanza in Italia vorrei fare un breve corso di pittura, ma ho paura di non riuscire a capire l'insegnante.» → A",
+    "profiles": [
+      {"number": 1, "text": "«Cerco un corso per il mio nipotino, che vuole imparare a dipingere partendo dalle basi.»"},
+      {"number": 2, "text": "«Vorrei incontrare pittori affermati e mettere in mostra le mie opere.»"},
+      {"number": 3, "text": "«Mi piacerebbe imparare a dipingere sulla stoffa.»"},
+      {"number": 4, "text": "«Mi interessa approfondire l'uso del computer e dei nuovi software per dipingere.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Un corso super-intensivo su base individuale pensato per tutti gli artisti che vogliano immergersi per un fine-settimana nell'atmosfera artistica fiorentina, disegnando e dipingendo insieme ad altri artisti o individualmente sotto l'attenta guida di un esperto Maestro d'arte. Le lezioni possono svolgersi in una delle seguenti lingue: italiano, inglese, francese, russo, tedesco e spagnolo; nello studio o \"en plein air\" nelle strade, nelle piazze o nei giardini di Firenze."},
+      {"key": "B", "text": "Il corso di pittura dal vero ed educazione vuole avvicinare i partecipanti all'apprendimento del disegno dal vero, della pittura e dell'educazione alla visione. Durante il corso è possibile dedicarsi alla pittura a olio, acquerello, tempera, lavorando quando è possibile anche all'aperto. Gli allievi saranno guidati, attraverso esercizi graduali, allo studio del soggetto, scoprendone gli elementi costitutivi."},
+      {"key": "C", "text": "Durante il corso gli allievi potranno fare esperienze significative tramite stage, tirocini e seminari con artisti. L'Accademia mette a disposizione uno spazio espositivo, una vetrina confinante con l'aula del laboratorio di pittura che simboleggia il passaggio tra ciò che è la vita all'interno dell'Accademia e un primo approccio con il pubblico."},
+      {"key": "D", "text": "Il corso di pittura su tessuto approfondisce l'arte della decorazione dei tessuti con i colori adatti alla tecnica. Tinte brillanti per disegni accesi o tinte più opache per un effetto country. La pittura su tessuto può rendere elegante un semplice panno vuoto. Una tecnica di grande effetto che permette di giocare con le sfumature che si preferiscono fino a realizzare immagini uniche tenendo conto anche della trama della superficie decorata."},
+      {"key": "E", "text": "Il corso è rivolto a persone di tutte le età e a tutti i livelli. Si propone di far conoscere, a chi comincia da zero, l'arte della pittura su porcellana e, alle persone già esperte, di poter perfezionare la propria manualità. Il corso è mensile e si svolge una volta a settimana. Ogni lezione dura 3 ore. Attivo tutto l'anno, ciascun corso prevede un numero massimo di 6 allievi, per dare a tutti l'opportunità di essere seguiti singolarmente dall'insegnante."},
+      {"key": "F", "text": "Il corso propone un metodo per realizzare immagini attraverso la tecnica digitale, con lo scopo di sviluppare le capacità tecniche, compositive, nonché la rielaborazione di immagini originali. Non si tratta di un corso tecnico di Photoshop e Illustrator, ma di un corso espressivo di illustrazione che fa uso anche di mezzi digitali."},
+      {"key": "G", "text": "L'Atelier è aperto ai bambini dagli 8 anni ai 14 anni circa. Il corso propone varie tecniche: matita, carboncino, china, pastello, acquarello e olio. L'insegnamento, che si svolge gradualmente su 3 livelli (principianti, medio, avanzato), permette ai bambini di partire da un livello base per poi arrivare a un livello avanzato affrontando tecniche e soggetti sempre più complessi, senza dimenticare che il disegno rimane prima di tutto un piacere."}
+    ],
+    "solution": {"1": "G", "2": "C", "3": "D", "4": "F"},
+    "explanation": {
+      "1": "Il personaggio 1 cerca un corso per un bambino che parte dalle basi: l'annuncio G è 'aperto ai bambini dagli 8 anni ai 14' e parte 'da un livello base'.",
+      "2": "Il personaggio 2 vuole incontrare pittori affermati e mettere in mostra le opere: l'annuncio C offre 'stage, tirocini e seminari con artisti' e 'uno spazio espositivo'.",
+      "3": "Il personaggio 3 vuole dipingere sulla stoffa: l'annuncio D è il 'corso di pittura su tessuto'.",
+      "4": "Il personaggio 4 vuole usare il computer per dipingere: l'annuncio F propone un 'corso espressivo di illustrazione che fa uso anche di mezzi digitali'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-006",
+    "part": 2,
+    "title": "Corsi di Fotografia (2)",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Vorrei iscrivere mio figlio a un corso di fotografia.» → A",
+    "profiles": [
+      {"number": 7, "text": "«La fotografia mi incuriosisce, vorrei iniziare a studiare qualcosa da sola.»"},
+      {"number": 8, "text": "«Amo conoscere posti nuovi e fare fotografie. Cerco un corso adatto a me.»"},
+      {"number": 9, "text": "«Vorrei fare un corso in un orario comodo: durante la giornata ho molto da fare.»"},
+      {"number": 10, "text": "«So già fare le foto, ma vorrei imparare a correggerle con il computer.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Il percorso ha l'obiettivo di avvicinare i ragazzi alla fotografia. Come ben sappiamo oggi la condivisione di fotografie rappresenta il principale mezzo di comunicazione tra i giovani già in tenerissima età. Forniremo ai partecipanti le conoscenze di base tecniche, teoriche e storiche al fine di renderli autonomi nell'utilizzo del mezzo e capaci di esprimere la loro creatività."},
+      {"key": "B", "text": "Il corso di fotografia di Still life prepara a una delle più affascinanti e richieste specializzazioni nel campo della fotografia pubblicitaria. L'allievo acquisirà le principali nozioni teoriche e pratiche relative alla fotografia professionale pubblicitaria. Durante lo stage finale, l'allievo avrà la possibilità di collaborare con redazioni, case editrici, agenzie di pubblicità."},
+      {"key": "C", "text": "Organizziamo corsi itineranti di fotografia per unire la formazione al divertimento. Impari sul campo grazie alla presenza di fotografi professionisti. Scopri luoghi meravigliosi: le mete vengono scelte con cura e gli spostamenti calcolati per essere nel posto giusto con la luce giusta al momento giusto."},
+      {"key": "D", "text": "Il cibo è da sempre il soggetto più rappresentato nell'arte. La food photography è la sua rappresentazione più moderna. In classe scopriremo cosa rende speciale una foto di cibo, come evitare gli errori più comuni e come risolverli. Analizzeremo diverse tecniche di base e sperimenteremo con esempi pratici la costruzione di un set in luce naturale per diverse tipologie di fotografie."},
+      {"key": "E", "text": "Il programma che impareremo a usare è uno strumento fondamentale per chiunque lavori con le immagini digitali e quindi anche per i fotografi, infatti permette di ritoccare e migliorare qualunque immagine, con una varietà di strumenti e funzioni avanzate che nessun altro strumento informatico può vantare. Nel nostro corso avrai un docente esperto a tua completa disposizione. Il corso è rivolto specificamente ai fotografi e prende in esame tutti gli strumenti utili alla modifica e al miglioramento delle foto! Quindi nessuna nozione inutile o noiosa, solo gli strumenti che ti servono davvero per migliorare le tue foto!"},
+      {"key": "F", "text": "Questo corso è rivolto a tutti gli appassionati di fotografia che vogliano provare l'esperienza di scattare in un vero studio con dei professionisti. Sotto la guida del docente, i partecipanti saranno in grado di realizzare ritratti di livello professionale in modo pratico e divertente, e con una frequenza (1 lezione settimanale alla sera) compatibile con tutti gli altri impegni quotidiani. Requisiti richiesti: una macchina fotografica digitale con controlli manuali e... tanta passione!"},
+      {"key": "G", "text": "IMPARARE A FOTOGRAFARE. Se sei sul nostro sito per imparare a fotografare, sei nel posto giusto. Le prime cose che devi fare per avere controllo sulle tue foto sono: imparare l'esposizione, imparare i rudimenti della composizione, imparare a usare le funzionalità della tua fotocamera. Per le basi dell'esposizione, ecco tre tutorial gratuiti da cui partire: Come dominare la luce: il triangolo dell'esposizione; L'apertura: strumento creativo fondamentale; Introduzione al tempo di esposizione nella fotografia reflex digitale."}
+    ],
+    "solution": {"7": "G", "8": "C", "9": "F", "10": "E"},
+    "explanation": {
+      "7": "Il personaggio 7 vuole iniziare da sola, alle basi: l'annuncio G insegna 'le prime cose' da fare, l'esposizione e la composizione.",
+      "8": "Il personaggio 8 ama conoscere posti nuovi: l'annuncio C sono 'corsi itineranti di fotografia' con 'mete scelte con cura'.",
+      "9": "Il personaggio 9 ha bisogno di un orario comodo la sera: l'annuncio F prevede '1 lezione settimanale alla sera'.",
+      "10": "Il personaggio 10 sa fotografare e vuole correggere le foto al computer: l'annuncio E è rivolto 'specificamente ai fotografi' per 'la modifica e il miglioramento delle foto'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-007",
+    "part": 2,
+    "title": "Tipi di Vacanza",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Vorrei fare un bel viaggio in Europa.» → A",
+    "profiles": [
+      {"number": 7, "text": "«Voglio fare una vacanza per riposarmi e curare il mio corpo.»"},
+      {"number": 8, "text": "«Voglio andare in un posto dove posso fare tanti sport diversi.»"},
+      {"number": 9, "text": "«Voglio andare in vacanza per vedere bei posti e mangiare bene.»"},
+      {"number": 10, "text": "«Voglio passare le vacanze in montagna a camminare in mezzo alla natura.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Arte, cultura, storia, tradizioni ti aspettano nei borghi e nelle più belle città europee. Per vivere un'esperienza diversa che ti aprirà nuovi ed entusiasmanti orizzonti di conoscenza."},
+      {"key": "B", "text": "Scopri luoghi dal fascino rustico e rilassa la mente nelle acque fresche di un'accogliente piscina. Approfitta di una notte con colazione e di un massaggio nel nostro agriturismo: regalati una pausa per scappare dalla routine e ritrovare la tua energia."},
+      {"key": "C", "text": "L'Agriturismo Costantino vi aspetta! Per animare le vostre giornate sono a vostra disposizione attività e servizi come un'ampia piscina immersa nell'uliveto, un divertente minigolf, una sala lettura e sala gioco con biliardo, palestra, ping-pong, biliardino, freccette, flipper e trekking lungo il fiume che attraversa l'azienda."},
+      {"key": "D", "text": "Cerchi un viaggio emozionante? L'Europa-Park ha trasformato Rust, piccola località ai piedi della Foresta Nera e poco distante dal fiume Reno, in una destinazione amata da persone di ogni età. Il parco è cresciuto anno dopo anno fino a diventare l'icona del parco divertimenti e per il tempo libero adatto a chiunque."},
+      {"key": "E", "text": "Il tour che ti proponiamo regala un doppio piacere: quello di un percorso tra le aziende agricole, le osterie e le ricette più gustose del nostro territorio. E quello, una volta tornati a casa, di rivivere i ricordi, grazie alle scorte di prodotti tipici."},
+      {"key": "F", "text": "Voglia di allacciare gli scarponcini e preparare lo zaino? Il Sentiero Italia si estende per circa 6.000 chilometri e attraversa molte delle vette più alte degli Appennini, delle Alpi e delle Dolomiti. Il percorso è suddiviso in diverse tappe, ognuna delle quali offre paesaggi unici e sfide diverse."},
+      {"key": "G", "text": "Il modo migliore per scoprire le meraviglie della città di Firenze? A piedi o in bicicletta! Regalatevi una tour per il centro storico o un giro turistico in bici: dimenticate il traffico quotidiano e partite alla scoperta della città in un modo originale."}
+    ],
+    "solution": {"7": "B", "8": "C", "9": "E", "10": "F"},
+    "explanation": {
+      "7": "Il personaggio 7 vuole riposarsi e curare il corpo: l'annuncio B offre 'massaggio', 'piscina' e 'colazione' in un agriturismo.",
+      "8": "Il personaggio 8 vuole fare tanti sport: l'annuncio C elenca 'minigolf, biliardo, palestra, ping-pong, biliardino, freccette, flipper e trekking'.",
+      "9": "Il personaggio 9 vuole vedere bei posti e mangiare bene: l'annuncio E è un 'percorso tra le aziende agricole, le osterie e le ricette più gustose'.",
+      "10": "Il personaggio 10 vuole la montagna e camminare nella natura: l'annuncio F parla del 'Sentiero Italia' tra 'Appennini, Alpi e Dolomiti'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-008",
+    "part": 2,
+    "title": "Corsi di Lingua",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Ho bisogno di migliorare il mio inglese per motivi di lavoro.» → A",
+    "profiles": [
+      {"number": 7, "text": "«Vorrei fare un corso con tante attività diverse, anche all'aperto.»"},
+      {"number": 8, "text": "«Vorrei frequentare un corso in rete e studiare quando ho voglia.»"},
+      {"number": 9, "text": "«Cerco un corso di lingua nella mia città, ma ho pochi soldi.»"},
+      {"number": 10, "text": "«Per imparare una lingua mi piacerebbe andare all'estero.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Attraverso la nostra rete d'insegnanti madrelingua laureati, impartiamo lezioni di inglese mirate alla formazione linguistica del personale aziendale, in qualsiasi ambito professionale."},
+      {"key": "B", "text": "I corsi sono progettati per affrontare lo studio dell'inglese in tutte le sue sfumature. La scuola mette a disposizione il suo laboratorio informatico per utilizzare software interattivi e siti internet di consultazione. Il programma del Corso si concentra soprattutto sullo sviluppo della capacità di conversare in inglese."},
+      {"key": "C", "text": "Da molti anni la nostra scuola si occupa di organizzare corsi di lingua a tariffe agevolate, finanziati fino all'80% dai Fondi regionali e provinciali, per tutte le categorie di lavoratori, studenti e disoccupati. Per iscriversi basta compilare il modulo di richiesta."},
+      {"key": "D", "text": "The Language Center è la prima scuola in Italia senza aule né campanelle, con un nuovo modo di apprendere: passeggiate in campagna con l'insegnante, visione di film in lingua originale, giochi di società, gite in città d'arte, discussion su argomenti vari."},
+      {"key": "E", "text": "Con una nostra vacanza studio incontrerai giovani provenienti da tutto il mondo che condividono il tuo stesso obiettivo: imparare una lingua straniera nel Paese in cui si parla. Goditi il sole, la spiaggia o la vita metropolitana di una delle nostre destinazioni."},
+      {"key": "F", "text": "I corsi serali di italiano hanno il grande vantaggio di essere particolarmente adatti per coloro che lavorano e per gli studenti stranieri che possono così studiare l'italiano dopo l'orario di lavoro o dopo i loro studi. I nostri corsi serali si rivolgono soprattutto alle persone che studiano arte, fotografia o moda."},
+      {"key": "G", "text": "Per frequentare i corsi di lingua della nostra scuola non dovrai andare da nessuna parte: se hai una connessione veloce potrai seguire le lezioni comodamente da casa tua negli orari che preferisci. In questo modo potrai risparmiare tempo e denaro, ma al tempo stesso acquisire nuove competenze grazie al nostro metodo efficace e personalizzato."}
+    ],
+    "solution": {"7": "D", "8": "G", "9": "C", "10": "E"},
+    "explanation": {
+      "7": "Il personaggio 7 vuole attività diverse anche all'aperto: l'annuncio D propone 'passeggiate in campagna', 'gite in città d'arte' e 'giochi di società'.",
+      "8": "Il personaggio 8 vuole un corso in rete, da casa: l'annuncio G dice che 'non dovrai andare da nessuna parte' e potrai seguire le lezioni 'da casa tua negli orari che preferisci'.",
+      "9": "Il personaggio 9 ha pochi soldi: l'annuncio C offre 'corsi di lingua a tariffe agevolate, finanziati fino all'80%'.",
+      "10": "Il personaggio 10 vuole andare all'estero: l'annuncio E propone 'vacanze studio' per imparare una lingua 'nel Paese in cui si parla'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-009",
+    "part": 2,
+    "title": "Centri Estivi per Ragazzi",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Mia figlia vuole un centro estivo in lingua inglese.» → A",
+    "profiles": [
+      {"number": 7, "text": "«Sto cercando per mio figlio un centro estivo dove si mangino cose sane e controllate.»"},
+      {"number": 8, "text": "«Mia figlia vuole sempre fare tante cose diverse; voglio un centro estivo dove lei possa scegliere ogni giorno quello che vuole fare.»"},
+      {"number": 9, "text": "«Voglio che mio figlio stia in un luogo sicuro: cerco un centro estivo con un numero di adulti sufficiente a controllare i bambini in ogni momento.»"},
+      {"number": 10, "text": "«Per mia figlia voglio un centro estivo ricco di sport e di natura, magari a contatto con gli animali.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "I centri estivi Butterfly English School sono una vera e propria immersione nella lingua inglese di 40 ore alla settimana e rappresentano una valida alternativa alla vacanza studio all'estero, proprio vicino a casa!"},
+      {"key": "B", "text": "Non un semplice centro estivo ma un vero e proprio villaggio turistico per bambini! Un modo tutto nuovo di vivere l'estate tra sport, laboratori artistici, musica, giornate a tema, piscina e tanto divertimento. Per noi tuo figlio è importante... per questo abbiamo creato un centro estivo con l'atmosfera e le attrazioni di un vero villaggio turistico dove sono i bambini a costruire la loro giornata decidendo quali attività seguire, partecipando attivamente agli spettacoli settimanali."},
+      {"key": "C", "text": "Proponiamo un centro estivo per bambini dai 5 agli 11 anni che si presenta come alternativo, innovativo e con tante attività per i vostri bambini e ragazzi. Con pochi iscritti e con un animatore ogni 8 bambini, il Centro estivo garantirà la massima attenzione a tutti i bambini grazie anche alla presenza di operatori specializzati con una grande esperienza."},
+      {"key": "D", "text": "Nel nostro Centro estivo offriamo una grande varietà di attività artistiche: pittura, manipolazione dei materiali, teatro, lettura e scrittura creativa, musica, danza creativa. Ogni bambino può sperimentare la propria personalità e la propria creatività. Una struttura aperta dal mattino al pomeriggio, dove opera un team di esperti con l'obiettivo di sostenere la crescita armoniosa dei bambini."},
+      {"key": "E", "text": "Nel centro estivo \"Le fate Turchine\" è in una struttura lontana dal caos, circondata da un ampio parco verde privato con un bellissimo laghetto. La struttura è inoltre dotata di una mensa interna che garantisce un'alimentazione corretta lungo tutta la giornata, grazie a una scelta di ingredienti di qualità necessari allo sviluppo del bambino nelle differenti età. Le pietanze vengono cotte a vapore, bollite o stufate, senza aggiunta di sale e/o zucchero."},
+      {"key": "F", "text": "Il nostro Centro è l'ideale per avvicinarsi al mondo dell'equitazione, per imparare a vivere in gruppo e a rispettare le regole divertendosi. Le lezioni sono divise per livello di esperienza e non mancherà l'emozione delle passeggiate a cavallo, alla scoperta dei meravigliosi panorami della Toscana. La settimana inizia la domenica pomeriggio e termina il sabato pomeriggio con un saggio finale."},
+      {"key": "G", "text": "Un centro estivo in cui il mondo della danza incontra il suggestivo scenario delle montagne venete. Il programma artistico si svolgerà secondo due percorsi differenti: uno classico-moderno e uno di danza urbana con lezioni tenute da insegnanti di calibro internazionale. Percorsi in cui sarà possibile sperimentare e perfezionare diversi stili, che si differenziano per origini, influenze e qualità di movimento."}
+    ],
+    "solution": {"7": "E", "8": "B", "9": "C", "10": "F"},
+    "explanation": {
+      "7": "Il personaggio 7 vuole cibo sano e controllato: l'annuncio E ha 'una mensa interna che garantisce un'alimentazione corretta' con 'ingredienti di qualità'.",
+      "8": "Il personaggio 8 vuole che la figlia scelga cosa fare: l'annuncio B dice che 'sono i bambini a costruire la loro giornata decidendo quali attività seguire'.",
+      "9": "Il personaggio 9 vuole un luogo sicuro e ben controllato: l'annuncio C garantisce 'un animatore ogni 8 bambini' e 'operatori specializzati'.",
+      "10": "Il personaggio 10 vuole sport, natura e animali: l'annuncio F è il centro di 'equitazione' con 'passeggiate a cavallo'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-010",
+    "part": 2,
+    "title": "Corsi di Cucina",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Sono molto golosa. Mi piacerebbe imparare a cucinare i dolci.» → A",
+    "profiles": [
+      {"number": 7, "text": "«Vorrei imparare qualche ricetta vegetariana.»"},
+      {"number": 8, "text": "«So cucinare i piatti della mia città ma vorrei imparare a fare quelli di altre parti d'Italia.»"},
+      {"number": 9, "text": "«Vorrei fare un corso per cuochi e cercare lavoro in questo settore.»"},
+      {"number": 10, "text": "«Non so cucinare niente, neanche le cose più semplici!»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Basi di pasticceria. Data: 10 e 11 settembre 2014. Orario: 20.00-22.00. 2 lezioni di 2 ore: dalla pasta frolla al pan di Spagna, dalla crema pasticcera alla meringa: conoscere e saper combinare le preparazioni di base della pasticceria."},
+      {"key": "B", "text": "Lezioni di 5 ore (9:30-14:30 oppure 15:00-20:00) 3 volte alla settimana, laboratori di approfondimento professionale e tirocinio pratico. Il corso è rivolto a coloro che vogliono diventare dei professionisti del settore ristorativo. Al termine del corso viene rilasciato un attestato di partecipazione riconosciuto dall'Ente Nazionale di Istruzione Professionale."},
+      {"key": "C", "text": "Un'offerta unica a un prezzo irripetibile: il corso completo di panificazione casalinga con 15 DVD per realizzare ogni tipologia di pane con le ricette di Sara Papa. Ogni DVD contiene 2 ore di video ed è accompagnato da un libretto con le ricette illustrate. Sara Papa ci mostra tutto quello che occorre sapere per realizzare il pane in casa!"},
+      {"key": "D", "text": "Un corso fondamentale, a cadenza settimanale, il vero punto di partenza per chi voglia muoversi con sicurezza in cucina. Ogni incontro sarà occasione per conoscere i procedimenti e le lavorazioni indispensabili per la preparazione dei piatti di base. 8 lezioni. Corso & degustazione: euro 490."},
+      {"key": "E", "text": "Lezioni di cucina asiatica. Le lezioni sono aperte a tutti e sono a cadenza mensile. La lezione è teorico-pratica. Al termine assaggeremo le pietanze preparate. Verranno insegnati piatti facilmente riproponibili a casa, usando ingredienti che si possono trovare in Italia."},
+      {"key": "F", "text": "A Sticciano la semplicità delle ricette casalinghe: tutto il bello e il buono delle cucine regionali con ingredienti sani, genuini e sempre di stagione. Le nostre cuoche vi accompagneranno in questo percorso alla scoperta dei piatti più tipici."},
+      {"key": "G", "text": "Data: 3 settembre 2014. Orario: 19.00-23.00 con cena finale. Legumi, non solo zuppe: fagioli, piselli, ceci, lenticchie: alimenti della cultura gastronomica italiana e valida alternativa ai piatti di carne (tra i piatti che cucineremo: pasta e fagioli, minestrone, torta di verdure)."}
+    ],
+    "solution": {"7": "G", "8": "F", "9": "B", "10": "D"},
+    "explanation": {
+      "7": "Il personaggio 7 vuole ricette vegetariane: l'annuncio G è dedicato ai 'legumi' come 'valida alternativa ai piatti di carne'.",
+      "8": "Il personaggio 8 vuole imparare le cucine regionali: l'annuncio F parla di 'cucine regionali' e dei 'piatti più tipici'.",
+      "9": "Il personaggio 9 vuole diventare cuoco di professione: l'annuncio B è 'rivolto a coloro che vogliono diventare dei professionisti del settore ristorativo'.",
+      "10": "Il personaggio 10 non sa cucinare nulla: l'annuncio D è 'il vero punto di partenza' per muoversi 'con sicurezza in cucina'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p2-011",
+    "part": 2,
+    "title": "Programmi Televisivi",
+    "instructions": "Leggi quello che dicono i personaggi qui sotto. Ognuno di loro cerca qualcosa di diverso. Adesso leggi le descrizioni (A–G). Scegli per ogni personaggio la descrizione giusta. Attenzione: ci sono due descrizioni in più.",
+    "example": "«Mi piacciono i programmi in cui si vedono cuochi, di professione e non, che realizzano le loro buonissime ricette.» → A",
+    "profiles": [
+      {"number": 7, "text": "«In TV guardo soprattutto documentari. Mi piacciono in particolare quelli di storia, che è la materia che preferisco fin dai tempi della scuola.»"},
+      {"number": 8, "text": "«Io e la mia ragazza siamo appassionati di telefilm polizieschi e facciamo a gara per vedere chi indovina per primo il colpevole.»"},
+      {"number": 9, "text": "«Adoro i quiz, di tutti i tipi. Immagino di gareggiare anch'io e spesso scopro che sono più bravo di quelli che vanno in TV!»"},
+      {"number": 10, "text": "«Mi piace guardare i programmi di informazione con ospiti in studio che trattano temi vari. Ho poco tempo per leggere i giornali e quindi questo è un buon modo per informarmi.»"}
+    ],
+    "ads": [
+      {"key": "A", "text": "Il momento è quasi giunto: giovedì alle 21.10 150 cuochi amatoriali si sfideranno a colpi di ricette per avere la possibilità di guadagnare un lasciapassare, sotto forma di grembiule, per la cucina più amata della tv! I giudici voleranno a Cremona dai 150 candidati alle selezioni e sceglieranno i 100 cuochi che avranno la possibilità di sottoporgli una loro ricetta originale."},
+      {"key": "B", "text": "Giovanni Rocca è un astuto maresciallo che lavora in una caserma di Viterbo. Vedovo da molti anni, ha tre figli: Giacomo, Daniela e Roberto. Le sue indagini coinvolgono spesso la sua famiglia, ma grazie al suo intuito, il maresciallo trova sempre la pista giusta, riuscendo a proteggere i suoi cari e consegnando i criminali alla giustizia. L'episodio che segnerà profondamente la prima serie sarà la morte del carabiniere Antonio Fait, uno degli uomini migliori di Rocca, ucciso da una banda di trafficanti di droga."},
+      {"key": "C", "text": "Il format dell'Isola dei famosi prevede la partecipazione di un gruppo di concorrenti VIP che deve riuscire a sopravvivere su un'isola deserta sfruttando unicamente un kit di sopravvivenza di base. Questo kit si arricchirà di volta in volta con oggetti nuovi nel corso del reality, grazie al superamento di prove collettive. Durante la diretta si svolgono anche le nomination, tramite le quali i concorrenti vengono progressivamente eliminati."},
+      {"key": "D", "text": "Dopo il grande successo, torna in Italia, in esclusiva su Canale 5 Caduta libera. Come funziona il gioco? In ogni puntata, un concorrente è al centro di una pedana, sopra una botola pronta ad aprirsi e ad \"accoglierlo\" alla prima risposta sbagliata. Contro di lui dieci sfidanti, posizionati su dieci botole uguali. Il concorrente, di volta in volta, sceglie un avversario da sfidare: il concorrente e lo sfidante devono rispondere, in pochi secondi, alla domanda posta dal conduttore, completando una o più parole, di cui vengono visualizzate solo alcune lettere. Se il concorrente riesce a eliminare i suoi sfidanti, può arrivare a vincere un ricco montepremi!"},
+      {"key": "E", "text": "Nella prossima puntata Alberto Angela ci porta alla scoperta di uno dei personaggi più famosi e importanti del mondo antico: Alessandro Magno. Il nostro viaggio inizia a Pompei: all'interno della casa del Fauno infatti c'è il famosissimo mosaico della \"Battaglia di Isso\", che illustra lo scontro tra l'esercito di Alessandro Magno e quello persiano di Dario. Questo giovane sovrano originario della Macedonia, per secoli ha rappresentato il modello ideale del grande condottiero, alimentando leggende e racconti dal Mediterraneo all'India."},
+      {"key": "F", "text": "È ufficialmente iniziato l'anno accademico della scuola di talenti più famosa d'Italia. In \"Amici Casting\" Stefano De Martino e Marcello Sacchetta saranno gli aiutanti speciali dei 100 candidati che vogliono guadagnarsi un banco nella classe più ambita d'Italia, per dar loro consigli e condividere le forti emozioni in attesa del verdetto dei professori. Alla fine delle selezioni i professori decideranno quali ragazzi sono idonei per la formazione della classe di Amici."},
+      {"key": "G", "text": "Lunedì 7 settembre alle ore 6.42 torna Uno Mattina. Il programma si occuperà dei temi caldi della politica, dell'attualità e della cronaca attraverso il contributo di giornalisti, gente comune, opinionisti e, in alcuni casi, dei protagonisti delle vicende. Inoltre l'approfondimento degli argomenti dell'agenda sociale consentirà al pubblico di ricevere quotidianamente notizie tempestive e accurate sulle questioni più importanti dei nostri giorni: lavoro, pensioni, economia, medicina, ma anche costume e spettacolo."}
+    ],
+    "solution": {"7": "E", "8": "B", "9": "D", "10": "G"},
+    "explanation": {
+      "7": "Il personaggio 7 ama i documentari storici: l'annuncio E è la puntata di Alberto Angela su Alessandro Magno, personaggio del 'mondo antico'.",
+      "8": "Il personaggio 8 ama i telefilm polizieschi: l'annuncio B racconta le indagini del 'maresciallo' Giovanni Rocca che consegna 'i criminali alla giustizia'.",
+      "9": "Il personaggio 9 adora i quiz: l'annuncio D descrive il gioco a domande 'Caduta libera'.",
+      "10": "Il personaggio 10 vuole programmi di informazione: l'annuncio G è 'Uno Mattina', che tratta 'i temi caldi della politica, dell'attualità e della cronaca'."
+    },
+    "keywords": []
+  }
+]

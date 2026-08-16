@@ -1,0 +1,14 @@
+<div class="card report-card">
+  <div class="report-head">
+    <span class="report-title">📝 {{ 'Analisi IA' if mode == 'ai' else 'Analisi dei progressi' }}</span>
+    {% if mode == 'ai' %}
+      <span class="badge">Intelligenza artificiale</span>
+    {% else %}
+      <span class="badge">Analisi locale</span>
+    {% endif %}
+  </div>
+  <div class="report-body">{{ report }}</div>
+  {% if mode == 'local' and not has_api_key %}
+    <p class="hint">Configura <code>GEMINI_API_KEY</code> nel file <code>.env</code> per un'analisi più dettagliata con l'IA.</p>
+  {% endif %}
+</div>

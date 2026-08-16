@@ -1,0 +1,24 @@
+{% if keywords %}
+  <ul class="vocab-list">
+    {% for kw in keywords %}
+      <li class="vocab-item">
+        <div class="kw-text">
+          <strong>{{ kw.term }}</strong>
+          <p>{{ kw.definition }}</p>
+        </div>
+        <div class="vocab-meta">
+          {% if kw.part %}<span class="badge">Parte {{ kw.part }}</span>{% endif %}
+          <form class="confirm-delete" data-term="{{ kw.term|tojson }}"
+            hx-post="/vocab/delete/{{ kw.id }}" hx-target="#vocab-list" hx-swap="innerHTML">
+            <button type="submit" class="btn-icon" aria-label="Elimina {{ kw.term }}">🗑</button>
+          </form>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <div class="card empty">
+    <h3>Nessun termine salvato</h3>
+    <p>Durante gli esercizi tocca «💡 Parole Chiave» e premi «Salva» per memorizzare le parole difficili.</p>
+  </div>
+{% endif %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<nav class="crumbs" aria-label="Percorso">
+  <a href="/practice/{{ ex.part }}" class="crumb-link">← Parte {{ ex.part }}</a>
+</nav>
+
+{% if ex.part == 1 %}
+  {% include 'partials/exercise_p1.html' %}
+{% elif ex.part == 2 %}
+  {% include 'partials/exercise_p2.html' %}
+{% elif ex.part == 3 %}
+  {% include 'partials/exercise_p3.html' %}
+{% elif ex.part == 4 %}
+  {% include 'partials/exercise_p4.html' %}
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,648 @@
+[
+  {
+    "id": "plida-p1-001",
+    "part": 1,
+    "title": "Selezione e Lavoro Amazon",
+    "topic": "Istruzione, Lavoro e Società",
+    "text": "Amazon, che in autunno aprirà un nuovo centro di distribuzione a Vercelli, ha organizzato oggi, nell'Aula Magna dell'Università del Piemonte Orientale, una giornata di selezione riservata agli studenti e ai laureati dell'ateneo. Al mattino il general manager di Amazon Italia, Tareq Rajjal, ha presentato l'azienda, i profili professionali ricercati, il processo di selezione e i percorsi di crescita. Nel pomeriggio si sono svolti circa 30 colloqui per cercare profili da inserire nell'area manager del nuovo centro.",
+    "question": "Il direttore di Amazon Italia è stato all'Università del Piemonte per:",
+    "options": [
+      {"key": "A", "text": "dare borse di studio agli studenti."},
+      {"key": "B", "text": "fare pubblicità all'azienda."},
+      {"key": "C", "text": "aiutare la ricerca universitaria."},
+      {"key": "D", "text": "assumere nuove persone."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo dice che Amazon ha organizzato 'una giornata di selezione riservata agli studenti e ai laureati' e che nel pomeriggio 'si sono svolti circa 30 colloqui per cercare profili': quindi lo scopo era assumere nuove persone.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-002",
+    "part": 1,
+    "title": "Master e Percorso Interdisciplinare",
+    "topic": "Istruzione, Lavoro e Società",
+    "text": "Nel percorso interdisciplinare proposto vengono uniti elementi di linguistica, economia aziendale, storia economica e diritto commerciale. Il percorso, della durata di un anno, ha l'obiettivo di formare persone con ottime competenze nell'ambito della comunicazione aziendale in una prospettiva interculturale. Alla fine dell'anno sono previsti stage retribuiti.",
+    "question": "Questo testo è:",
+    "options": [
+      {"key": "A", "text": "il programma di un master."},
+      {"key": "B", "text": "un annuncio di lavoro."},
+      {"key": "C", "text": "l'offerta di un tirocinio."},
+      {"key": "D", "text": "la descrizione di un'azienda."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo presenta un 'percorso interdisciplinare' 'della durata di un anno' con l'obiettivo di formare persone: è la descrizione del programma di un master.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-003",
+    "part": 1,
+    "title": "Ritiro Diploma Scolastico",
+    "topic": "Istruzione, Lavoro e Società",
+    "text": "Da martedì 28 marzo è possibile ritirare il diploma conseguito nello scorso anno scolastico. Muniti della richiesta compilata e della ricevuta del versamento, si potrà ritirare il diploma negli orari di apertura al pubblico della segreteria didattica (il martedì e il giovedì dalle 10:00 alle 11:30 ed il mercoledì dalle 14:30 alle 16:00). Se il ritiro è effettuato da una persona diversa dall'intestatario del diploma, questa deve essere munita di delega da parte dell'intestatario e di copia del documento dell'intestatario stesso.",
+    "question": "Questo testo:",
+    "options": [
+      {"key": "A", "text": "spiega come ottenere un documento."},
+      {"key": "B", "text": "informa che ci sarà un cambio di orario."},
+      {"key": "C", "text": "descrive le attività di una scuola."},
+      {"key": "D", "text": "avvisa che una consegna è in ritardo."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo spiega 'come si può ritirare il diploma', con le indicazioni sui documenti necessari e sugli orari della segreteria: spiega cioè come ottenere un documento.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-004",
+    "part": 1,
+    "title": "Corso di Tecniche Pittoriche",
+    "topic": "Istruzione, Lavoro e Società",
+    "text": "Sulla base delle conoscenze e manualità già acquisite da ognuno saranno proposte alcune basi di disegno dal vero e da immagini e si sperimenteranno le principali tecniche pittoriche, affrontando i vari passaggi che vanno dalla copia d'autore al dipinto dal vero, fino al ritratto e la figura umana. L'allievo potrà così sviluppare le proprie inclinazioni e perfezionare a livello personale la tecnica più adeguata.",
+    "question": "Questo testo presenta:",
+    "options": [
+      {"key": "A", "text": "un corso."},
+      {"key": "B", "text": "una mostra."},
+      {"key": "C", "text": "uno spettacolo."},
+      {"key": "D", "text": "una rivista."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo parla di 'basi di disegno' e di 'tecniche pittoriche' da sperimentare e dice che 'l'allievo potrà sviluppare le proprie inclinazioni': presenta quindi un corso.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-005",
+    "part": 1,
+    "title": "Descrizione Elettrodomestico (Fornetto)",
+    "topic": "Tecnologia, Prodotti e Servizi",
+    "text": "Grazie al nuovo design ha una capacità interna maggiore del 25% rispetto alla versione precedente. È dotato di due teglie posizionabili su diversi livelli per cucinare più pietanze contemporaneamente. La nuova ventilazione interna permette di far circolare l'aria in modo più uniforme. Le pareti interne hanno una superficie antiaderente e facile da pulire. Classe energetica A.",
+    "question": "Questa è la descrizione di:",
+    "options": [
+      {"key": "A", "text": "barbecue / griglia da esterno."},
+      {"key": "B", "text": "piano cottura a gas."},
+      {"key": "C", "text": "griglia su gambe pieghevole."},
+      {"key": "D", "text": "fornetto elettrico ventilato."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo parla di un apparecchio con 'capacità interna', 'teglie', 'ventilazione interna' e 'classe energetica A': è la descrizione di un fornetto elettrico ventilato.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-006",
+    "part": 1,
+    "title": "Sistema di Guida PDC",
+    "topic": "Tecnologia, Prodotti e Servizi",
+    "text": "La precisione è alla base del PDC. Che cos'è? Il PDC permette all'auto di procedere senza pilota con una precisione millimetrica: sterzo, acceleratore, freni e trasmissione si controllano in automatico grazie alle informazioni ricevute da un gps ad alta precisione e a differenti telecamere 3D installate a bordo dell'auto. In particolare il sistema di localizzazione gps calcola informazioni sulla posizione dell'auto che sono precise al centimetro. Dati che vengono poi combinati e confrontati con le immagini fornite dalle telecamere.",
+    "question": "Il PDC è:",
+    "options": [
+      {"key": "A", "text": "un videogioco."},
+      {"key": "B", "text": "una mappa stradale."},
+      {"key": "C", "text": "un sistema di guida."},
+      {"key": "D", "text": "un dispositivo antifurto."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Il testo spiega che il PDC 'permette all'auto di procedere senza pilota' controllando sterzo, acceleratore e freni: è quindi un sistema di guida.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-007",
+    "part": 1,
+    "title": "Recensione Smartphone Online",
+    "topic": "Tecnologia, Prodotti e Servizi",
+    "text": "Ho preso uno smartphone, ma quando ho aperto la confezione ci sono rimasta un po' male. Come colore era indicato il bianco ma mi è arrivato un telefono che di bianco ha solo la parte frontale intorno allo schermo, mentre il retro è completamente grigio. Io l'avrei segnalato nella descrizione o nelle specifiche alla voce \"colore\" perché dalle foto non si capiva. Per il resto i tempi di consegna sono stati rispettati e il telefono sembra funzionare.",
+    "question": "Che cosa hai letto?",
+    "options": [
+      {"key": "A", "text": "La recensione di un prodotto."},
+      {"key": "B", "text": "La pubblicità di un prodotto."},
+      {"key": "C", "text": "La scheda tecnica di un prodotto."},
+      {"key": "D", "text": "La guida all'uso di un prodotto."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo racconta l'esperienza personale di chi ha comprato uno smartphone ('Ho preso uno smartphone… ci sono rimasta un po' male'): è la recensione di un prodotto.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-008",
+    "part": 1,
+    "title": "Procedura di Reso Online",
+    "topic": "Tecnologia, Prodotti e Servizi",
+    "text": "Qualcosa è andato storto con il tuo ordine? Nessun problema! Il reso è facile e sempre gratuito. Dal giorno della consegna del pacco da parte del corriere hai 14 giorni di tempo per compilare il form di richiesta che trovi all'interno di questa pagina: inizia inserendo l'indirizzo e-mail con cui hai effettuato l'ordine e il numero dell'ordine, poi segui le indicazioni della procedura guidata che trovi qui sotto.",
+    "question": "Questo testo continua con le indicazioni per:",
+    "options": [
+      {"key": "A", "text": "modificare una prenotazione."},
+      {"key": "B", "text": "controllare una spedizione."},
+      {"key": "C", "text": "restituire un acquisto."},
+      {"key": "D", "text": "presentare un reclamo."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Il testo annuncia che 'il reso è facile e sempre gratuito' e spiega come compilare 'il form di richiesta': continua con le indicazioni per restituire un acquisto.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-009",
+    "part": 1,
+    "title": "Servizio Informativo \"Toscana Economia\"",
+    "topic": "Tecnologia, Prodotti e Servizi",
+    "text": "Le notizie, le storie, le innovazioni. Toscana Economia cresce e dopo il mensile allegato al Tirreno e la sezione sul sito potete scegliere di ricevere le notizie di Toscana Economia direttamente nella vostra casella di posta elettronica: ogni sera alle 19, dal lunedì al venerdì, avrete una sintesi dell'informazione economica che permetterà di sapere qual è la notizia del giorno, la storia più curiosa, i fatti e gli appuntamenti. Per registrarsi è sufficiente scrivere il proprio indirizzo mail nello spazio in calce a ogni articolo pubblicato nella sezione Toscana Economia, e che trovate anche qui sotto.",
+    "question": "Questo testo ti propone di:",
+    "options": [
+      {"key": "A", "text": "iscriverti a un servizio."},
+      {"key": "B", "text": "comprare un prodotto."},
+      {"key": "C", "text": "partecipare a un incontro."},
+      {"key": "D", "text": "scrivere un commento."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo propone di ricevere le notizie per e-mail e dice che 'per registrarsi è sufficiente scrivere il proprio indirizzo mail': propone quindi di iscriversi a un servizio.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-010",
+    "part": 1,
+    "title": "Proprietà dello Zenzero",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "Lo zenzero, ingrediente importante nella medicina tradizionale orientale, è sempre più apprezzato in Occidente non solo per il suo sapore e per gli usi che se ne possono fare in cucina, ma anche per le sue proprietà benefiche. Per esempio per evitare il malessere dei viaggi in macchina, masticate questa radice; se ne mangiate una fettina dopo un pasto abbondante, vi sentirete subito meglio, più leggeri e attivi, perché questo ingrediente aiuta la digestione. Il rimedio aiuta anche a combattere mal di gola, raffreddore e tosse.",
+    "question": "Questo testo spiega:",
+    "options": [
+      {"key": "A", "text": "quali effetti ha un alimento."},
+      {"key": "B", "text": "come prendere una medicina."},
+      {"key": "C", "text": "che cosa mangiare in inverno."},
+      {"key": "D", "text": "quando servire un piatto."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo elenca gli effetti benefici dello zenzero ('aiuta la digestione', 'aiuta a combattere mal di gola, raffreddore e tosse'): spiega quali effetti ha un alimento.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-011",
+    "part": 1,
+    "title": "Foglio Illustrativo (Come usare questo medicinale)",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "COME USARE QUESTO MEDICINALE. Assumere una compressa di medicinale quando si avvertono i sintomi. Nella maggior parte dei casi è sufficiente il trattamento con 1 o 2 compresse al giorno. Possono essere assunte fino a 4 compresse nelle 24 ore. Attenzione: non superare le dosi indicate senza il consiglio del medico. L'uso delle compresse non è raccomandato nei bambini di età inferiore ai 16 anni. Il farmaco agisce entro 30 minuti e può controllare l'eccesso di acidità fino a 12 ore consentendo un sollievo rapido e di lunga durata dai sintomi durante il giorno e la notte. Non usare per più di due settimane. Se i sintomi continuano o peggiorano dopo 14 giorni di trattamento, consultare il proprio medico o il farmacista.",
+    "question": "Questo testo dice che:",
+    "options": [
+      {"key": "A", "text": "puoi prendere al massimo 2 pastiglie al giorno."},
+      {"key": "B", "text": "per prendere questa medicina devi avere almeno 16 anni."},
+      {"key": "C", "text": "devi prendere la medicina mezz'ora prima di mangiare."},
+      {"key": "D", "text": "prima di prendere questa medicina devi parlare con un medico."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il foglio dice che 'l'uso delle compresse non è raccomandato nei bambini di età inferiore ai 16 anni': quindi per prenderla bisogna avere almeno 16 anni.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-012",
+    "part": 1,
+    "title": "Ricetta Crema di Avocado (Prodotto di Bellezza)",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "Se la pelle del vostro viso è secca potete trovare beneficio nell'utilizzare periodicamente una crema a base di avocado. Questo frutto è infatti ricco di vitamina E, sostanza che contrasta l'invecchiamento delle cellule. La crema può essere preparata a casa con solo due ingredienti. Schiacciate per bene la polpa dell'avocado e aggiungete due cucchiai di olio di mandorle dolci, spalmate delicatamente la crema ottenuta sulla pelle del viso e lasciatela agire per circa mezz'ora; trascorso il tempo risciacquate con cura.",
+    "question": "Il testo descrive la preparazione di:",
+    "options": [
+      {"key": "A", "text": "un esperimento scientifico."},
+      {"key": "B", "text": "una ricetta di cucina."},
+      {"key": "C", "text": "un sapone naturale."},
+      {"key": "D", "text": "un prodotto di bellezza."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo parla di una 'crema' da 'spalmare sulla pelle del viso' per la pelle secca: descrive la preparazione di un prodotto di bellezza.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-013",
+    "part": 1,
+    "title": "Varianti della Carbonara all'Estero",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "Secondo il rapporto dell'Accademia Italiana della Cucina, tra tutte le ricette italiane la pasta alla carbonara è la più reinterpretata all'estero. Una ricerca ha scovato le versioni più curiose: in Inghilterra è popolare quella con le zucchine, in Cina e Malesia la fanno con il pollo, quella con il pesce conquista la Spagna e sta prendendo piede anche nell'Italia più tradizionalista e nell'alta cucina. Altre radicali varianti: in Inghilterra l'uovo è a volte sostituito da besciamella. In Giappone, invece, si aggiunge la panna e non è presente il pecorino. In Francia, Germania e Norvegia si va oltre, con preparati liofilizzati all'aroma di carbonara pronti in 5 minuti.",
+    "question": "Questo testo parla di:",
+    "options": [
+      {"key": "A", "text": "una ricetta italiana poco conosciuta."},
+      {"key": "B", "text": "modi diversi di preparare un piatto."},
+      {"key": "C", "text": "piatti tradizionali di paesi diversi."},
+      {"key": "D", "text": "consigli per migliorare una ricetta."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il testo elenca 'le versioni più curiose' della carbonara nei diversi paesi ('in Inghilterra… con le zucchine', 'in Cina e Malesia… con il pollo'): parla di modi diversi di preparare un piatto.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-014",
+    "part": 1,
+    "title": "Ricetta Spaghetti Aglio, Olio e Peperoncino",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "Per preparare gli spaghetti aglio, olio e peperoncino iniziate mettendo a cuocere la pasta in acqua bollente, salata a piacere. Cuocete gli spaghetti al dente e nel frattempo potete preparare il condimento: pulite gli spicchi di aglio, divideteli a metà e togliete l'anima (la parte verde centrale di ciascuno spicchio). Poi prendete il peperoncino fresco e riducetelo a fettine; ora versate l'olio in una padella ampia. Scaldatelo e unite l'aglio e il peperoncino. Una volta che la pasta sarà cotta al dente, potete trasferirla direttamente in padella; poi servite i vostri spaghetti aglio, olio e peperoncino ben caldi!",
+    "question": "Questo testo è tratto:",
+    "options": [
+      {"key": "A", "text": "da una recensione online."},
+      {"key": "B", "text": "dal menu di un ristorante."},
+      {"key": "C", "text": "da un libro di ricette."},
+      {"key": "D", "text": "da una guida turistica."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Il testo spiega passo per passo come preparare gli spaghetti ('iniziate mettendo a cuocere la pasta…'): è una ricetta, quindi è tratto da un libro di ricette.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-015",
+    "part": 1,
+    "title": "Lezione di Cucina con Chef Carmine Di Bianco",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "Se ami mangiare il pesce ma non ti viene mai come vorresti, vieni a scoprire i trucchi dello chef Carmine Di Bianco! Nel corso di questo incontro tratteremo i seguenti argomenti: la scelta e la pulizia del pesce, la preparazione del pesce crudo, le diverse tecniche di cottura (fumetto, affogatura, salto, arrosto, stufatura in umido). I piatti che realizzeremo: Insalata di pomodorini, melone e gamberi con zenzero e pistacchi; Paccheri di Gragnano al polpo verace, rosmarino e pecorino; Involtini di pesce spatola e melanzane su crema di peperoni. Vi ricordiamo di portare il grembiule da casa!",
+    "question": "Questo testo è:",
+    "options": [
+      {"key": "A", "text": "il menu di un ristorante."},
+      {"key": "B", "text": "il programma di una lezione."},
+      {"key": "C", "text": "la recensione di un locale."},
+      {"key": "D", "text": "la ricetta di un piatto."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il testo annuncia gli argomenti che si tratteranno 'nel corso di questo incontro' e i piatti che si realizzeranno: è il programma di una lezione di cucina.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-016",
+    "part": 1,
+    "title": "Storia del Modo di Dire \"Cadere a Fagiolo\"",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "Cadere a fagiolo. Nel Medioevo i fagioli erano considerati un alimento povero, consumato soprattutto dai contadini o nei monasteri. Grazie alla loro facile conservazione, venivano essiccati ed erano utilizzati in cucina interi o macinati per preparare minestre, brodi, creme o zuppe, preparati insieme agli ortaggi o semplicemente cotti e conditi con l'olio. Era normale trovarli alla mensa dei contadini tutti i giorni e, se qualcuno arrivava improvvisamente, \"cadeva a fagiolo\", quando cioè la tavola e il pranzo erano già pronti.",
+    "question": "Questo testo:",
+    "options": [
+      {"key": "A", "text": "è la recensione di un ristorante."},
+      {"key": "B", "text": "è il racconto di una festa."},
+      {"key": "C", "text": "è la spiegazione di un modo di dire."},
+      {"key": "D", "text": "è la ricetta di un piatto."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Il titolo è il modo di dire 'Cadere a fagiolo' e il testo ne racconta l'origine storica: è la spiegazione di un modo di dire.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-017",
+    "part": 1,
+    "title": "Introduzione alla Cassata Siciliana al Forno",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "La cassata al forno è un dolce tipico siciliano, meno famosa della classica cassata siciliana, meno laboriosa da fare, ma altrettanto buona. È un dolce che si prepara durante le feste, soprattutto a Pasqua e a Natale, fatto di pasta frolla e ripieno di crema alla ricotta e gocce di cioccolato. Dopo averla mangiata mille volte, ho deciso di prepararla io per servirla durante il pranzo di famiglia domenica scorsa e il risultato è stato eccellente. Adesso vi spiegherò passo passo come ho fatto.",
+    "question": "Subito dopo questo testo leggerai:",
+    "options": [
+      {"key": "A", "text": "la descrizione di una ricetta."},
+      {"key": "B", "text": "il racconto di una tradizione."},
+      {"key": "C", "text": "la recensione di una pasticceria."},
+      {"key": "D", "text": "la presentazione di un programma TV."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo si chiude con 'Adesso vi spiegherò passo passo come ho fatto': subito dopo leggerai quindi la descrizione di una ricetta.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-018",
+    "part": 1,
+    "title": "Verdure nella Cucina Romana Antica",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "Nella cucina romana antica il menù prevedeva un forte utilizzo di cereali e vegetali, tra cui biete, asparagi e pastinache, ma soprattutto rape e cavoli. Nella sua \"Naturalis Historia\" Plinio il Vecchio descrive infatti l'uso quotidiano delle rape nella società romana, evidenziando che, oltre al bulbo, anche le cime erano regolarmente consumate. Gli ortaggi di dimensioni maggiori venivano invece dati come cibo agli animali.",
+    "question": "In questo testo si parla di molti tipi di:",
+    "options": [
+      {"key": "A", "text": "carne."},
+      {"key": "B", "text": "verdure."},
+      {"key": "C", "text": "pesce."},
+      {"key": "D", "text": "riso."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il testo elenca 'biete, asparagi e pastinache', 'rape e cavoli' e parla di 'ortaggi': si parla di molti tipi di verdure.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-019",
+    "part": 1,
+    "title": "Recensione Ristorante di Mare (Lungomare)",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "L'accoglienza è stata ottima, il posto al tavolo già riservato con il cartellino con il nostro cognome. Un omaggio come antipasto e poi due primi di mare davvero buoni: una calamarata con i pachino e gnocchi gamberi e limone, molto saporiti entrambi, il primo aveva un sugo che sembrava quello di mia suocera. Per secondo sia la frittura di calamari e gamberi, sia il calamaro alla griglia con pistacchio e pangrattato ci hanno ampiamente soddisfatto. Ottimo posto, lo consiglio a tutti quelli che passano per il lungomare!",
+    "question": "Questo testo è preso da:",
+    "options": [
+      {"key": "A", "text": "un libro di cucina."},
+      {"key": "B", "text": "un sito di recensioni."},
+      {"key": "C", "text": "un'intervista a un cuoco."},
+      {"key": "D", "text": "una guida turistica."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il testo racconta l'esperienza personale al ristorante ('lo consiglio a tutti'): è preso da un sito di recensioni.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-020",
+    "part": 1,
+    "title": "Recensione Ristorante a Trastevere",
+    "topic": "Salute, Alimentazione e Cucina",
+    "text": "Dopo essere arrivato a Trastevere ho deciso di mangiare in questo famosissimo ristorante. Ho ordinato un tonnarelli all'amatriciana e i saltimbocca alla romana con purè di patate e focaccia calda. Il tutto accompagnato da un vino di Montepulciano Poliziano. La pasta era qualcosa di DIVINO! Una cosa davvero indescrivibile! Nei saltimbocca secondo me c'era un po' troppo olio, ma il piatto era davvero buono! Le focacce erano belle croccanti e buonissime! Complimenti allo chef! Il personale è sempre attento e disponibile! Consigliato a tutti!",
+    "question": "Questo testo è tratto da:",
+    "options": [
+      {"key": "A", "text": "un volantino pubblicitario."},
+      {"key": "B", "text": "un libro di ricette."},
+      {"key": "C", "text": "una guida turistica."},
+      {"key": "D", "text": "una recensione online."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo esprime un giudizio personale sui piatti ('La pasta era qualcosa di DIVINO!') e si chiude con 'Consigliato a tutti!': è una recensione online.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-021",
+    "part": 1,
+    "title": "Biglietti Ricaricabili \"RicaricaMi\"",
+    "topic": "Trasporti, Viaggi e Soggiorni",
+    "text": "Addio al biglietto \"usa e getta\": dal 7 maggio il ticket per accedere a bus, tram e metro è diventato ricaricabile. RicaricaMi è il nuovo ticket che consente di ricaricare in un unico biglietto fino a 30 viaggi senza costi aggiuntivi. Il nuovo biglietto non è nominativo: può essere usato da persone diverse ma non contemporaneamente. L'obiettivo è quello di evitare il più possibile lo spreco di carta in una visione concreta di sostenibilità ed ecologia, che incoraggia a ricaricare il biglietto invece di buttarlo dopo ogni singolo viaggio.",
+    "question": "I nuovi biglietti:",
+    "options": [
+      {"key": "A", "text": "avranno un prezzo più alto."},
+      {"key": "B", "text": "saranno fatti con materiale riciclato."},
+      {"key": "C", "text": "permetteranno di viaggiare in gruppo."},
+      {"key": "D", "text": "porteranno a produrre meno rifiuti."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo dice che l'obiettivo è 'evitare lo spreco di carta' e 'incoraggia a ricaricare il biglietto invece di buttarlo': i nuovi biglietti portano a produrre meno rifiuti.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-022",
+    "part": 1,
+    "title": "Lavori Stradali e Deviazione Bus in Via Nizza",
+    "topic": "Trasporti, Viaggi e Soggiorni",
+    "text": "Da lunedì 4 febbraio alle ore 8.00, per lavori viene chiusa al traffico via Nizza in entrambe le direzioni. Deviate le linee 38 e 80 in direzione stazione Termini. Temporaneamente soppresse le fermate 71404, 76991, 72661 su via Nizza. In sostituzione sono state messe tre fermate alternative: una in via Dalmazia, al numero civico 28, e le altre 2 in via Savoia.",
+    "question": "L'avviso informa che per lavori:",
+    "options": [
+      {"key": "A", "text": "via Nizza diventerà a senso unico."},
+      {"key": "B", "text": "gli autobus 80 e 38 cambieranno percorso."},
+      {"key": "C", "text": "ci saranno meno fermate."},
+      {"key": "D", "text": "il capolinea verrà spostato alla Stazione Termini."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il testo dice: 'Deviate le linee 38 e 80 in direzione stazione Termini': gli autobus 80 e 38 cambieranno quindi percorso.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-023",
+    "part": 1,
+    "title": "Lavori Stradali in Viale delle Province",
+    "topic": "Trasporti, Viaggi e Soggiorni",
+    "text": "È in corso la terza fase dei lavori di rifacimento del manto stradale in viale delle Province. La strada è chiusa nel tratto da piazzale delle Province a piazzale Valerio Massimo. Le linee bus che viaggiano in direzione della stazione Tiburtina e i collegamenti verso la stazione Metro Rebibbia deviano in viale Ippocrate, viale Regina Elena, piazzale del Verano, via Tiburtina.",
+    "question": "Questo testo dice che:",
+    "options": [
+      {"key": "A", "text": "aprirà una nuova stazione."},
+      {"key": "B", "text": "cambierà il percorso degli autobus."},
+      {"key": "C", "text": "la metropolitana si fermerà."},
+      {"key": "D", "text": "finiranno i lavori stradali."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il testo dice che 'le linee bus… deviano' su altre vie: cambierà quindi il percorso degli autobus.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-024",
+    "part": 1,
+    "title": "Assistenza Viaggiatori in Treno (Reclamo Climatizzazione)",
+    "topic": "Trasporti, Viaggi e Soggiorni",
+    "text": "MBart A/R Roma-Milano in giornata. Treno puntuale e decente per pulizia, ma aria condizionata fortissima e freddissima! Davvero eccessiva, si mette a repentaglio seriamente la salute dei passeggeri. Ciao, ci dispiace molto per il disagio che ci stai segnalando. Nel caso dovesse riaccadere, ti invitiamo a farlo subito presente al capotreno o, in alternativa, a scriverci indicando il treno, la carrozza e il posto in cui stai viaggiando, insieme al tuo codice di acquisto, in modo tale da poter far intervenire subito il capotreno che cercherà di aiutarti a risolvere il problema.",
+    "question": "Questa risposta spiega cosa fare per:",
+    "options": [
+      {"key": "A", "text": "avere il rimborso di un viaggio."},
+      {"key": "B", "text": "ricevere assistenza durante un viaggio."},
+      {"key": "C", "text": "comprare il biglietto per un viaggio."},
+      {"key": "D", "text": "cambiare la prenotazione di un viaggio."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "La risposta invita a segnalare il problema 'al capotreno' che 'cercherà di aiutarti a risolvere il problema': spiega come ricevere assistenza durante un viaggio.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-025",
+    "part": 1,
+    "title": "Iniziativa \"Bed and Breakfast Day\"",
+    "topic": "Trasporti, Viaggi e Soggiorni",
+    "text": "Ora le giornate si stanno allungando, cresce la necessità di evadere dalla solita routine. Quale occasione migliore del Bed and Breakfast Day? Ogni anno, in uno dei primi fine settimana di marzo, il sito www.Bed-and-Breakfast.it permette a chi prenota almeno due notti, di averne una gratis nelle strutture in Italia che aderiscono all'iniziativa. Le regioni più richieste sono Toscana, Liguria, Lombardia, Veneto e Lazio. Al momento le strutture aderenti sono circa 700 in tutta Italia, ma nuove strutture si aggiungono giornalmente e gli organizzatori contano di arrivare a superare il migliaio entro la data del B&B Day.",
+    "question": "Nel B&B Day hai uno sconto se:",
+    "options": [
+      {"key": "A", "text": "dormi in un nuovo B&B."},
+      {"key": "B", "text": "rimani in una struttura più di una notte."},
+      {"key": "C", "text": "prenoti prima del mese di marzo."},
+      {"key": "D", "text": "soggiorni in una delle regioni più richieste."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il testo dice che il sito 'permette a chi prenota almeno due notti, di averne una gratis': lo sconto si ha se si rimane più di una notte.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-026",
+    "part": 1,
+    "title": "Indagine Vacanze Italiani (Astoi Confindustria Viaggi)",
+    "topic": "Trasporti, Viaggi e Soggiorni",
+    "text": "Per niente sprovveduti, attenti ai prezzi e desiderosi di avere una vacanza su misura: è questa l'immagine degli italiani che stanno affrontando quest'estate 2018 secondo lo studio dell'Osservatorio Astoi Confindustria Viaggi. Tra i molti dati interessanti, emerge che la durata preferita della vacanza estiva è di 10 giorni, inoltre rispetto allo scorso anno cresce del 13% il numero di persone che si affida a un'agenzia di viaggio o a un tour operator. Per quanto riguarda le mete, invece, un'indagine del Centro Studi TCI rileva che l'Italia quest'anno è la destinazione preferita per il 61% dei vacanzieri nostrani anche a fine agosto e a settembre.",
+    "question": "Secondo il testo quest'anno sono aumentati gli italiani che:",
+    "options": [
+      {"key": "A", "text": "hanno fatto vacanze più brevi del solito."},
+      {"key": "B", "text": "hanno scelto di passare le vacanze in Italia."},
+      {"key": "C", "text": "hanno spostato le vacanze a settembre."},
+      {"key": "D", "text": "hanno prenotato le vacanze in agenzia."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo dice che 'cresce del 13% il numero di persone che si affida a un'agenzia di viaggio o a un tour operator': sono aumentati gli italiani che hanno prenotato le vacanze in agenzia.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-027",
+    "part": 1,
+    "title": "Recensione Stanza in Hotel / B&B vicino al Vaticano",
+    "topic": "Trasporti, Viaggi e Soggiorni",
+    "text": "È stata una bellissima scoperta, il ragazzo che ci ha accolto è stato molto gentile e disponibile, la stanza era molto grande e pulita, con una smart tv Lg da 60 pollici. La posizione era centralissima, vicino al Vaticano e a pochi passi dalla fermata della metropolitana. Unica nota negativa: una sera siamo tornati a mezzanotte e non funzionavano bene le chiavi per aprire il portone dell'edificio, dopo esserci riusciti abbiamo avuto problemi anche per aprire la porta principale e infatti ci è venuto ad aprire un altro ospite.",
+    "question": "Questa recensione parla di:",
+    "options": [
+      {"key": "A", "text": "una camera di albergo."},
+      {"key": "B", "text": "un oggetto tecnologico."},
+      {"key": "C", "text": "un negozio di ferramenta."},
+      {"key": "D", "text": "un servizio di trasporti."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo parla di una 'stanza', delle 'chiavi per aprire il portone' e di 'un altro ospite': è la recensione di una camera di albergo (o B&B).",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-028",
+    "part": 1,
+    "title": "Prenotazione Uffizi e Palazzo Pitti",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Gallerie degli Uffizi e Palazzo Pitti - Prenotazione telefonica. Chiama il numero +39 055294883. Gli operatori ti risponderanno in italiano e nelle lingue più diffuse. Il numero è attivo dal lunedì al venerdì dalle 8:30 alle 18:30 ed il sabato dalle 8:30 alle 12:30. Dopo aver scelto il giorno e l'orario di ingresso, riceverai un codice di prenotazione numerico. Recati alla biglietteria del museo. Presentando il codice di prenotazione numerico, potrai pagare e ottenere i biglietti di ingresso. Per accedere agli Uffizi è necessario presentarsi alla porta 3.",
+    "question": "Per visitare il museo devi:",
+    "options": [
+      {"key": "A", "text": "pagare prima on-line."},
+      {"key": "B", "text": "metterti in fila prima delle 8.30."},
+      {"key": "C", "text": "ritirare il biglietto di persona."},
+      {"key": "D", "text": "lasciare il tuo numero di telefono."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Il testo dice: 'Recati alla biglietteria del museo. Presentando il codice di prenotazione numerico, potrai pagare e ottenere i biglietti': devi quindi ritirare il biglietto di persona.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-029",
+    "part": 1,
+    "title": "Regolamento Spettatori e Biglietti",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Gli spettatori devono essere sempre muniti di biglietto, tagliando abbonamento o Card da esibire a semplice richiesta del personale di sala addetto al controllo. I biglietti e i tagliandi valgono esclusivamente per le date indicate sugli stessi. Il cambio di data dovrà obbligatoriamente essere richiesto con almeno 24 ore di anticipo sulla data indicata sul biglietto di abbonamento. In caso contrario la direzione si riserva di non consentire l'accesso alla sala e/o al settore indicato sul tagliando. Per gli abbonati a posto fisso, è possibile effettuare cambio di turno pagando una commissione pari a € 5.",
+    "question": "Questo testo fa parte di:",
+    "options": [
+      {"key": "A", "text": "un regolamento."},
+      {"key": "B", "text": "una recensione."},
+      {"key": "C", "text": "un avviso."},
+      {"key": "D", "text": "una pubblicità."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo impone delle regole ('Gli spettatori devono…', 'dovrà obbligatoriamente essere richiesto…'): fa parte di un regolamento.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-030",
+    "part": 1,
+    "title": "Norme di Ingresso a Teatro / Sala Spettacolo",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Gentilissima/o, in attesa di accoglierla, le inviamo alcune informazioni. - All'ingresso verranno effettuati controlli di sicurezza; invitiamo quindi il pubblico a presentarsi con anticipo. Ricordiamo che l'apertura delle porte è prevista alle 19:30. - Le poltrone sono numerate: invitiamo ciascuno a occupare il posto indicato sulla propria prenotazione/sul proprio biglietto. - È vietato introdurre in sala bottigliette o borracce, liquidi di qualsiasi natura, macchine fotografiche, ombrelli e altri oggetti ingombranti, che devono quindi essere lasciati al guardaroba prima dell'inizio dello spettacolo. - È possibile portare in sala borse di dimensione massima pari a cm. 27x35x12. Non sono ammessi animali.",
+    "question": "Questo messaggio dà informazioni per entrare:",
+    "options": [
+      {"key": "A", "text": "in un aeroporto."},
+      {"key": "B", "text": "in un museo."},
+      {"key": "C", "text": "in un teatro."},
+      {"key": "D", "text": "in un ospedale."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Il testo parla di 'poltrone numerate', di 'inizio dello spettacolo' e di oggetti da lasciare 'al guardaroba': sono informazioni per entrare in un teatro.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-031",
+    "part": 1,
+    "title": "Riapertura Basilica di Santa Maria Antiqua",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Riapre al pubblico dopo quasi quarant'anni Santa Maria Antiqua, la basilica nel Foro Romano scoperta nel 1900 alle pendici del Palatino. La chiesa conserva sulle sue pareti un patrimonio di pitture unico nel mondo cristiano del primo millennio, databile dal VI al IX secolo. Chiusa dagli anni Ottanta per un complesso intervento architettonico proseguito con il restauro delle pitture, la chiesa riapre in occasione della mostra \"Santa Maria Antiqua, Tra Roma e Bisanzio\", dal 17 marzo all'11 settembre 2023, promossa dalla Soprintendenza speciale per il Colosseo, il Museo Nazionale Romano e l'area Archeologica di Roma con Electa.",
+    "question": "La Basilica di Santa Maria Antiqua:",
+    "options": [
+      {"key": "A", "text": "apre adesso per la prima volta dal 1900."},
+      {"key": "B", "text": "è rimasta a lungo chiusa per preparare una mostra."},
+      {"key": "C", "text": "è molto importante soprattutto per le sculture che contiene."},
+      {"key": "D", "text": "potrà essere finalmente visitata dopo un lungo periodo di lavori."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo dice che la basilica 'riapre al pubblico dopo quasi quarant'anni', chiusa 'per un complesso intervento architettonico': potrà essere visitata dopo un lungo periodo di lavori.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-032",
+    "part": 1,
+    "title": "Regolamento Visite e Sicurezza nel Bosco",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Sono consentiti ingressi al Bosco solo con servizio di accompagnamento, previa prenotazione e acquisto di biglietto. Il servizio di accompagnamento si attiva per un minimo di 10 ed un massimo di 25-30 partecipanti. Si fa obbligo di scarpe chiuse con suola antiscivolo in tutte le stagioni. Con condizioni meteo avverse, vento o pioggia, l'accesso al Bosco potrà essere vietato, per garantire la sicurezza dei visitatori.",
+    "question": "Se il tempo è brutto:",
+    "options": [
+      {"key": "A", "text": "bisogna vestirsi in un modo particolare."},
+      {"key": "B", "text": "le persone entrano un po' per volta."},
+      {"key": "C", "text": "ci saranno più guide per i gruppi."},
+      {"key": "D", "text": "la direzione potrebbe cancellare le visite."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo dice che 'con condizioni meteo avverse… l'accesso al Bosco potrà essere vietato': se il tempo è brutto la direzione potrebbe cancellare le visite.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-033",
+    "part": 1,
+    "title": "Regolamento Orari di Silenzio nel Villaggio Turistico",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Dalle 14,00 alle 16,00 e dalle 24,00 alle 08,00 è obbligatorio rispettare il silenzio; sono proibiti i rumori che possano disturbare il riposo, compreso un tono di voce alto anche nelle aree comuni come bar e parco giochi. Durante tali ore è vietato tenere apparecchi radio, tv o simili ad alto volume, utilizzare il parco giochi, gli impianti sportivi e di svago, montare o smontare tende, circolare con qualsiasi veicolo a motore. Il cancello d'ingresso sarà chiuso dalle 14,00 alle 16,00 e dalle 24,00 alle 08,00. Le date di inizio e termine delle attività sportive e di animazione possono non coincidere con quelle di apertura e chiusura del Villaggio. Nei periodi di aprile, maggio, giugno e settembre non sono garantiti l'uso della piscina e l'animazione.",
+    "question": "Dove puoi trovare questo regolamento?",
+    "options": [
+      {"key": "A", "text": "In una palestra."},
+      {"key": "B", "text": "In un centro commerciale."},
+      {"key": "C", "text": "In un ufficio pubblico."},
+      {"key": "D", "text": "In una struttura turistica."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo parla di 'Villaggio', di 'piscina' e di 'attività di animazione': è un regolamento che si trova in una struttura turistica.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-034",
+    "part": 1,
+    "title": "Regole di Ingresso in Riserva Naturale (Oasi)",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "L'oasi è aperta tutti i giorni dalle 7 del mattino fino alle 19. All'ingresso troverete un botteghino per acquistare un biglietto. Il costo del biglietto per fare l'intero percorso è di 5 €, mentre i bambini pagheranno l'ingresso ridotto al prezzo di 3 €. È necessario indossare abbigliamento adeguato per proteggervi dalla vegetazione e avere attrezzatura e scarpe comode. Non dimenticate un cappello, tutta l'acqua che riuscite a portare e cibo! Infine, non sono ammessi animali domestici ed è vietato l'ingresso con sedie, sdraio, lettini, ombrelloni o natanti gonfiabili.",
+    "question": "Puoi trovare questo testo all'ingresso di:",
+    "options": [
+      {"key": "A", "text": "una riserva naturale."},
+      {"key": "B", "text": "una spiaggia pubblica."},
+      {"key": "C", "text": "un parco acquatico."},
+      {"key": "D", "text": "una festa all'aperto."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo parla di un'oasi aperta per un 'percorso', con regole su abbigliamento, acqua e cibo: si trova all'ingresso di una riserva naturale.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-035",
+    "part": 1,
+    "title": "Evento di Volontariato \"Acque d'Italia\"",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Torna \"Acque d'Italia\", l'evento nazionale a tutela di mari, fiumi e corsi d'acqua organizzato dalla nostra onlus. Un intero weekend dedicato alla pulizia delle coste e degli argini arricchito da incontri con personaggi di cultura, attivisti e sportivi che hanno fatto la storia dell'ultimo decennio italiano. L'appuntamento è per sabato 28 e domenica 29 settembre, quando l'onda blu dei volontari della onlus entrerà in azione per liberare la natura da tonnellate di plastica e rifiuti, contribuendo così a preservare la bellezza dei nostri ecosistemi per le generazioni future.",
+    "question": "Il 28 e il 29 settembre ci sarà:",
+    "options": [
+      {"key": "A", "text": "una gara in barca per beneficenza."},
+      {"key": "B", "text": "una conferenza su un lago in pericolo."},
+      {"key": "C", "text": "una visita guidata in un parco."},
+      {"key": "D", "text": "un'iniziativa per proteggere l'ambiente."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Il testo dice che in quei giorni i volontari 'entreranno in azione per liberare la natura da tonnellate di plastica e rifiuti': ci sarà un'iniziativa per proteggere l'ambiente.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-036",
+    "part": 1,
+    "title": "Progetto \"Scatola del Gusto\" contro lo Spreco Alimentare",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Il progetto Amnia Verona S.p.A., che coinvolge molti ristoranti, diffonde e sostiene la lotta contro lo spreco promuovendo l'abitudine di dare a ciò che non si è finito di mangiare una nuova possibilità: quella di essere consumato in un secondo tempo. Attraverso la \"scatola del gusto\" si ha la possibilità di portare a casa in maniera protetta e sicura ciò che non si è mangiato.",
+    "question": "Il progetto Amnia Verona S.p.A. serve per:",
+    "options": [
+      {"key": "A", "text": "evitare di buttare il cibo."},
+      {"key": "B", "text": "aiutare i senzatetto."},
+      {"key": "C", "text": "sensibilizzare a una dieta sana."},
+      {"key": "D", "text": "pubblicizzare i locali della zona."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo dice che il progetto 'diffonde e sostiene la lotta contro lo spreco' e permette di 'portare a casa ciò che non si è mangiato': serve per evitare di buttare il cibo.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-037",
+    "part": 1,
+    "title": "Concorso Promozione Turistica \"Gira#InLombardia\"",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Anche le amministrazioni si svecchiano scegliendo soluzioni innovative. Regione Lombardia, per esempio, per progettare la sua nuova campagna di promozione turistica ha lanciato «Gira#InLombardia», una selezione online destinata a raccogliere contenuti video per la promozione del territorio regionale. Appassionati e professionisti della comunicazione sono chiamati a sviluppare un'idea creativa tramite dei video di durata compresa fra i 30 e i 60 secondi, che promuovano il territorio regionale e attirino il pubblico nazionale e internazionale. I cinque video giudicati migliori saranno premiati con una somma complessiva di 15.000 euro.",
+    "question": "La Regione Lombardia:",
+    "options": [
+      {"key": "A", "text": "organizza un concorso."},
+      {"key": "B", "text": "apre agenzie di viaggio."},
+      {"key": "C", "text": "aiuta il cinema locale."},
+      {"key": "D", "text": "cerca guide turistiche."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Il testo dice che la Regione 'ha lanciato una selezione online' e che 'i cinque video giudicati migliori saranno premiati': organizza un concorso.",
+    "keywords": []
+  },
+  {
+    "id": "plida-p1-038",
+    "part": 1,
+    "title": "Missione Archeologica a Saqqara (Christian Greco)",
+    "topic": "Cultura, Ambiente e Luoghi di Svago",
+    "text": "Il direttore del Museo Egizio di Torino Christian Greco è in partenza per la città di Saqqara, a qualche decina di chilometri a sud del Cairo. Raggiungerà la missione italo-olandese organizzata in collaborazione con il Museo di Antichità di Leyden. Prima di lui sono partiti nei giorni scorsi altri egittologi dello staff torinese, guidati da Paolo Del Vesco. Scaveranno in un sito archeologico in cui dal 2001 sono state scoperte quindici tombe, che dovrebbe riservare ancora sorprese. I risultati dello scavo saranno registrati su taccuini e inseriti in diretta in un sito internet rivolto alla comunità degli amici dello scavo.",
+    "question": "Christian Greco:",
+    "options": [
+      {"key": "A", "text": "sarà il primo italiano della missione archeologica in Egitto."},
+      {"key": "B", "text": "lavorerà a uno scavo archeologico internazionale."},
+      {"key": "C", "text": "inizierà uno scavo archeologico in Egitto."},
+      {"key": "D", "text": "girerà un film sui ritrovamenti archeologici."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Il testo dice che Greco 'raggiungerà la missione italo-olandese' e che 'prima di lui sono partiti altri egittologi': lavorerà quindi a uno scavo archeologico internazionale già avviato.",
+    "keywords": []
+  }
+]

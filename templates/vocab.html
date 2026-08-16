@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <h1>📖 Vocabolario</h1>
+  <p>Le parole chiave che hai salvato mentre ti esercitavi. Tienile a portata di mano per ripassare!</p>
+</section>
+
+<div class="card stats-card">
+  <div class="stat"><strong>{{ stats.total }}</strong><span>termini salvati</span></div>
+  <div class="stat"><strong>{{ stats.percent }}%</strong><span>risposte corrette</span></div>
+  <div class="stat"><strong>{{ stats.attempts }}</strong><span>esercizi completati</span></div>
+</div>
+
+<button type="button" class="btn btn-outline btn-block ai-report-btn"
+  hx-post="/ai/report" hx-target="#ai-report" hx-swap="innerHTML">
+  📝 Analisi IA dei tuoi progressi
+</button>
+<div id="ai-report" class="ai-report-zone"></div>
+
+<div id="vocab-list">
+  {% include 'partials/vocab_list.html' %}
+</div>
+
+<p class="hint center">Vuoi vedere nel dettaglio come stai andando? <a href="/progress">Consulta i tuoi progressi</a>.</p>
+
+{% endblock %}

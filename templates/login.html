@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Accedi · IMPAROMA</title>
+  <meta name="theme-color" content="#f8fafc" />
+  <link rel="manifest" href="/static/manifest.json" />
+  <link rel="icon" href="/static/icons/favicon.png" />
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <div class="app login-app">
+    <main class="main login-main">
+      <div class="login-brand">
+        <img class="brand-logo lg" src="/static/img/imparoma-mark.png" alt="IMPAROMA" />
+        <span class="brand-name"><strong>IMPAROMA</strong></span>
+      </div>
+
+      <div class="card login-card">
+        <h1>Accedi</h1>
+        <p>Inserisci il numero di telefono e la password del tuo profilo.</p>
+
+        {% if error %}
+          <div class="feedback feedback-ko" role="alert">
+            <p class="feedback-title">⚠️ Accesso non riuscito</p>
+            <p class="feedback-sub">{{ error }}</p>
+          </div>
+        {% endif %}
+
+        <form method="post" action="/login" class="login-form">
+          <div class="field">
+            <label for="login-phone">Numero di telefono</label>
+            <div class="phone-row">
+              <select id="login-country" name="country" class="select country-select" aria-label="Prefisso internazionale">
+                {% for c in countries %}
+                  <option value="{{ c.code }}" {% if c.code == country %}selected{% endif %}>{{ c.flag }} {{ c.code }}</option>
+                {% endfor %}
+              </select>
+              <input id="login-phone" name="phone" type="tel" class="input" inputmode="tel"
+                autocomplete="tel" placeholder="es. 412 6778168" value="{{ phone }}" required autofocus />
+            </div>
+          </div>
+          <div class="field">
+            <label for="login-password">Password</label>
+            <input id="login-password" name="password" type="password" class="input"
+              autocomplete="current-password" required />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Entra</button>
+        </form>
+
+        <p class="hint center">Il profilo funziona su un dispositivo alla volta: per usare un altro
+          dispositivo, esci da questo oppure chiedi all'amministratore di disconnetterlo.</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "plida-p3-001",
+    "part": 3,
+    "title": "Natura, Luoghi e Attività all'Aperto",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "Orienteering · Campi estivi WWF · Macchia Grande di Manziana",
+    "segments": [
+      {
+        "type": "text",
+        "content": "L'orienteering è un'attività particolarmente adatta a centri estivi, scuole e gruppi di lavoro; infatti, servono le capacità di tutti per riuscire a completare il percorso."
+      },
+      {
+        "type": "blank",
+        "number": 11
+      },
+      {
+        "type": "text",
+        "content": "Dopo una breve introduzione in cui vengono fornite le norme basilari dell'attività, ogni gruppo parte alla ricerca di alcuni punti, chiamati \"lanterne\", da trovare seguendo il percorso riportato sulla mappa. Chi raggiunge più punti nel minor tempo possibile vince. Il divertimento e il gioco sono assicurati!\n\n"
+      },
+      {
+        "type": "text",
+        "content": "I Campi estivi WWF per bambini e ragazzi dai 7 ai 17 anni sono un'eccezionale opportunità, divertente e formativa allo stesso tempo, di incontro, vacanza e conoscenza della natura."
+      },
+      {
+        "type": "blank",
+        "number": 12
+      },
+      {
+        "type": "text",
+        "content": "Naturalisti, biologi, guide forestali, educatori e istruttori di tutte le varie attività dell'outdoor in natura sono le persone che accompagnano i ragazzi in questa avventura, restando al loro fianco giorno e notte.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Macchia Grande di Manziana è un vasto spazio verde dominato da alberi e molte altre specie vegetali. Si estende per 580 ettari nella zona di Roma Nord, a soli 5 km dalla graziosa cittadina di Bracciano e 2 km dal centro abitato di Manziana."
+      },
+      {
+        "type": "blank",
+        "number": 13
+      },
+      {
+        "type": "text",
+        "content": "Qui, natura incontaminata e prati spaziosi si prestano a passeggiate rilassanti, escursioni, attività sportive, gite in mountain bike, ma anche barbecue e picnic domenicali nell'area attrezzata (a pochi passi dall'entrata)."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 11,
+        "options": [
+          {
+            "key": "A",
+            "text": "Oltre alle comuni varietà di volatili e di ovini sono ospitate specie particolari di piccioni, galline, tacchini, pecore, capre, asini, pavoni."
+          },
+          {
+            "key": "B",
+            "text": "Attraverso l'esperienza pratica, rappresentano infatti anche un'occasione per sviluppare la propria sensibilità ambientale."
+          },
+          {
+            "key": "C",
+            "text": "Il progetto è altamente sostenibile per il basso costo dei materiali per gli esperimenti scientifici, effettuati con materiali riciclati."
+          },
+          {
+            "key": "D",
+            "text": "Il bosco oggi visibile è ciò che rimane di una distesa anticamente più ampia."
+          },
+          {
+            "key": "E",
+            "text": "Fuori dalla struttura ci sono diversi percorsi per arrampicare in tutte le giornate di bel tempo."
+          },
+          {
+            "key": "F",
+            "text": "Le regole sono semplici: ci si divide in squadre e si viene forniti di cartina topografica e bussola."
+          }
+        ],
+        "correct": "F"
+      },
+      {
+        "number": 12,
+        "options": [
+          {
+            "key": "A",
+            "text": "Oltre alle comuni varietà di volatili e di ovini sono ospitate specie particolari di piccioni, galline, tacchini, pecore, capre, asini, pavoni."
+          },
+          {
+            "key": "B",
+            "text": "Attraverso l'esperienza pratica, rappresentano infatti anche un'occasione per sviluppare la propria sensibilità ambientale."
+          },
+          {
+            "key": "C",
+            "text": "Il progetto è altamente sostenibile per il basso costo dei materiali per gli esperimenti scientifici, effettuati con materiali riciclati."
+          },
+          {
+            "key": "D",
+            "text": "Il bosco oggi visibile è ciò che rimane di una distesa anticamente più ampia."
+          },
+          {
+            "key": "E",
+            "text": "Fuori dalla struttura ci sono diversi percorsi per arrampicare in tutte le giornate di bel tempo."
+          },
+          {
+            "key": "F",
+            "text": "Le regole sono semplici: ci si divide in squadre e si viene forniti di cartina topografica e bussola."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "number": 13,
+        "options": [
+          {
+            "key": "A",
+            "text": "Oltre alle comuni varietà di volatili e di ovini sono ospitate specie particolari di piccioni, galline, tacchini, pecore, capre, asini, pavoni."
+          },
+          {
+            "key": "B",
+            "text": "Attraverso l'esperienza pratica, rappresentano infatti anche un'occasione per sviluppare la propria sensibilità ambientale."
+          },
+          {
+            "key": "C",
+            "text": "Il progetto è altamente sostenibile per il basso costo dei materiali per gli esperimenti scientifici, effettuati con materiali riciclati."
+          },
+          {
+            "key": "D",
+            "text": "Il bosco oggi visibile è ciò che rimane di una distesa anticamente più ampia."
+          },
+          {
+            "key": "E",
+            "text": "Fuori dalla struttura ci sono diversi percorsi per arrampicare in tutte le giornate di bel tempo."
+          },
+          {
+            "key": "F",
+            "text": "Le regole sono semplici: ci si divide in squadre e si viene forniti di cartina topografica e bussola."
+          }
+        ],
+        "correct": "D"
+      }
+    ],
+    "explanation": {
+      "11": "La frase F parla di 'squadre', 'cartina topografica e bussola', elementi dell'orienteering appena descritto.",
+      "12": "La frase B ('occasione per sviluppare la propria sensibilità ambientale') completa l'idea dei Campi estivi WWF, 'divertenti e formativi'.",
+      "13": "La frase D ('Il bosco oggi visibile è ciò che rimane di una distesa anticamente più ampia') introduce la descrizione di Macchia Grande, vasto spazio verde."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p3-002",
+    "part": 3,
+    "title": "Arte e Architettura Urbana",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "MAXXI di Roma · Torre di Pisa · Navigli di Milano",
+    "segments": [
+      {
+        "type": "text",
+        "content": "Un polo multidisciplinare, interattivo, nato per sperimentare e innovare nel campo delle arti e dell'architettura. Da subito diventato simbolo di Roma, capace di attrarre pubblico e media da tutto il mondo. Il MAXXI è armonia di colori, materiali e forme: bianco, acciaio, grigio, vetro, nero e cemento si fondono in una struttura sinuosa dove l'esperienza dello spazio è ogni volta nuova e personale."
+      },
+      {
+        "type": "blank",
+        "number": 11
+      },
+      {
+        "type": "text",
+        "content": "Il museo è a disposizione per accogliere ed esaltare ogni tipo di evento: convegni e conferenze, riunioni e presentazioni aziendali.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "La torre di Pisa è conosciuta in tutto il mondo, una delle icone dell'Italia insieme al Colosseo. Al di là della sua celebre pendenza, vera e propria sfida alle leggi della statica, la Torre è un edificio singolare e unico nel suo genere, per l'alto valore storico e artistico delle sue forme."
+      },
+      {
+        "type": "blank",
+        "number": 12
+      },
+      {
+        "type": "text",
+        "content": "È un punto di riferimento e il simbolo dell'orgoglio civico e religioso della comunità cittadina toscana.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Quando si parla dei Navigli si fa riferimento alla zona della Darsena, il porto adiacente a Piazza XXIV Maggio, e alle vie che costeggiano il Naviglio Grande, che collegava Milano alla Svizzera, e il Naviglio Pavese, che arrivava fino a Pavia. Oggi questa zona è molto rivalutata ed è considerata una delle più affascinanti aree residenziali di Milano."
+      },
+      {
+        "type": "blank",
+        "number": 13
+      },
+      {
+        "type": "text",
+        "content": "In realtà i Navigli nascono come canali artificiali navigabili utilizzati per il trasporto di persone e merci e per l'irrigazione. Nel corso del ventesimo secolo, con il diffondersi dei tram e dei treni come mezzi di trasporto, sono stati quasi completamente coperti."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 11,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Il quartiere è molto frequentato: di giorno, in quanto sede di numerosi mercatini, gallerie d'arte e botteghe di artigiani; di sera, per i mille locali e ristoranti che lo rendono uno dei più divertenti e attrattivi quartieri della città."
+          },
+          {
+            "key": "C",
+            "text": "Per sensazioni più ricercate è prevista la possibilità di visitare privatamente le sale espositive accompagnati dai migliori operatori culturali."
+          },
+          {
+            "key": "D",
+            "text": "L'area è visitata da molte persone, che possono godere di estesi percorsi in terra battuta per jogging e mountain bike, oltre agli impianti sportivi privati dedicati a calcio, calcetto, tennis, rugby e golf."
+          },
+          {
+            "key": "E",
+            "text": "I visitatori potranno accedere gratuitamente all'opera e camminare ammirando tutti gli angoli più nascosti dalle montagne intorno al lago, cullati dal movimento dell'acqua sotto i propri piedi. I pontili saranno larghi 16 metri e alti 50 centimetri."
+          },
+          {
+            "key": "F",
+            "text": "Grazie alla sua altezza elevata risultava ben visibile da ogni parte della piazza e probabilmente anche dal fiume, assumendo in questo modo la funzione di collegamento tra la città e la piazza, situata in una zona decentrata dal nucleo urbano."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "number": 12,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Il quartiere è molto frequentato: di giorno, in quanto sede di numerosi mercatini, gallerie d'arte e botteghe di artigiani; di sera, per i mille locali e ristoranti che lo rendono uno dei più divertenti e attrattivi quartieri della città."
+          },
+          {
+            "key": "C",
+            "text": "Per sensazioni più ricercate è prevista la possibilità di visitare privatamente le sale espositive accompagnati dai migliori operatori culturali."
+          },
+          {
+            "key": "D",
+            "text": "L'area è visitata da molte persone, che possono godere di estesi percorsi in terra battuta per jogging e mountain bike, oltre agli impianti sportivi privati dedicati a calcio, calcetto, tennis, rugby e golf."
+          },
+          {
+            "key": "E",
+            "text": "I visitatori potranno accedere gratuitamente all'opera e camminare ammirando tutti gli angoli più nascosti dalle montagne intorno al lago, cullati dal movimento dell'acqua sotto i propri piedi. I pontili saranno larghi 16 metri e alti 50 centimetri."
+          },
+          {
+            "key": "F",
+            "text": "Grazie alla sua altezza elevata risultava ben visibile da ogni parte della piazza e probabilmente anche dal fiume, assumendo in questo modo la funzione di collegamento tra la città e la piazza, situata in una zona decentrata dal nucleo urbano."
+          }
+        ],
+        "correct": "F"
+      },
+      {
+        "number": 13,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Il quartiere è molto frequentato: di giorno, in quanto sede di numerosi mercatini, gallerie d'arte e botteghe di artigiani; di sera, per i mille locali e ristoranti che lo rendono uno dei più divertenti e attrattivi quartieri della città."
+          },
+          {
+            "key": "C",
+            "text": "Per sensazioni più ricercate è prevista la possibilità di visitare privatamente le sale espositive accompagnati dai migliori operatori culturali."
+          },
+          {
+            "key": "D",
+            "text": "L'area è visitata da molte persone, che possono godere di estesi percorsi in terra battuta per jogging e mountain bike, oltre agli impianti sportivi privati dedicati a calcio, calcetto, tennis, rugby e golf."
+          },
+          {
+            "key": "E",
+            "text": "I visitatori potranno accedere gratuitamente all'opera e camminare ammirando tutti gli angoli più nascosti dalle montagne intorno al lago, cullati dal movimento dell'acqua sotto i propri piedi. I pontili saranno larghi 16 metri e alti 50 centimetri."
+          },
+          {
+            "key": "F",
+            "text": "Grazie alla sua altezza elevata risultava ben visibile da ogni parte della piazza e probabilmente anche dal fiume, assumendo in questo modo la funzione di collegamento tra la città e la piazza, situata in una zona decentrata dal nucleo urbano."
+          }
+        ],
+        "correct": "B"
+      }
+    ],
+    "explanation": {
+      "11": "La frase C ('visitare privatamente le sale espositive') si collega al museo MAXXI e alla sua capacità di accogliere eventi e visitatori.",
+      "12": "La frase F parla di un edificio 'ben visibile da ogni parte della piazza': si riferisce alla Torre di Pisa e alla sua funzione di punto di riferimento.",
+      "13": "La frase B descrive il quartiere 'molto frequentato', di giorno e di sera, e si riferisce alla zona dei Navigli appena introdotta."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p3-003",
+    "part": 3,
+    "title": "Luoghi Storici e Musei",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "Vita notturna a Torino · Museo della Radio d'Epoca a Verona · Visita al Parco Naturale",
+    "segments": [
+      {
+        "type": "text",
+        "content": "Città universitaria e ricca di locali per il divertimento, Torino offre in ogni stagione la possibilità di trascorrere una serata vivace con gli amici. I giovani affollano, praticamente tutte le sere, le zone più di moda per la vita notturna, che in particolare nel weekend diventano punti di incontro in cui si concentrano eventi, serate a tema, concerti di musica dal vivo."
+      },
+      {
+        "type": "blank",
+        "number": 11
+      },
+      {
+        "type": "text",
+        "content": "La zona è servita da una rete di autobus notturni, i Night Buster, che ogni venerdì e sabato permettono di ritornare comodamente a ogni ora negli altri quartieri della città.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Ospitato in alcune sale dell'istituto tecnico Itis Galileo Ferraris di Verona, il Museo della Radio d'Epoca espone numerosi ed interessanti esemplari appartenenti ad una preziosa collezione privata."
+      },
+      {
+        "type": "blank",
+        "number": 12
+      },
+      {
+        "type": "text",
+        "content": "Le apparecchiature ed i modelli esposti sono scelti tra quelli più interessanti facenti parte della collezione privata di Alberto Chiantera, partendo dal telegrafo e dai primi trasmettitori radiotelegrafici.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Una volta entrati nel Parco, è consigliabile lasciare l'auto nelle apposite aree di parcheggio, e proseguire la visita a piedi. Solo così si può percepire la presenza degli animali, osservare gli ambienti naturali e godere del contatto con la natura."
+      },
+      {
+        "type": "blank",
+        "number": 13
+      },
+      {
+        "type": "text",
+        "content": "Chi invece volesse visitare il Parco da solo, potrà usufruire della nuova carta turistica, disponibile su tutto il territorio, e potrà scegliere tra i circa 150 itinerari ecoturistici, per una lunghezza complessiva superiore a 250 km."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 11,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "La piccola chiesa e il convento sono stati di recente restaurati. La chiesa ospita conferenze e mostre, mentre il convento delle Clarisse è una delle sedi del Polo Universitario Grossetano."
+          },
+          {
+            "key": "C",
+            "text": "Una delle aree più frequentate è sicuramente Piazza Vittorio Veneto con i vicini Murazzi, dislocati lungo il Po. Si può arrivare in piazza all'ora dell'aperitivo e poi fare un giro dei cocktail bar prima di scegliere in quale locale spostarsi a ballare."
+          },
+          {
+            "key": "D",
+            "text": "Il nome fa pensare a un mercato di fiori, deriva invece dal latino Campus Florae, Campo di Flora, donna amata dal grande generale romano Pompeo. Ogni mattina, escluso la domenica, la piazza si riempie di variopinte bancarelle che vendono frutta e verdura, carne, pollame e pesce."
+          },
+          {
+            "key": "E",
+            "text": "Si tratta di un grande omaggio e di un gesto di amore verso la scoperta che nel secolo scorso ha maggiormente contribuito a cambiare il modo di diffondere le notizie e la cultura nel mondo."
+          },
+          {
+            "key": "F",
+            "text": "Una regola importante è quella di camminare nel più assoluto silenzio, da soli o in piccoli gruppi; oppure, meglio ancora, partecipare alle escursioni guidate organizzate dalle associazioni turistiche che propongono una vasta gamma di attività."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "number": 12,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "La piccola chiesa e il convento sono stati di recente restaurati. La chiesa ospita conferenze e mostre, mentre il convento delle Clarisse è una delle sedi del Polo Universitario Grossetano."
+          },
+          {
+            "key": "C",
+            "text": "Una delle aree più frequentate è sicuramente Piazza Vittorio Veneto con i vicini Murazzi, dislocati lungo il Po. Si può arrivare in piazza all'ora dell'aperitivo e poi fare un giro dei cocktail bar prima di scegliere in quale locale spostarsi a ballare."
+          },
+          {
+            "key": "D",
+            "text": "Il nome fa pensare a un mercato di fiori, deriva invece dal latino Campus Florae, Campo di Flora, donna amata dal grande generale romano Pompeo. Ogni mattina, escluso la domenica, la piazza si riempie di variopinte bancarelle che vendono frutta e verdura, carne, pollame e pesce."
+          },
+          {
+            "key": "E",
+            "text": "Si tratta di un grande omaggio e di un gesto di amore verso la scoperta che nel secolo scorso ha maggiormente contribuito a cambiare il modo di diffondere le notizie e la cultura nel mondo."
+          },
+          {
+            "key": "F",
+            "text": "Una regola importante è quella di camminare nel più assoluto silenzio, da soli o in piccoli gruppi; oppure, meglio ancora, partecipare alle escursioni guidate organizzate dalle associazioni turistiche che propongono una vasta gamma di attività."
+          }
+        ],
+        "correct": "E"
+      },
+      {
+        "number": 13,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "La piccola chiesa e il convento sono stati di recente restaurati. La chiesa ospita conferenze e mostre, mentre il convento delle Clarisse è una delle sedi del Polo Universitario Grossetano."
+          },
+          {
+            "key": "C",
+            "text": "Una delle aree più frequentate è sicuramente Piazza Vittorio Veneto con i vicini Murazzi, dislocati lungo il Po. Si può arrivare in piazza all'ora dell'aperitivo e poi fare un giro dei cocktail bar prima di scegliere in quale locale spostarsi a ballare."
+          },
+          {
+            "key": "D",
+            "text": "Il nome fa pensare a un mercato di fiori, deriva invece dal latino Campus Florae, Campo di Flora, donna amata dal grande generale romano Pompeo. Ogni mattina, escluso la domenica, la piazza si riempie di variopinte bancarelle che vendono frutta e verdura, carne, pollame e pesce."
+          },
+          {
+            "key": "E",
+            "text": "Si tratta di un grande omaggio e di un gesto di amore verso la scoperta che nel secolo scorso ha maggiormente contribuito a cambiare il modo di diffondere le notizie e la cultura nel mondo."
+          },
+          {
+            "key": "F",
+            "text": "Una regola importante è quella di camminare nel più assoluto silenzio, da soli o in piccoli gruppi; oppure, meglio ancora, partecipare alle escursioni guidate organizzate dalle associazioni turistiche che propongono una vasta gamma di attività."
+          }
+        ],
+        "correct": "F"
+      }
+    ],
+    "explanation": {
+      "11": "La frase C descrive Piazza Vittorio Veneto e i locali: completa il quadro della 'vita notturna' di Torino.",
+      "12": "La frase E parla di un 'omaggio' alla scoperta che ha cambiato 'il modo di diffondere le notizie', cioè la radio: completa il brano sul Museo della Radio d'Epoca.",
+      "13": "La frase F suggerisce di 'camminare nel più assoluto silenzio' e di partecipare alle escursioni guidate: completa le regole per la visita al Parco Naturale."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p3-004",
+    "part": 3,
+    "title": "Spettacolo, Musica e Cinema",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "Viaggi nell'antica Roma · Stagione estiva alle Terme di Caracalla · Cinema all'aperto in Piazza San Cosimato",
+    "segments": [
+      {
+        "type": "text",
+        "content": "Il progetto \"Viaggi nell'antica Roma\" racconta il Foro di Augusto e il Foro di Cesare partendo da reperti archeologici, frammenti e colonne presenti, con l'uso di tecnologie all'avanguardia."
+      },
+      {
+        "type": "blank",
+        "number": 1
+      },
+      {
+        "type": "text",
+        "content": "Una rappresentazione emozionante e allo stesso tempo ricca di informazioni di natura storica e scientifica.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Non solo opera e balletto nella stagione estiva del Teatro dell'Opera di Roma, in programma nei magnifici spazi delle Terme di Caracalla."
+      },
+      {
+        "type": "blank",
+        "number": 2
+      },
+      {
+        "type": "text",
+        "content": "Rimane l'attenzione all'eccellenza artistica, come già avvenuto in passato, quando a Caracalla, ad esempio, si esibì il famoso chitarrista Caetano Veloso.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Dopo il grande successo dell'anno scorso, Piazza San Cosimato torna ad essere un cinema a cielo aperto. L'intera piazza diventerà una platea a libero accesso con una capienza fino a 3.000 persone."
+      },
+      {
+        "type": "blank",
+        "number": 3
+      },
+      {
+        "type": "text",
+        "content": "Non c'è soltanto qualcosa di romantico in questo gesto: è un atto simbolico per stimolare i cittadini a trasformare la piazza, partecipando attivamente all'organizzazione dell'evento invece di viverlo passivamente."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 1,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Le acque che sgorgano dal terreno a una temperatura di 37 gradi centigradi formano cascate e si raccolgono in piscine naturali scavate nella roccia e disposte a gradoni in cui immergersi in totale relax, anche quando fuori fa freddo."
+          },
+          {
+            "key": "C",
+            "text": "Quest'anno il cartellone si apre a tutti i generi musicali, compresi il pop e il rock."
+          },
+          {
+            "key": "D",
+            "text": "Non sono previste poltrone né sedili. I partecipanti dovranno portare le proprie sedie, o cuscini o tappeti."
+          },
+          {
+            "key": "E",
+            "text": "Saranno coinvolti ogni chiesa, museo o collezione, di tutta la regione, che possa vantare nel proprio patrimonio almeno un'opera del pittore rinascimentale."
+          },
+          {
+            "key": "F",
+            "text": "Gli spettatori vengono accompagnati dalla voce del Prof. Piero Angela e da magnifici filmati in 3D e ricostruzioni che mostrano i luoghi così come si presentavano ai tempi degli imperatori."
+          }
+        ],
+        "correct": "F"
+      },
+      {
+        "number": 2,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Le acque che sgorgano dal terreno a una temperatura di 37 gradi centigradi formano cascate e si raccolgono in piscine naturali scavate nella roccia e disposte a gradoni in cui immergersi in totale relax, anche quando fuori fa freddo."
+          },
+          {
+            "key": "C",
+            "text": "Quest'anno il cartellone si apre a tutti i generi musicali, compresi il pop e il rock."
+          },
+          {
+            "key": "D",
+            "text": "Non sono previste poltrone né sedili. I partecipanti dovranno portare le proprie sedie, o cuscini o tappeti."
+          },
+          {
+            "key": "E",
+            "text": "Saranno coinvolti ogni chiesa, museo o collezione, di tutta la regione, che possa vantare nel proprio patrimonio almeno un'opera del pittore rinascimentale."
+          },
+          {
+            "key": "F",
+            "text": "Gli spettatori vengono accompagnati dalla voce del Prof. Piero Angela e da magnifici filmati in 3D e ricostruzioni che mostrano i luoghi così come si presentavano ai tempi degli imperatori."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "number": 3,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Le acque che sgorgano dal terreno a una temperatura di 37 gradi centigradi formano cascate e si raccolgono in piscine naturali scavate nella roccia e disposte a gradoni in cui immergersi in totale relax, anche quando fuori fa freddo."
+          },
+          {
+            "key": "C",
+            "text": "Quest'anno il cartellone si apre a tutti i generi musicali, compresi il pop e il rock."
+          },
+          {
+            "key": "D",
+            "text": "Non sono previste poltrone né sedili. I partecipanti dovranno portare le proprie sedie, o cuscini o tappeti."
+          },
+          {
+            "key": "E",
+            "text": "Saranno coinvolti ogni chiesa, museo o collezione, di tutta la regione, che possa vantare nel proprio patrimonio almeno un'opera del pittore rinascimentale."
+          },
+          {
+            "key": "F",
+            "text": "Gli spettatori vengono accompagnati dalla voce del Prof. Piero Angela e da magnifici filmati in 3D e ricostruzioni che mostrano i luoghi così come si presentavano ai tempi degli imperatori."
+          }
+        ],
+        "correct": "D"
+      }
+    ],
+    "explanation": {
+      "1": "La frase F parla di 'filmati in 3D e ricostruzioni' che mostrano i luoghi antichi: completa il progetto 'Viaggi nell'antica Roma'.",
+      "2": "La frase C ('il cartellone si apre a tutti i generi musicali') completa la frase sulla stagione estiva alle Terme di Caracalla.",
+      "3": "La frase D ('Non sono previste poltrone né sedili. I partecipanti dovranno portare le proprie sedie') si riferisce al cinema a cielo aperto in piazza."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p3-005",
+    "part": 3,
+    "title": "Luoghi Storici e Borghi",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "Storico Caffè di Piazza San Marco (Venezia) · Todi · Parco di Villa Grock a Imperia",
+    "segments": [
+      {
+        "type": "text",
+        "content": "Gli interni sfarzosi di questo caffè, il più noto della città, hanno ospitato personaggi come Lord Byron e Henry James, che prendevano qui la colazione (in epoche diverse, naturalmente) prima di attraversare la piazza per gustare il pranzo al Caffè Quadri."
+      },
+      {
+        "type": "blank",
+        "number": 1
+      },
+      {
+        "type": "text",
+        "content": "Per spendere un po' meno, rimanete al bancone.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Antica città di frontiera tra il territorio degli Etruschi e quello degli Umbri, Todi prende il suo nome dalla parola etrusca tular, che significa appunto \"confine\". L'austero e nobile aspetto della città risale all'epoca medievale."
+      },
+      {
+        "type": "blank",
+        "number": 2
+      },
+      {
+        "type": "text",
+        "content": "Qui si affacciano i palazzi pubblici del Comune medievale e la cattedrale romanica.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Originariamente molto più vasto, il parco di villa Grock mantiene intatto l'equilibrio armonico del suo insieme."
+      },
+      {
+        "type": "blank",
+        "number": 3
+      },
+      {
+        "type": "text",
+        "content": "Una sapiente illuminazione \"teatrale\" ci fa credere che da un momento all'altro possano apparire gli acrobati, i funamboli, i giocolieri, pronti a dare vita ad uno dei loro sorprendenti spettacoli."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 1,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Il mese inizia con il corso completo di cucina (1° livello) il primo ottobre, uno dei grandi classici del Pepe Verde, che edizione dopo edizione risulta sempre graditissimo."
+          },
+          {
+            "key": "C",
+            "text": "Una vegetazione tipicamente mediterranea fa da sfondo a giochi di forme, spazi e luci rappresentativi del mondo del circo tanto caro al proprietario."
+          },
+          {
+            "key": "D",
+            "text": "I veneziani hanno iniziato nel 1720 a pagare somme esorbitanti per il piacere di bere qui."
+          },
+          {
+            "key": "E",
+            "text": "Visitato questo monumento, si riprende l'autobus per andare al parcheggio di Porta Orvietana."
+          },
+          {
+            "key": "F",
+            "text": "Le attrazioni più significative sono il Tempio della Consolazione, capolavoro dell'architettura del rinascimento, la grande chiesa gotica di San Fortunato e la piazza che occupa lo spazio dell'antico Foro romano."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "number": 2,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Il mese inizia con il corso completo di cucina (1° livello) il primo ottobre, uno dei grandi classici del Pepe Verde, che edizione dopo edizione risulta sempre graditissimo."
+          },
+          {
+            "key": "C",
+            "text": "Una vegetazione tipicamente mediterranea fa da sfondo a giochi di forme, spazi e luci rappresentativi del mondo del circo tanto caro al proprietario."
+          },
+          {
+            "key": "D",
+            "text": "I veneziani hanno iniziato nel 1720 a pagare somme esorbitanti per il piacere di bere qui."
+          },
+          {
+            "key": "E",
+            "text": "Visitato questo monumento, si riprende l'autobus per andare al parcheggio di Porta Orvietana."
+          },
+          {
+            "key": "F",
+            "text": "Le attrazioni più significative sono il Tempio della Consolazione, capolavoro dell'architettura del rinascimento, la grande chiesa gotica di San Fortunato e la piazza che occupa lo spazio dell'antico Foro romano."
+          }
+        ],
+        "correct": "F"
+      },
+      {
+        "number": 3,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Il mese inizia con il corso completo di cucina (1° livello) il primo ottobre, uno dei grandi classici del Pepe Verde, che edizione dopo edizione risulta sempre graditissimo."
+          },
+          {
+            "key": "C",
+            "text": "Una vegetazione tipicamente mediterranea fa da sfondo a giochi di forme, spazi e luci rappresentativi del mondo del circo tanto caro al proprietario."
+          },
+          {
+            "key": "D",
+            "text": "I veneziani hanno iniziato nel 1720 a pagare somme esorbitanti per il piacere di bere qui."
+          },
+          {
+            "key": "E",
+            "text": "Visitato questo monumento, si riprende l'autobus per andare al parcheggio di Porta Orvietana."
+          },
+          {
+            "key": "F",
+            "text": "Le attrazioni più significative sono il Tempio della Consolazione, capolavoro dell'architettura del rinascimento, la grande chiesa gotica di San Fortunato e la piazza che occupa lo spazio dell'antico Foro romano."
+          }
+        ],
+        "correct": "C"
+      }
+    ],
+    "explanation": {
+      "1": "La frase D ('I veneziani hanno iniziato nel 1720 a pagare somme esorbitanti') continua il discorso sui prezzi dello storico caffè di Venezia.",
+      "2": "La frase F elenca 'le attrazioni più significative' di Todi, come il Tempio della Consolazione: completa la descrizione della città.",
+      "3": "La frase C parla di 'giochi di forme, spazi e luci' del 'mondo del circo': completa la descrizione del Parco di Villa Grock."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p3-006",
+    "part": 3,
+    "title": "Musei, Borghi e Agriturismi",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "Soggiorno a Villa Adriana (Ferentino) · Mostra Antichi Mestieri a Tropea · Fattoria Didattica Momigliano",
+    "segments": [
+      {
+        "type": "text",
+        "content": "Situata a Ferentino, a 50 minuti di auto da Grottaferrata e a 2 km dalla Spa Pompei, la villa Adriana offre un giardino e la connessione Wi-Fi gratuita in tutta la struttura. Tutte le camere sono dotate di balcone con una vista sulla città, aria condizionata, riscaldamento, TV a schermo piatto e bagno privato con doccia, bidet e asciugacapelli."
+      },
+      {
+        "type": "blank",
+        "number": 11
+      },
+      {
+        "type": "text",
+        "content": "La villa Adriana dista 15 minuti di auto da Frosinone, 25 Km da Fiuggi e 55 minuti di auto dal Parco Regionale dei Castelli Romani.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Visitare una delle grandi meraviglie di Tropea per assistere ad uno straordinario spettacolo culturale. La mostra degli Antichi Mestieri è stata realizzata nell'anno 1999 dal Prof. Benito Badolato."
+      },
+      {
+        "type": "blank",
+        "number": 12
+      },
+      {
+        "type": "text",
+        "content": "I personaggi esprimono tutto il fascino di un'antica civiltà contadina, ovvero la storia, il costume, le tradizioni ed il folklore di un popolo laborioso.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "La fattoria Didattica Momigliano è un luogo formativo dove valori importanti come il rispetto e la cura della natura possono essere trasmessi alle nuove generazioni."
+      },
+      {
+        "type": "blank",
+        "number": 13
+      },
+      {
+        "type": "text",
+        "content": "Tutti i nostri percorsi didattico - formativi sono pensati attraverso il metodo del gioco e sono seguiti da personale altamente qualificato."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 11,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Due intere sale del nuovo museo sono dedicate al genere del ritratto, con particolare attenzione alle opere di Hayez. L'elegante sala da ballo e la luminosa sala del Parnaso entrambe libere da opere, costituiscono due pause nel percorso espositivo."
+          },
+          {
+            "key": "C",
+            "text": "Il percorso propone oltre 85 statue animate, tra uomini e donne, come potevano essere nei primi anni del '900, intenti al proprio lavoro."
+          },
+          {
+            "key": "D",
+            "text": "I bambini potranno avvicinarsi agli animali, esplorare e conoscere il nostro stagno ricco di animali e piante acquatiche, potranno ammirare la crescita dei cuccioli e gli straordinari effetti delle stagioni sul clima e sulla natura."
+          },
+          {
+            "key": "E",
+            "text": "Dalla colazione al pranzo fino alla cena, passando per il lavoro a casa o il relax oppure per lo studio, single e famiglie trovano nelle cucine con l'isola l'ambiente perfetto per vivere ogni momento della giornata nella dimensione giusta."
+          },
+          {
+            "key": "F",
+            "text": "Ogni mattina nella sala ristorazione vi attende una tipica colazione italiana a buffet a base di caffè o cappuccino preparati al momento e prodotti da forno, mentre il ristorante serve piatti tipici regionali."
+          }
+        ],
+        "correct": "F"
+      },
+      {
+        "number": 12,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Due intere sale del nuovo museo sono dedicate al genere del ritratto, con particolare attenzione alle opere di Hayez. L'elegante sala da ballo e la luminosa sala del Parnaso entrambe libere da opere, costituiscono due pause nel percorso espositivo."
+          },
+          {
+            "key": "C",
+            "text": "Il percorso propone oltre 85 statue animate, tra uomini e donne, come potevano essere nei primi anni del '900, intenti al proprio lavoro."
+          },
+          {
+            "key": "D",
+            "text": "I bambini potranno avvicinarsi agli animali, esplorare e conoscere il nostro stagno ricco di animali e piante acquatiche, potranno ammirare la crescita dei cuccioli e gli straordinari effetti delle stagioni sul clima e sulla natura."
+          },
+          {
+            "key": "E",
+            "text": "Dalla colazione al pranzo fino alla cena, passando per il lavoro a casa o il relax oppure per lo studio, single e famiglie trovano nelle cucine con l'isola l'ambiente perfetto per vivere ogni momento della giornata nella dimensione giusta."
+          },
+          {
+            "key": "F",
+            "text": "Ogni mattina nella sala ristorazione vi attende una tipica colazione italiana a buffet a base di caffè o cappuccino preparati al momento e prodotti da forno, mentre il ristorante serve piatti tipici regionali."
+          }
+        ],
+        "correct": "C"
+      },
+      {
+        "number": 13,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Due intere sale del nuovo museo sono dedicate al genere del ritratto, con particolare attenzione alle opere di Hayez. L'elegante sala da ballo e la luminosa sala del Parnaso entrambe libere da opere, costituiscono due pause nel percorso espositivo."
+          },
+          {
+            "key": "C",
+            "text": "Il percorso propone oltre 85 statue animate, tra uomini e donne, come potevano essere nei primi anni del '900, intenti al proprio lavoro."
+          },
+          {
+            "key": "D",
+            "text": "I bambini potranno avvicinarsi agli animali, esplorare e conoscere il nostro stagno ricco di animali e piante acquatiche, potranno ammirare la crescita dei cuccioli e gli straordinari effetti delle stagioni sul clima e sulla natura."
+          },
+          {
+            "key": "E",
+            "text": "Dalla colazione al pranzo fino alla cena, passando per il lavoro a casa o il relax oppure per lo studio, single e famiglie trovano nelle cucine con l'isola l'ambiente perfetto per vivere ogni momento della giornata nella dimensione giusta."
+          },
+          {
+            "key": "F",
+            "text": "Ogni mattina nella sala ristorazione vi attende una tipica colazione italiana a buffet a base di caffè o cappuccino preparati al momento e prodotti da forno, mentre il ristorante serve piatti tipici regionali."
+          }
+        ],
+        "correct": "D"
+      }
+    ],
+    "explanation": {
+      "11": "La frase F descrive la 'colazione italiana a buffet' e il ristorante: completa la descrizione dei servizi della villa Adriana.",
+      "12": "La frase C parla delle '85 statue animate' di personaggi 'intenti al proprio lavoro': completa il brano sulla Mostra degli Antichi Mestieri.",
+      "13": "La frase D parla dei 'bambini' che 'potranno avvicinarsi agli animali': completa la descrizione della Fattoria Didattica."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p3-007",
+    "part": 3,
+    "title": "Cinema, Letteratura e Televisione",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "Film \"Se Dio vuole\" · Romanzo \"L'Erede degli Stregoni\" · Talent show \"Due posti al sole\"",
+    "segments": [
+      {
+        "type": "text",
+        "content": "È attualmente nel cinema Se Dio vuole, la bella commedia scritta e diretta da Edoardo Falcone. È la storia di uno scontro tra due personalità: Tommaso e Don Pietro. Tommaso è cardiochirurgo di fama e uomo dalle certezze assolute. Ha due figli, Bianca e Andrea."
+      },
+      {
+        "type": "blank",
+        "number": 11
+      },
+      {
+        "type": "text",
+        "content": "A ispirarlo è stato Don Pietro, a metà fra il sacerdote e il santone: a Tommaso non resta che avvicinarlo sperando di scoprirne i segreti per rivelarli ad Andrea e fargli cambiare idea sul sacerdozio.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Ti prende e ti porta via: con il suo romanzo L'Erede degli Stregoni. La Guerra degli Incubi, Lorenzo Bosisio è riuscito a realizzare un romanzo suggestivo e dalla forte carica evocativa."
+      },
+      {
+        "type": "blank",
+        "number": 12
+      },
+      {
+        "type": "text",
+        "content": "Bosisio, invece, riesce ad entrare immediatamente in sintonia con chi legge il libro e cattura l'interesse con una trama fantastica e avvincente.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Due posti al sole: è questo il nome del primo talent show in rete che sarà trasmesso su Ray, la nuova piattaforma della tv di Stato. L'obiettivo è selezionare due giovani attori tra i 18 e i 25 anni che prenderanno parte ad alcuni episodi estivi della soap opera nazionale Un posto al sole."
+      },
+      {
+        "type": "blank",
+        "number": 13
+      },
+      {
+        "type": "text",
+        "content": "Una vera e propria selezione in sette puntate durante le quali i giovani aspiranti attori si confronteranno davanti a una giuria costituita da professionisti."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 11,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Non è scontato tenere alte tensione e attenzione del lettore, quando viene calato nel racconto di una realtà parallela abitata da figure mitologiche ed immaginarie."
+          },
+          {
+            "key": "C",
+            "text": "Un testo di grande impegno civile, sostenuto da un dialogo brillante e da situazioni paradossali che lo rendono irresistibilmente comico. Si tratta di uno spettacolo di grandissimo valore - sostenuto dalla bravura degli attori."
+          },
+          {
+            "key": "D",
+            "text": "Ben presto viene coinvolto nella Resistenza e nelle lotte dei partigiani, sempre alla ricerca di un grande amico che sia diverso da tutte le altre persone che ha conosciuto. Ma esisterà davvero qualcuno a cui rivelare il suo segreto?"
+          },
+          {
+            "key": "E",
+            "text": "Un'occasione unica per vivere da protagonista le avventure della serie più seguita dagli italiani."
+          },
+          {
+            "key": "F",
+            "text": "Proprio da lui parte la rivoluzione in famiglia, quando il ragazzo, promettente studente di medicina, annuncia di voler diventare prete."
+          }
+        ],
+        "correct": "F"
+      },
+      {
+        "number": 12,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Non è scontato tenere alte tensione e attenzione del lettore, quando viene calato nel racconto di una realtà parallela abitata da figure mitologiche ed immaginarie."
+          },
+          {
+            "key": "C",
+            "text": "Un testo di grande impegno civile, sostenuto da un dialogo brillante e da situazioni paradossali che lo rendono irresistibilmente comico. Si tratta di uno spettacolo di grandissimo valore - sostenuto dalla bravura degli attori."
+          },
+          {
+            "key": "D",
+            "text": "Ben presto viene coinvolto nella Resistenza e nelle lotte dei partigiani, sempre alla ricerca di un grande amico che sia diverso da tutte le altre persone che ha conosciuto. Ma esisterà davvero qualcuno a cui rivelare il suo segreto?"
+          },
+          {
+            "key": "E",
+            "text": "Un'occasione unica per vivere da protagonista le avventure della serie più seguita dagli italiani."
+          },
+          {
+            "key": "F",
+            "text": "Proprio da lui parte la rivoluzione in famiglia, quando il ragazzo, promettente studente di medicina, annuncia di voler diventare prete."
+          }
+        ],
+        "correct": "B"
+      },
+      {
+        "number": 13,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Non è scontato tenere alte tensione e attenzione del lettore, quando viene calato nel racconto di una realtà parallela abitata da figure mitologiche ed immaginarie."
+          },
+          {
+            "key": "C",
+            "text": "Un testo di grande impegno civile, sostenuto da un dialogo brillante e da situazioni paradossali che lo rendono irresistibilmente comico. Si tratta di uno spettacolo di grandissimo valore - sostenuto dalla bravura degli attori."
+          },
+          {
+            "key": "D",
+            "text": "Ben presto viene coinvolto nella Resistenza e nelle lotte dei partigiani, sempre alla ricerca di un grande amico che sia diverso da tutte le altre persone che ha conosciuto. Ma esisterà davvero qualcuno a cui rivelare il suo segreto?"
+          },
+          {
+            "key": "E",
+            "text": "Un'occasione unica per vivere da protagonista le avventure della serie più seguita dagli italiani."
+          },
+          {
+            "key": "F",
+            "text": "Proprio da lui parte la rivoluzione in famiglia, quando il ragazzo, promettente studente di medicina, annuncia di voler diventare prete."
+          }
+        ],
+        "correct": "E"
+      }
+    ],
+    "explanation": {
+      "11": "La frase F parla di 'Andrea' che 'annuncia di voler diventare prete': completa la trama del film, che ha come figlio Andrea.",
+      "12": "La frase B commenta il romanzo fantasy ('realtà parallela abitata da figure mitologiche'): completa la recensione de 'L'Erede degli Stregoni'.",
+      "13": "La frase E parla di 'un'occasione unica' per vivere 'le avventure della serie più seguita': completa la descrizione del talent show legato a 'Un posto al sole'."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p3-008",
+    "part": 3,
+    "title": "Luoghi Storici e Piazze Italiane",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "Villa Pamphilj a Roma · Piazza Bra a Verona · Agriturismo La Casina (San Gimignano)",
+    "segments": [
+      {
+        "type": "text",
+        "content": "Villa Pamphilj è un'oasi meravigliosa che confina con i caotici quartieri di Monteverde e Gianicolo e si estende per tantissimi chilometri. Da vedere e vivere assolutamente per una passeggiata, un po' di esercizio fisico, per andare a spasso con i cani, o per fare due foto immersi nella natura, totalmente gratis."
+      },
+      {
+        "type": "blank",
+        "number": 11
+      },
+      {
+        "type": "text",
+        "content": "Non è certo un segreto per i cittadini e i visitatori che la frequentano, è piena di giovani e anziani ma non si ha mai la sensazione di essere in un luogo affollato.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Piazza Bra è il biglietto da visita di Verona e la visita non può che partire da questa bellissima piazza. Maestosa è la presenza dell'arena romana, una delle più belle e meglio conservate (in estate vi si svolgono festival e concerti vari classici e non)."
+      },
+      {
+        "type": "blank",
+        "number": 12
+      },
+      {
+        "type": "text",
+        "content": "Sedendosi in qualunque caffè si ammira il via vai di una città per nulla frenetica ma raffinata, pulita ed elegante. Giratela in lungo e largo senza fretta e soprattutto in questo periodo anche di sera, con le luci e in serate non fredde si mostrerà ancora più bella.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Immersa nella campagna toscana, La Casina è il luogo ideale per assaporare l'atmosfera della regione. Si trova lungo la via Vecchia, a soli 1500 metri da San Gimignano, su una meravigliosa passeggiata panoramica che porta direttamente in paese. Gli ospiti possono scegliere di soggiornare in camera doppia o in appartamento con cucina, il tutto finemente arredato in stile toscano."
+      },
+      {
+        "type": "blank",
+        "number": 13
+      },
+      {
+        "type": "text",
+        "content": "La Casina è inoltre situata in una zona strategica per visitare San Gimignano e le più importanti città d'arte: Volterra, Siena, Firenze, Pisa. In poco più di un'ora si può inoltre raggiungere l'incantevole costa tirrenica."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 11,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Sono a disposizione un parcheggio privato e un ampio giardino dove è possibile godersi il sole o dedicarsi alla lettura. La veranda allestita con tavolo e sedie è il luogo ideale per rilassarsi durante le tranquille notti estive."
+          },
+          {
+            "key": "C",
+            "text": "Anche a fine stagione, con il cielo coperto e pochi turisti, l'isola è sempre magica e offre diverse emozioni, dal mare limpido alla natura selvaggia della sua vegetazione."
+          },
+          {
+            "key": "D",
+            "text": "Intorno alla zona antica, comunque, è possibile ammirare edifici e monumenti realizzati in epoche diverse (la statua a Vittorio Emanuele II, il palazzo della Guardia e la fontana delle Alpi)."
+          },
+          {
+            "key": "E",
+            "text": "Lungo i percorsi attrezzati per fare ginnastica e i vialetti in mezzo agli alberi o sui prati, ideali per un picnic, ci si lascia dietro il rumore delle macchine e si respira, seppure per poco tempo, aria di natura salutare."
+          },
+          {
+            "key": "F",
+            "text": "Le sale del museo, ben tenute e arredate come all'origine, ospitano una ricca collezione di opere d'arte orientali, soprattutto porcellane. La visita di per sé richiede circa 40 minuti ma si consiglia di programmare anche una visita ai giardini."
+          }
+        ],
+        "correct": "E"
+      },
+      {
+        "number": 12,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Sono a disposizione un parcheggio privato e un ampio giardino dove è possibile godersi il sole o dedicarsi alla lettura. La veranda allestita con tavolo e sedie è il luogo ideale per rilassarsi durante le tranquille notti estive."
+          },
+          {
+            "key": "C",
+            "text": "Anche a fine stagione, con il cielo coperto e pochi turisti, l'isola è sempre magica e offre diverse emozioni, dal mare limpido alla natura selvaggia della sua vegetazione."
+          },
+          {
+            "key": "D",
+            "text": "Intorno alla zona antica, comunque, è possibile ammirare edifici e monumenti realizzati in epoche diverse (la statua a Vittorio Emanuele II, il palazzo della Guardia e la fontana delle Alpi)."
+          },
+          {
+            "key": "E",
+            "text": "Lungo i percorsi attrezzati per fare ginnastica e i vialetti in mezzo agli alberi o sui prati, ideali per un picnic, ci si lascia dietro il rumore delle macchine e si respira, seppure per poco tempo, aria di natura salutare."
+          },
+          {
+            "key": "F",
+            "text": "Le sale del museo, ben tenute e arredate come all'origine, ospitano una ricca collezione di opere d'arte orientali, soprattutto porcellane. La visita di per sé richiede circa 40 minuti ma si consiglia di programmare anche una visita ai giardini."
+          }
+        ],
+        "correct": "D"
+      },
+      {
+        "number": 13,
+        "options": [
+          {
+            "key": "A",
+            "text": "È diretta da Cristina Merlino ed ha una diffusione di circa 350.000 copie al mese."
+          },
+          {
+            "key": "B",
+            "text": "Sono a disposizione un parcheggio privato e un ampio giardino dove è possibile godersi il sole o dedicarsi alla lettura. La veranda allestita con tavolo e sedie è il luogo ideale per rilassarsi durante le tranquille notti estive."
+          },
+          {
+            "key": "C",
+            "text": "Anche a fine stagione, con il cielo coperto e pochi turisti, l'isola è sempre magica e offre diverse emozioni, dal mare limpido alla natura selvaggia della sua vegetazione."
+          },
+          {
+            "key": "D",
+            "text": "Intorno alla zona antica, comunque, è possibile ammirare edifici e monumenti realizzati in epoche diverse (la statua a Vittorio Emanuele II, il palazzo della Guardia e la fontana delle Alpi)."
+          },
+          {
+            "key": "E",
+            "text": "Lungo i percorsi attrezzati per fare ginnastica e i vialetti in mezzo agli alberi o sui prati, ideali per un picnic, ci si lascia dietro il rumore delle macchine e si respira, seppure per poco tempo, aria di natura salutare."
+          },
+          {
+            "key": "F",
+            "text": "Le sale del museo, ben tenute e arredate come all'origine, ospitano una ricca collezione di opere d'arte orientali, soprattutto porcellane. La visita di per sé richiede circa 40 minuti ma si consiglia di programmare anche una visita ai giardini."
+          }
+        ],
+        "correct": "B"
+      }
+    ],
+    "explanation": {
+      "11": "La frase E parla dei 'percorsi attrezzati per fare ginnastica' e dei 'vialetti in mezzo agli alberi': completa la descrizione di Villa Pamphilj.",
+      "12": "La frase D elenca gli 'edifici e monumenti' intorno alla 'zona antica': completa la descrizione di Piazza Bra a Verona.",
+      "13": "La frase B descrive 'parcheggio privato', 'ampio giardino' e 'veranda': completa la descrizione dell'Agriturismo La Casina."
+    },
+    "keywords": []
+  },
+  {
+    "id": "plida-p3-009",
+    "part": 3,
+    "title": "Arte, Teatri e Architettura Tradizionale",
+    "instructions": "Completa i brani con una delle parti di testo elencate (A–F). Scegli una sola parte per ogni brano. Attenzione: ci sono due parti di testo in più.",
+    "intro": "Lungomare e Pinacoteca Corrado Giaquinto (Bari) · Teatro Petruzzelli di Bari · Case di Ringhiera a Milano",
+    "segments": [
+      {
+        "type": "text",
+        "content": "Il lungomare Nazario Sauro è la passeggiata a mare per eccellenza dei baresi. Percorretela lasciandovi inebriare dall'intenso odore di salsedine. Giunti all'altezza del Quartiere Madonnella troverete la Pinacoteca Corrado Giaquinto, il museo di arti figurative più grande di tutta la regione."
+      },
+      {
+        "type": "blank",
+        "number": 11
+      },
+      {
+        "type": "text",
+        "content": "Tra le opere di maggior rilievo troverete il San Pietro di Giovanni Bellini e il San Rocco di Tintoretto. Sono presenti anche alcuni quadri dei macchiaioli di fine Ottocento, tra cui spiccano alcuni lavori di Giovanni Fattori.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Il celebre Teatro Petruzzelli sorge nell'elegante quartiere murattiano, al numero 12 di Corso Cavour."
+      },
+      {
+        "type": "blank",
+        "number": 12
+      },
+      {
+        "type": "text",
+        "content": "Riaperto da dieci anni, il Petruzzelli ha impiegato ben poco tempo a tornare a essere uno degli edifici simbolo della città. Provate ad assistere a uno spettacolo durante la stagione lirica o, in alternativa, partecipate a una visita guidata per ammirarne i sontuosi interni.\n\n"
+      },
+      {
+        "type": "text",
+        "content": "Una delle caratteristiche del paesaggio urbano di Milano è l'abbondante presenza di case di ringhiera, che si sviluppano attorno a un cortile su cui si affacciano lunghi ballatoi comuni. Talvolta i cortili sono vere micro-città nella città, il luogo in cui si svolgeva la vita domestica dei milanesi."
+      },
+      {
+        "type": "blank",
+        "number": 13
+      },
+      {
+        "type": "text",
+        "content": "Lungo Corso San Gottardo, divertitevi a curiosare all'interno dei portoni (con discrezione, sono aree private) e vedrete un autentico scorcio della Milano di un tempo."
+      }
+    ],
+    "blanks": [
+      {
+        "number": 11,
+        "options": [
+          {
+            "key": "A",
+            "text": "Oltre alle comuni varietà di volatili e di ovini sono ospitate specie particolari di piccioni, galline, tacchini, pecore, capre, asini, pavoni."
+          },
+          {
+            "key": "B",
+            "text": "Nate come abitazioni popolari, molte sono state negli anni ristrutturate, diventando prestigiose palazzine, ma altre conservano ancora una curiosa decadenza."
+          },
+          {
+            "key": "C",
+            "text": "È certamente questa la casa più bella e antica della zona, riportata alla luce nel 2018 dopo un lungo e complesso lavoro di restauro che è tuttora in corso e che restituirà al mondo altre sezioni della dimora."
+          },
+          {
+            "key": "D",
+            "text": "Il nostro consiglio è di consultare il sito dove si può scaricare la cartina, verificare orari di accesso e stato dei diversi percorsi naturalistici, e scegliere il sentiero più adatto alle vostre esigenze."
+          },
+          {
+            "key": "E",
+            "text": "Durante il Novecento sul suo palcoscenico si sono susseguiti artisti di fama mondiale, prima che un violento incendio nel 1991 lo distruggesse quasi completamente."
+          },
+          {
+            "key": "F",
+            "text": "L'esposizione abbraccia capolavori di epoche molto lontane tra loro: si spazia infatti da sculture dell'XI secolo a maioliche pugliesi e presepi napoletani."
+          }
+        ],
+        "correct": "F"
+      },
+      {
+        "number": 12,
+        "options": [
+          {
+            "key": "A",
+            "text": "Oltre alle comuni varietà di volatili e di ovini sono ospitate specie particolari di piccioni, galline, tacchini, pecore, capre, asini, pavoni."
+          },
+          {
+            "key": "B",
+            "text": "Nate come abitazioni popolari, molte sono state negli anni ristrutturate, diventando prestigiose palazzine, ma altre conservano ancora una curiosa decadenza."
+          },
+          {
+            "key": "C",
+            "text": "È certamente questa la casa più bella e antica della zona, riportata alla luce nel 2018 dopo un lungo e complesso lavoro di restauro che è tuttora in corso e che restituirà al mondo altre sezioni della dimora."
+          },
+          {
+            "key": "D",
+            "text": "Il nostro consiglio è di consultare il sito dove si può scaricare la cartina, verificare orari di accesso e stato dei diversi percorsi naturalistici, e scegliere il sentiero più adatto alle vostre esigenze."
+          },
+          {
+            "key": "E",
+            "text": "Durante il Novecento sul suo palcoscenico si sono susseguiti artisti di fama mondiale, prima che un violento incendio nel 1991 lo distruggesse quasi completamente."
+          },
+          {
+            "key": "F",
+            "text": "L'esposizione abbraccia capolavori di epoche molto lontane tra loro: si spazia infatti da sculture dell'XI secolo a maioliche pugliesi e presepi napoletani."
+          }
+        ],
+        "correct": "E"
+      },
+      {
+        "number": 13,
+        "options": [
+          {
+            "key": "A",
+            "text": "Oltre alle comuni varietà di volatili e di ovini sono ospitate specie particolari di piccioni, galline, tacchini, pecore, capre, asini, pavoni."
+          },
+          {
+            "key": "B",
+            "text": "Nate come abitazioni popolari, molte sono state negli anni ristrutturate, diventando prestigiose palazzine, ma altre conservano ancora una curiosa decadenza."
+          },
+          {
+            "key": "C",
+            "text": "È certamente questa la casa più bella e antica della zona, riportata alla luce nel 2018 dopo un lungo e complesso lavoro di restauro che è tuttora in corso e che restituirà al mondo altre sezioni della dimora."
+          },
+          {
+            "key": "D",
+            "text": "Il nostro consiglio è di consultare il sito dove si può scaricare la cartina, verificare orari di accesso e stato dei diversi percorsi naturalistici, e scegliere il sentiero più adatto alle vostre esigenze."
+          },
+          {
+            "key": "E",
+            "text": "Durante il Novecento sul suo palcoscenico si sono susseguiti artisti di fama mondiale, prima che un violento incendio nel 1991 lo distruggesse quasi completamente."
+          },
+          {
+            "key": "F",
+            "text": "L'esposizione abbraccia capolavori di epoche molto lontane tra loro: si spazia infatti da sculture dell'XI secolo a maioliche pugliesi e presepi napoletani."
+          }
+        ],
+        "correct": "B"
+      }
+    ],
+    "explanation": {
+      "11": "La frase F parla di un'esposizione con 'capolavori di epoche molto lontane': completa la descrizione della Pinacoteca Corrado Giaquinto.",
+      "12": "La frase E racconta la storia del Teatro Petruzzelli, 'distrutto quasi completamente' da un incendio nel 1991: completa il brano sul teatro.",
+      "13": "La frase B descrive le case di ringhiera, 'nate come abitazioni popolari' e poi ristrutturate: completa il brano sulle case milanesi."
+    },
+    "keywords": []
+  }
+]

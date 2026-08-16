@@ -1,0 +1,34 @@
+<div class="answer-zone" data-exercise-id="{{ ex.id }}" data-part="3">
+  <article class="card passage-card">
+    {% if ex.intro %}<p class="passage-intro">{{ ex.intro }}</p>{% endif %}
+    <p class="passage-text cloze-text">
+      {% for seg in ex.segments %}
+        {% if seg.type == 'text' %}
+          {{ seg.content }}
+        {% else %}
+          <button type="button" class="blank-slot" data-exercise-id="{{ ex.id }}" data-blank-number="{{ seg.number }}"
+            aria-label="Lacuna {{ seg.number }}: tocca per scegliere la frase">
+            <span class="blank-num">{{ seg.number }}</span>
+            <span class="blank-val" data-blank-val>Tocca per inserire</span>
+          </button>
+        {% endif %}
+      {% endfor %}
+    </p>
+  </article>
+
+  {% for blank in ex.blanks %}
+    <label class="sr-only" for="sim-{{ ex.id }}-blank-{{ blank.number }}">Frase per la lacuna {{ blank.number }}</label>
+    <select id="sim-{{ ex.id }}-blank-{{ blank.number }}" name="{{ blank.number }}" class="sr-only" data-blank-select="{{ blank.number }}">
+      <option value=""></option>
+      {% for opt in blank.options %}
+        <option value="{{ opt.key }}">{{ opt.key }} — {{ opt.text }}</option>
+      {% endfor %}
+    </select>
+  {% endfor %}
+
+  <div class="cloze-legend" aria-label="Frasi a disposizione">
+    {% for opt in ex.blanks[0].options %}
+      <span class="legend-chip"><strong>{{ opt.key }}</strong> · {{ opt.text }}</span>
+    {% endfor %}
+  </div>
+</div>

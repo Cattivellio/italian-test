@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <h1>📊 I tuoi progressi</h1>
+  <p>Le tue risposte registrate negli ultimi esercizi.</p>
+</section>
+
+<div class="card stats-card">
+  <div class="stat"><strong>{{ stats.total }}</strong><span>risposte verificate</span></div>
+  <div class="stat"><strong>{{ stats.percent }}%</strong><span>media corretta</span></div>
+  <div class="stat"><strong>{{ stats.attempts }}</strong><span>esercizi completati</span></div>
+</div>
+
+{% if attempts %}
+  <ul class="attempts-list">
+    {% for a in attempts %}
+      <li class="attempt-item">
+        <span class="badge">Parte {{ a.part if a.part else '—' }}</span>
+        <span class="attempt-code">{{ a.exercise_id }}</span>
+        <span class="attempt-score {{ 'ok' if a.correct >= a.total else 'ko' }}">{{ a.correct }}/{{ a.total }}</span>
+        <span class="attempt-date">{{ a.created_at }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <div class="card empty">
+    <h3>Nessun dato ancora</h3>
+    <p>Completa qualche esercizio per vedere i tuoi progressi.</p>
+  </div>
+{% endif %}
+
+{% endblock %}

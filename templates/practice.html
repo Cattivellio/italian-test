@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <h1>Ciao! 👋</h1>
+  <p>Scegli la parte della sezione <strong>Leggere</strong> del PLIDA B1 che vuoi allenare.</p>
+</section>
+
+<div class="card-grid">
+  {% for p in parts %}
+    <a href="/practice/{{ p.part }}" class="card part-card" aria-label="{{ p.title }}">
+      <span class="part-icon" aria-hidden="true">{{ p.icon }}</span>
+      <div class="part-body">
+        <span class="part-number">Parte {{ p.part }}</span>
+        <h2 class="part-title">{{ p.short }}</h2>
+        <p class="part-desc">{{ p.description }}</p>
+      </div>
+      <span class="part-arrow" aria-hidden="true">›</span>
+    </a>
+  {% endfor %}
+</div>
+
+<form method="post" action="/progress/reset" class="reset-form" data-confirm-reset>
+  <button type="submit" class="btn btn-ghost">↺ Ricomincia da zero</button>
+</form>
+
+{% endblock %}

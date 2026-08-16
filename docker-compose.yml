@@ -1,0 +1,16 @@
+services:
+  italian-test:
+    build: .
+    container_name: italian-test
+    ports:
+      - "8050:8050"
+    environment:
+      - TZ=Europe/Rome
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - GEMINI_MODEL=gemini-3.5-flash-lite
+      - ADMIN_PHONE=${ADMIN_PHONE:-}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-}
+      - ADMIN_NAME=${ADMIN_NAME:-Amministratore}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

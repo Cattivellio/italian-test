@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block content %}
+
+<nav class="crumbs" aria-label="Percorso">
+  <a href="/profile" class="crumb-link">← Profilo</a>
+</nav>
+
+<section class="hero">
+  <h1>🛠 Pannello amministrazione</h1>
+  <p>Crea gli account e gestisci i dispositivi connessi.</p>
+</section>
+
+{% if error %}
+  <div class="feedback feedback-ko" role="alert">
+    <p class="feedback-title">⚠️ Errore</p>
+    <p class="feedback-sub">{{ error }}</p>
+  </div>
+{% endif %}
+
+{% if notice %}
+  <div class="feedback feedback-ok" role="status">
+    <p class="feedback-sub">{{ notice }}</p>
+  </div>
+{% endif %}
+
+<form method="post" action="/admin/users" class="card admin-create">
+  <h2 class="section-label">Crea un nuovo utente</h2>
+  <div class="field">
+    <label for="admin-phone">Numero di telefono</label>
+    <div class="phone-row">
+      <select id="admin-country" name="country" class="select country-select" aria-label="Prefisso internazionale">
+        {% for c in countries %}
+          <option value="{{ c.code }}" {% if c.code == default_country %}selected{% endif %}>{{ c.flag }} {{ c.code }}</option>
+        {% endfor %}
+      </select>
+      <input id="admin-phone" name="phone" type="tel" class="input" inputmode="tel" placeholder="es. 412 6778168" required />
+    </div>
+  </div>
+  <div class="field">
+    <label for="admin-name">Nome (facoltativo)</label>
+    <input id="admin-name" name="name" type="text" class="input" autocomplete="off" />
+  </div>
+  <div class="field">
+    <label for="admin-password">Password (almeno 6 caratteri)</label>
+    <input id="admin-password" name="password" type="text" class="input" autocomplete="off" required />
+  </div>
+  <button type="submit" class="btn btn-primary btn-block">Crea utente</button>
+</form>
+
+<div class="card">
+  <h2 class="section-label">Utenti ({{ users|length }})</h2>
+  <ul class="admin-users">
+    {% for u in users %}
+      {% set s = sessions.get(u.id) %}
+      <li class="admin-user {{ 'inactive' if not u.active }}">
+        <div class="admin-user-head">
+          <span class="profile-avatar sm" aria-hidden="true">{{ u.name[:1]|upper if u.name else u.phone[:1] }}</span>
+          <div class="admin-user-info">
+            <span class="admin-user-name">{{ u.name or '—' }}
+              {% if u.role == 'admin' %}<span class="badge">admin</span>{% endif %}
+            </span>
+            <span class="admin-user-phone">{{ u.phone }}</span>
+          </div>
+        </div>
+
+        <div class="admin-user-session">
+          {% if s %}
+            <span class="dot"></span> Connesso · dispositivo attivo (ultima attività {{ s.last_seen }})
+          {% else %}
+            <span class="hint">Non connesso al momento</span>
+          {% endif %}
+        </div>
+
+        <div class="admin-user-actions">
+          <details class="admin-reset">
+            <summary class="btn btn-sm btn-outline">Reimposta password</summary>
+            <form method="post" action="/admin/users/{{ u.id }}/password" class="admin-reset-form">
+              <input type="password" name="password" class="input" placeholder="Nuova password (min 6)" required />
+              <button type="submit" class="btn btn-sm">Salva</button>
+            </form>
+          </details>
+
+          <form method="post" action="/admin/users/{{ u.id }}/revoke" class="inline">
+            <button type="submit" class="btn btn-sm btn-outline" {% if not s %}disabled{% endif %}>
+              Disconnetti dispositivo
+            </button>
+          </form>
+
+          <form method="post" action="/admin/users/{{ u.id }}/delete" class="confirm-delete inline"
+            data-term="{{ u.phone|tojson }}"
+            data-confirm-msg="Eliminare questo utente e tutti i suoi dati?">
+            <button type="submit" class="btn btn-sm btn-ghost">Elimina</button>
+          </form>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endblock %}

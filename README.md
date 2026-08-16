@@ -8,7 +8,7 @@ Tutta l'interfaccia utente è in **italiano**; il codice sorgente è in inglese.
 - **Backend:** FastAPI + Uvicorn
 - **Templates:** Jinja2 + [htmx](https://htmx.org/) (vendored, offline-friendly)
 - **CSS:** design system custom, mobile-first (niente build step)
-- **DB:** SQLite (stdlib `sqlite3`, WAL)
+- **DB:** PostgreSQL (psycopg2)
 - **PWA:** `manifest.json` + service worker (cache shell offline)
 - **IA:** Gemini Flash (`gemini-3.5-flash-lite`) via REST API, chiave in `.env`
 
@@ -59,8 +59,10 @@ Copia `.env.example` in `.env` e imposta:
 | `SESSION_COOKIE_SECURE` | `false` | Metti `true` se l'app è servita via HTTPS (consigliato). |
 | `GEMINI_API_KEY` | *(vuoto)* | Chiave Google AI per il generatore. Se vuota, le sfide IA non appaiono dopo aver completato una parte. |
 | `GEMINI_MODEL` | `gemini-3.5-flash-lite` | Modello Gemini usato per la generazione. |
+| `DB_HOST` / `DB_PORT` | *(obbligatoria)* / `5432` | Host del database PostgreSQL (es. `postgres_central`). |
+| `DB_NAME` | `italian_test` | Nome del database PostgreSQL. |
+| `DB_USER` / `DB_PASSWORD` | *(obbligatorie)* | Credenziali PostgreSQL. |
 | `ITALIAN_TEST_HOST` / `ITALIAN_TEST_PORT` | `127.0.0.1` / `8050` | Bind del server. |
-| `ITALIAN_TEST_DB` | `data/italian_test.db` | Percorso del database SQLite. |
 
 ## Account e dispositivi
 
@@ -75,8 +77,29 @@ Copia `.env.example` in `.env` e imposta:
 ## Docker
 
 ```bash
-GEMINI_API_KEY=tuo_valore docker compose up --build
+GEMINI_API_KEY=tuo_valore \
+DB_HOST=postgres_central DB_USER=... DB_PASSWORD=... \
+docker compose up --build
 ```
+
+Il servizio si collega al database PostgreSQL (`postgres_central` sull'host di
+deployment). Crea prima il database se non esiste:
+
+```bash
+docker exec postgres_central psql -U admin_root -d postgres -c "CREATE DATABASE italian_test;"
+```
+
+## Migrazione da SQLite
+
+Se hai un database SQLite esistente (`data/italian_test.db`), esegui una volta:
+
+```bash
+source .venv/bin/activate
+python migrate_to_postgres.py
+```
+
+Lo script copia utenti, sessioni, vocabolario e tentativi nel database
+PostgreSQL configurato in `.env`. È idempotente: rieseguendolo non crea duplicati.
 
 ## Struttura
 
@@ -86,7 +109,7 @@ italian-test/
 │   ├── main.py        # Rotte FastAPI (pagine + grading + IA + vocabolario)
 │   ├── config.py      # Impostazioni da .env
 │   ├── models.py      # Pydantic v2
-│   ├── database.py    # SQLite (vocabolario, tentativi)
+│   ├── database.py    # PostgreSQL (vocabolario, tentativi)
 │   ├── exercises.py   # Caricamento esercizi seed
 │   ├── grading.py     # Verifica delle risposte
 │   └── gemini.py      # Client Gemini Flash

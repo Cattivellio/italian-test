@@ -31,7 +31,13 @@ SESSION_COOKIE_SECURE = os.environ.get("SESSION_COOKIE_SECURE", "false").strip()
 
 HOST = os.environ.get("ITALIAN_TEST_HOST", "127.0.0.1")
 PORT = int(os.environ.get("ITALIAN_TEST_PORT", "8050"))
-DB_PATH = Path(os.environ.get("ITALIAN_TEST_DB", "data/italian_test.db"))
+
+# PostgreSQL database connection.
+DB_HOST = os.environ.get("DB_HOST", "").strip()
+DB_PORT = int(os.environ.get("DB_PORT", "5432"))
+DB_NAME = os.environ.get("DB_NAME", "italian_test").strip()
+DB_USER = os.environ.get("DB_USER", "").strip()
+DB_PASSWORD = os.environ.get("DB_PASSWORD", "").strip()
 
 # Number of exercises available per part from the seed data.
 PARTS = [1, 2, 3, 4]

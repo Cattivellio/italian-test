@@ -783,6 +783,46 @@ label.option.selected .option-key { background: var(--primary); color: var(--pri
   padding-right: 2.4rem;
 }
 
+/* Password visibility toggle ---------------------------------------------- */
+.password-wrap {
+  position: relative;
+}
+.password-wrap .input {
+  padding-right: 3rem;
+}
+.password-toggle {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 0.6rem;
+  background: transparent;
+  color: var(--muted-foreground);
+  cursor: pointer;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.password-toggle:hover { color: var(--foreground); }
+.password-toggle svg { width: 1.15rem; height: 1.15rem; }
+.password-toggle .icon-eye-off { display: none; }
+.password-wrap.visible .icon-eye { display: none; }
+.password-wrap.visible .icon-eye-off { display: block; }
+.admin-reset-form .password-wrap { display: flex; flex: 1; }
+.admin-reset-form .password-wrap .input { flex: 1; min-height: 40px; padding-right: 3rem; }
+
+.btn-danger {
+  background: #dc2626;
+  color: #fff;
+  border-color: transparent;
+}
+.btn-danger:hover { background: #b91c1c; color: #fff; }
+
 .gen-form { display: grid; gap: 0.4rem; }
 
 /* =====================================================================

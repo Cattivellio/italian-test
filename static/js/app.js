@@ -108,6 +108,19 @@
     if (event.key === 'Escape') closeSheet();
   });
 
+  /* Password visibility toggle ------------------------------------------- */
+  document.addEventListener('click', (event) => {
+    const toggle = event.target.closest('.password-toggle');
+    if (!toggle) return;
+    const wrap = toggle.closest('.password-wrap');
+    const input = wrap && wrap.querySelector('input');
+    if (!input) return;
+    const visible = input.type === 'text';
+    input.type = visible ? 'password' : 'text';
+    wrap.classList.toggle('visible', !visible);
+    toggle.setAttribute('aria-label', visible ? 'Mostra password' : 'Nascondi password');
+  });
+
   /* ------------------------------------------------------------------ *
    * Part 3 / cloze blank slots
    * ------------------------------------------------------------------ */

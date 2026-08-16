@@ -66,6 +66,22 @@ def existing_ids(pg_conn, table: str) -> set[int]:
         return {int(r[0]) for r in cur.fetchall()}
 
 
+def sync_sequences(pg_conn, tables: list[str]) -> None:
+    """Advance SERIAL sequences past the copied ids.
+
+    Inserts that carry explicit ids do NOT update the underlying sequence, so
+    without this the next INSERT would collide with a migrated primary key.
+    """
+    with pg_conn.cursor() as cur:
+        for table in tables:
+            cur.execute(
+                f"SELECT setval(pg_get_serial_sequence('{table}', 'id'), "
+                f"COALESCE(MAX(id), 0) + 1, false) FROM {table}"
+            )
+    pg_conn.commit()
+    print("  sequences synced (next ids won't collide)")
+
+
 def migrate_table(pg_conn, sqlite_conn, table: str) -> int:
     rows = fetch_sqlite_rows(sqlite_conn, table)
     if not rows:
@@ -117,6 +133,8 @@ def main() -> None:
         except psycopg2.Error as exc:
             print(f"  {table}: FAILED — {exc}")
             pg_conn.rollback()
+
+    sync_sequences(pg_conn, TABLES)
 
     sqlite_conn.close()
     pg_conn.close()

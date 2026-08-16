@@ -217,11 +217,13 @@ def delete_user(user_id: int) -> None:
 
 # --- Sessions ---------------------------------------------------------------
 
-def create_session(user_id: int, token_hash: str, device_id: str) -> int:
+def create_session(user_id: int, token_hash: str, device_id: str, keep_others: bool = False) -> int:
     with get_conn() as conn:
-        # One active session per user: drop any previous one.
-        with conn.cursor() as cur:
-            cur.execute("DELETE FROM sessions WHERE user_id = %s", (user_id,))
+        # One active session per regular user: drop any previous one. Admins
+        # may hold multiple concurrent sessions (keep_others=True).
+        if not keep_others:
+            with conn.cursor() as cur:
+                cur.execute("DELETE FROM sessions WHERE user_id = %s", (user_id,))
         ts = now_iso()
         with _cursor(conn) as cur:
             cur.execute(

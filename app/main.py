@@ -45,6 +45,7 @@ from .database import (
     delete_user,
     get_ai_exercise,
     get_sim_exercise,
+    get_user_by_id,
     get_user_by_phone,
     init_db,
     is_healthy,
@@ -60,6 +61,7 @@ from .database import (
     save_ai_exercise,
     save_keyword,
     save_sim_exercise,
+    set_user_active,
     set_user_password,
     stats,
 )
@@ -213,7 +215,8 @@ async def login(request: Request):
             error = "Telefono o password non corretti."
         else:
             device = getattr(request.state, "device_id", request.cookies.get(DEVICE_COOKIE, ""))
-            if login_conflict(user["id"], device):
+            is_admin = user["role"] == "admin"
+            if not is_admin and login_conflict(user["id"], device):
                 error = (
                     "Questo profilo è già connesso su un altro dispositivo. "
                     "Esci da lì oppure chiedi all'amministratore di disconnetterlo."
@@ -221,7 +224,7 @@ async def login(request: Request):
             else:
                 throttle.reset(throttle_key)
                 token = new_session_token()
-                create_session(user["id"], hash_token(token), device)
+                create_session(user["id"], hash_token(token), device, keep_others=is_admin)
                 response = RedirectResponse(url="/practice", status_code=303)
                 response.set_cookie(SESSION_COOKIE_NAME, token, **cookie_kwargs())
                 return response
@@ -499,6 +502,23 @@ async def admin_revoke(request: Request, user_id: int):
     _auth_admin(request)
     revoke_sessions_for_user(user_id)
     return _render_admin(request, notice="Dispositivo disconnesso.")
+
+
+@app.post("/admin/users/{user_id}/toggle-active", response_class=HTMLResponse)
+async def admin_toggle_active(request: Request, user_id: int):
+    admin = _auth_admin(request)
+    if admin["id"] == user_id:
+        return _render_admin(request, error="Non puoi bloccare il tuo stesso account.")
+    user = get_user_by_id(user_id)
+    if not user:
+        return _render_admin(request, error="Utente non trovato.")
+    new_active = not user["active"]
+    set_user_active(user_id, new_active)
+    if not new_active:
+        # Blocking logs the user out immediately on every device.
+        revoke_sessions_for_user(user_id)
+    notice = "Utente bloccato e disconnesso da tutti i dispositivi." if not new_active else "Utente sbloccato."
+    return _render_admin(request, notice=notice)
 
 
 @app.post("/admin/users/{user_id}/delete", response_class=HTMLResponse)

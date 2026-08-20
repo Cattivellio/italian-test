@@ -84,6 +84,7 @@ def get_connection():
         database=DB_NAME,
         user=DB_USER,
         password=DB_PASSWORD,
+        connect_timeout=5,
     )
 
 
@@ -129,8 +130,22 @@ def get_conn() -> Iterator[psycopg2.extensions.connection]:
 
 
 def init_db() -> None:
-    with get_conn():
-        pass
+    """Create schema at startup, retrying briefly so a DB restart during
+    container boot doesn't crash the app immediately."""
+    import time
+
+    last_error: Optional[Exception] = None
+    for attempt in range(5):
+        try:
+            with get_conn():
+                pass
+            return
+        except psycopg2.Error as exc:
+            last_error = exc
+            if attempt < 4:
+                time.sleep(2)
+    if last_error:
+        raise last_error
 
 
 def now_iso() -> str:
